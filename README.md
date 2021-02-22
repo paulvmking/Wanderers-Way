@@ -23,3 +23,19 @@ The **Google maps** area will be interactive and allow a user to click on the lo
   - To find the best holiday destination for their needs.
   - To be able to find any information they may need.
   - To see benefits to signing up for such a site.
+
+# UX
+
+ #### Potential Customers
+  - Mainly adults looking to holiday in either a warm or cold climate.
+  - Young travellers interested in a fully planned travel package.
+  - Older customers who may be indecisive as to where to travel.
+  - Any user who may be indecisive about travel location and who may want the option of a cheap or more luxury holiday.
+
+#### This website will provide value with
+  - An easy sign up process.
+  - A simple format to navigate for older and younger users alike.
+  - Accurate information detailing why it is convenient.
+  - A good UX so as to encourage visitors to return and continue to use to site to book future holidays.
+  - Details of convenient information on each destination so as to help the user decide which location suits their needs and budgets.
+  - Good interactivity so as to keep the user engaged throughout the booking process.
