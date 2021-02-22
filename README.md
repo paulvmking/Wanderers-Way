@@ -39,3 +39,20 @@ The **Google maps** area will be interactive and allow a user to click on the lo
   - A good UX so as to encourage visitors to return and continue to use to site to book future holidays.
   - Details of convenient information on each destination so as to help the user decide which location suits their needs and budgets.
   - Good interactivity so as to keep the user engaged throughout the booking process.
+
+#### User Stories
+
+ 1. As a new user I want to know the sites purpose immediately.
+ 2. As a new user I want an intuitive search experience.
+ 3. As a new user I expect to be able to navigate the site easily to find a holiday.
+ 4. As a new user I expect to be able to sign up to services.
+ 5. As a new user I expect to be able to contact the business to ask question prior to signing up.
+ 6. As a new user I expect to be able to find additional information to help my decision.
+ 7. As a potential customer I want an easy sign up process.
+ 8. As a potential customer I want reassurance that the service is indeed worth it.
+ 9. As a potential customer I want to be able to easily know how much this service will cost me.
+ 10. As a returning user I want information and other useful content to entice me to return.
+ 11. As a returning user I want to be able to have access to follow the company on social media.
+ 12. As a user I expect to be able to search locations and information about where I'm staying.
+
+
