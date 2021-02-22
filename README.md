@@ -164,5 +164,20 @@ To clone this repsoitory or to download it to a local device please follow the s
 7. Type **"git clone"** and paste the **HTTPS** code you copied.
 8. Press **"enter"** to finish creating your clone.
 
+# Credits 
 
+ ## Code
+
+ - **Color Scheme** chosen by creator. (**Paul King**)
+ - **Readme** inspiration was taken from 
+   - **Code institute's** [README Template](https://github.com/Code-Institute-Solutions/readme-template).
+   - **Code Institute's** [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME).
+   - **LigaMoon** from github **readme** provided by my mentor [Readme.md](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md).
+   - **adam-p's** from github [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
+
+ ## Text
+
+ ## Media 
+
+ ## Acknowledgements 
 
