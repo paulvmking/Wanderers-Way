@@ -87,12 +87,13 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 
 - **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
 - **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
-- **[BootstrapCDN](https://www.bootstrapcdn.com/)** - Used to help style and provide grids for layout of the site. Also used to design the site with mobile first mindset and implement features for responsiveness such as the navigation bar more easily.Bootstrap version 4.5.2 was used and was also used to provide links to **[FontAwesome](https://fontawesome.com/)** for icons and to help with the register now modal.
-- **[JavaScript](https://www.javascript.com/)**
+- **[JavaScript](https://www.javascript.com/)** - To add interactive elements to the site such as the google maps API.
 - **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal.
+- **[BootstrapCDN](https://www.bootstrapcdn.com/)** - Used to help style and provide grids for layout of the site. Also used to design the site with mobile first mindset and implement features for responsiveness such as the navigation bar more easily.Bootstrap version 4.5.2 was used and was also used to provide links to **[FontAwesome](https://fontawesome.com/)** for icons and to help with the register now modal.
 - **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
 - **[Google Fonts](https://fonts.google.com/)** - Used to link and source fonts for the site.
 - **[Pixabay](https://pixabay.com/)** - Used to source copyright free images for the site which were downloaded and then linked in files when needed.
+- **[Unsplash](https://unsplash.com/)** - Used to source copyright free images for the site which were downloaded and then linked in files when needed.
 - **[Gitpod](https://www.gitpod.io/)** - Used as the interactive development environment (IDE) for the project.
 - **[GitHub](https://github.com/)** - Used to display and share all files related to the project.
 - **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** - Used to create wireframes for the site.
