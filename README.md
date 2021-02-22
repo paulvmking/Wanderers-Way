@@ -88,6 +88,7 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 - **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
 - **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
 - **[BootstrapCDN](https://www.bootstrapcdn.com/)** - Used to help style and provide grids for layout of the site. Also used to design the site with mobile first mindset and implement features for responsiveness such as the navigation bar more easily.Bootstrap version 4.5.2 was used and was also used to provide links to **[FontAwesome](https://fontawesome.com/)** for icons and to help with the register now modal.
+- **[JavaScript](https://www.javascript.com/)**
 - **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal.
 - **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
 - **[Google Fonts](https://fonts.google.com/)** - Used to link and source fonts for the site.
