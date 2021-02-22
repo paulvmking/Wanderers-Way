@@ -97,12 +97,72 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 - **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** - Used to create wireframes for the site.
 - **[Placeholder](https://placeholder.com/)** - Used to add colors to Readme.
 
+# Testing 
 
+## Navbar Functionality 
 
+## Footer Functionality
 
+## Button/Link Functionality 
 
+### Buttons 
 
+### Links
 
+## CSS3 Validator 
+
+- **Results** =
+
+## HTML5 Validator
+
+## Compatibility
+
+## Performance 
+
+## User Stories Testing
+
+## Usability 
+
+## Issues and Fixes during Development
+
+## Known Bugs
+
+# Deployment 
+
+## Publishing 
+
+To publish this page as I did on **Github Pages** please follow the procedure outlined below.
+
+1. Enter **"Github"** into browser and arrive at main Github page.
+2. Sign into **Github** or sign up.
+3. Once you have signed into your account you will see a list of **repositories** on the left hand side, from here select the repository used for this project. [Available Here](https://github.com/paulvmking/Milestone-1-Game-of-Kings)
+4. You will see a list of possible selections including : **Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights and Settings**. From this list click on **Settings**.
+5. Scroll down on the page until you come to the heading reading **Github Pages**.
+6. In the **"source"** select **"master branch"**.
+7. The page will then refresh and a link will be displayed of your published page in **Github Pages**. To open your page please wait until the link turns **green**.
+
+## Forking
+
+To fork this website in other words to contribute without affecting the main branch, please follow the steps below.
+
+1. Enter **"Github"** into browser and arrive at main Github page.
+2. Sign into **Github** or sign up.
+3. Find the repository you wish to fork.
+4. On the right hand side of the repository page you will see options for **watch**, **star**, and **fork**. Click **Fork**.
+5. This will create a copy in your new repository which can be edited. After changes have been made you can select a **new pull request** located in the **original repository** just above the **file listing**.
+
+## Cloning 
+
+To clone this repsoitory or to download it to a local device please follow the steps below.
+
+1. Enter **"Github"** into browser and arrive at main Github page.
+2. Sign into **Github** or sign up.
+3. Find the repository you wish to clone or download.
+4. Find the **"clone or download"** button just under the repository name.
+5. To clone the repository using **HTTPS** click the link under **"Clone with HTTPS"**.
+6. Open a terminal and change the **current working directory** to the location where you want the cloned version of the directory to be copied to.
+7. Type **"git clone"** and paste the **HTTPS** code you copied.
+8. Press **"enter"** to finish creating your clone.
 
 
 
