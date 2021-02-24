@@ -3,12 +3,22 @@
     border: 0;
 }
 
-
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #a6a832;
+    background-color: #183a1d;
 }
 
+a.nav-link {
+    color: #e1eedd;
+}
 
+a.navbar-brand {
+    color: #e1eedd;
+}
+
+a.nav-link.current {
+    background-color: #e1eedd;
+    color:#183a1d;
+}
