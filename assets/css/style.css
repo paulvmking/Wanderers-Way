@@ -29,6 +29,24 @@ a.nav-link.current {
     height:100%;
 }
 
+.container-choice {
+    height:100vh;
+
+    background: url('https://cdn.pixabay.com/photo/2017/12/22/05/58/directory-3033061_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .sun-media {
     
     height:33vh;
@@ -68,3 +86,11 @@ a.nav-link.current {
     padding-right: 0px;
     border-radius: 50%;
 }
+
+.jumbotron {
+    
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
