@@ -1,15 +1,9 @@
-// To redirect user to appropriate page once choice is clicked.
+// To redirect user to appropriate page once choice is clicked
 
-document.getElementsbyClassName('sun-media')[0]
-        .addEventListener('click', function (event) {
-          location.href = "https://8000-lavender-bonobo-s8eq2lyd.ws-eu03.gitpod.io/sun.html";
-        });
+function snowFunction() {
+    location.href = 'snow.html';
+}
 
-document.getElementsbyClassName('snow-media')[0]
-        .addEventListener('click', function (event) {
-          location.href = "https://8000-lavender-bonobo-s8eq2lyd.ws-eu03.gitpod.io/snow.html";
-        });
-
-
-
-
+function sunFunction() {
+    location.href = 'sun.html';
+}
