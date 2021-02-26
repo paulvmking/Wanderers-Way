@@ -96,3 +96,10 @@ a.nav-link.current {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*For shadow on choices*/
+
+#sun-1, #snow-1{
+   -moz-box-shadow: 3px 3px 4px #000; 
+   -webkit-box-shadow: 3px 3px 4px #000; 
+   box-shadow: 3px 3px 4px #000; 
+}

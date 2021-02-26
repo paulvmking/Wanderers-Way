@@ -7,3 +7,9 @@ function snowFunction() {
 function sunFunction() {
     location.href = 'sun.html';
 }
+
+
+
+
+
+
