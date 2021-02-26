@@ -104,5 +104,14 @@ a.nav-link.current {
    box-shadow: 3px 3px 4px #000; 
 }
 
+.snow-card, .sun-card {
+    float: left;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border: 1px 1px 0px 1px solid #2b6777 ;
+}
 
-
+.card-body {
+    background-color: #2b6777;
+    color: #e1eedd;
+}

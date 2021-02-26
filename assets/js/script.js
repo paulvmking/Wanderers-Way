@@ -39,8 +39,21 @@ snowEffect1.addEventListener("mouseout", function() {
 function cloneFunction() {
     let max = 5;
     for (let i=0; i<max; i++) {
-     let clone = document.getElementsByClassName("card")[0];
+     let clone = document.getElementsByClassName("sun-card")[0];
      let cln = clone.cloneNode(true);
      document.body.appendChild(cln);
 }
 }
+
+function cloneFunction1() {
+    let max = 5;
+    for (let i=0; i<max; i++) {
+     let clone = document.getElementsByClassName("snow-card")[0];
+     let cln = clone.cloneNode(true);
+     document.body.appendChild(cln);
+}
+}
+
+
+
+
