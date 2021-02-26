@@ -34,5 +34,13 @@ snowEffect1.addEventListener("mouseout", function() {
     snowEffect1.style.opacity = 1.0;
 });
 
+//To clone cards on sun page 
 
-
+function cloneFunction() {
+    let max = 5;
+    for (let i=0; i<max; i++) {
+     let clone = document.getElementsByClassName("card")[0];
+     let cln = clone.cloneNode(true);
+     document.body.appendChild(cln);
+}
+}
