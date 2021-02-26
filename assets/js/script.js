@@ -1,12 +1,16 @@
 // To redirect user to appropriate page once choice is clicked
 
-function snowFunction() {
-    location.href = 'snow.html';
-}
+let sunFunction = document.getElementById("sun-1");
 
-function sunFunction() {
+sunFunction.addEventListener("click", function() {
     location.href = 'sun.html';
-}
+});
+
+let snowFunction = document.getElementById("snow-1");
+
+snowFunction.addEventListener("click", function() {
+    location.href = 'snow.html';
+});
 
 // To give user feedback via opacity change with mouseenter/mouseleave events
 
