@@ -12,7 +12,7 @@ snowFunction.addEventListener("click", function() {
     location.href = 'snow.html';
 });
 
-// To give user feedback via opacity change with mouseenter/mouseleave events
+// To give user feedback via opacity change with mouseover/mouseout events
 
 let sunEffect1 = document.getElementById("sun-1");
 
