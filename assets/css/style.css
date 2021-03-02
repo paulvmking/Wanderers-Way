@@ -123,6 +123,10 @@ a.nav-link.current {
     border: 1px 1px 0px 1px solid #2b6777 ;    
     background-color: #2b6777;
     color: #e1eedd;
+    font-size:1.2rem;
+    font-weight:500;
+    line-height:1.5;
+    margin-bottom:1rem;
 }
 
 .card-body {
