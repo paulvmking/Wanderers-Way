@@ -39,42 +39,44 @@ snowEffect1.addEventListener("mouseout", function() {
 function cloneFunction() {
 let sunText = [
     {
+        name:"Barcelona",
+        price:"€€€",
+        image:"assets/images/sun4.webp"
+    },
+    {
         name:"Paris",
         price:"€€€€",
-        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
+        image:"assets/images/paris1.jpg"
     },
     {
         name:"Rome",
         price:"€€€€€",
-        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
+        image:"assets/images/rome1.jpg"
     },
     {
         name:"Lisbon",
         price:"€€",
-        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
+        image:"assets/images/sun2.webp"
     },
     {
-        name:"Turkey",
+        name:"Istanbul",
         price:"€€€",
-        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
+        image:"assets/images/istanbul.jpg"
     },
     {
         name:"Athens",
         price:"€€€€",
-        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
+        image:"assets/images/athens2.jpg"
     }];
 for(var i = 0; i < sunText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "sun-card-body" + i;
+    div.className = "sun-card" + i;
     div.id = "card" + i;
     div.innerHTML =  `<img class="card-img-top" src="${sunText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunText[i].name}</h5><p class="card-text">${sunText[i].price}</p></div>`;
     document.body.appendChild(div);
-  
 }
 }
 
-paragraph = document.querySelector(".card-text");
-    paragraph.innerText = "hey";
 
 function cloneFunction1() {
 let snowText = [
@@ -100,7 +102,7 @@ let snowText = [
     }];
 for(var i = 0; i < snowText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "snow-card-body" + i;
+    div.className = "snow-card" + i;
     div.id = "card" + i;
     div.innerHTML = JSON.stringify(snowText[i].name + "<br></br>" + snowText[i].price).replace(/\"/g, "");
     document.body.appendChild(div);
