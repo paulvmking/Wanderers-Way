@@ -111,6 +111,20 @@ a.nav-link.current {
     border: 1px 1px 0px 1px solid #2b6777 ;
 }
 
+/*styling divs to look like cards*/
+
+#card0, #card1, #card2, #card3, #card4 {
+    display: inline;
+    height: 100px;
+    width: 288px;
+    float: left;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border: 1px 1px 0px 1px solid #2b6777 ;    
+    background-color: #2b6777;
+    color: #e1eedd;
+}
+
 .card-body {
     background-color: #2b6777;
     color: #e1eedd;

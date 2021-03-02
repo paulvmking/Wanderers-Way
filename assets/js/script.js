@@ -37,23 +37,66 @@ snowEffect1.addEventListener("mouseout", function() {
 //To clone cards on sun page 
 
 function cloneFunction() {
-    let max = 5;
-    for (let i=0; i<max; i++) {
-     let clone = document.getElementsByClassName("sun-card")[0];
-     let cln = clone.cloneNode(true);
-     document.body.appendChild(cln);
+let sunText = [
+    {
+        name:"Paris",
+        price:"€€€€"
+    },
+    {
+        name:"Rome",
+        price:"€€€€€"
+    },
+    {
+        name:"Lisbon",
+        price:"€€"
+    },
+    {
+        name:"Turkey",
+        price:"€€€"
+    },
+    {
+        name:"Athens",
+        price:"€€€€"
+    }];
+for(var i = 0; i < sunText.length; i += 1) {
+    let div = document.createElement("div");
+    div.className = "sun";
+    div.id = "card" + i;
+    div.innerHTML = JSON.stringify(sunText[i].name + "<br></br>" + sunText[i].price).replace(/\"/g, "");
+    document.body.appendChild(div); 
 }
 }
 
 function cloneFunction1() {
-    let max = 5;
-    for (let i=0; i<max; i++) {
-     let clone = document.getElementsByClassName("snow-card")[0];
-     let cln = clone.cloneNode(true);
-     document.body.appendChild(cln);
-}
-}
-
+let snowText = [
+    {
+        name:"Brasov",
+        price:"€€"
+    },
+    {
+        name:"Zurich",
+        price:"€€€€"
+    },
+    {
+        name:"Vienna",
+        price:"€€€€"
+    },
+    {
+        name:"Zakopane",
+        price:"€€€"
+    },
+    {
+        name:"Reykjavik",
+        price:"€€€€€"
+    }];
+for(var i = 0; i < snowText.length; i += 1) {
+    let div = document.createElement("div");
+    div.className = "sun";
+    div.id = "card" + i;
+    div.innerHTML = JSON.stringify(snowText[i].name + "<br></br>" + snowText[i].price).replace(/\"/g, "");
+    document.body.appendChild(div); 
+    
+}}
 
 
 
