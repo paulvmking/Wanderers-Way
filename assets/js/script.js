@@ -40,32 +40,41 @@ function cloneFunction() {
 let sunText = [
     {
         name:"Paris",
-        price:"€€€€"
+        price:"€€€€",
+        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
     },
     {
         name:"Rome",
-        price:"€€€€€"
+        price:"€€€€€",
+        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
     },
     {
         name:"Lisbon",
-        price:"€€"
+        price:"€€",
+        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
     },
     {
         name:"Turkey",
-        price:"€€€"
+        price:"€€€",
+        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
     },
     {
         name:"Athens",
-        price:"€€€€"
+        price:"€€€€",
+        image:"assets/images/eiffel-tower-3209835_960_720.jpg"
     }];
 for(var i = 0; i < sunText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "sun";
+    div.className = "sun-card-body" + i;
     div.id = "card" + i;
-    div.innerHTML = JSON.stringify(sunText[i].name + "<br></br>" + sunText[i].price).replace(/\"/g, "");
-    document.body.appendChild(div); 
+    div.innerHTML =  `<img class="card-img-top" src="${sunText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunText[i].name}</h5><p class="card-text">${sunText[i].price}</p></div>`;
+    document.body.appendChild(div);
+  
 }
 }
+
+paragraph = document.querySelector(".card-text");
+    paragraph.innerText = "hey";
 
 function cloneFunction1() {
 let snowText = [
@@ -91,12 +100,8 @@ let snowText = [
     }];
 for(var i = 0; i < snowText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "sun";
+    div.className = "snow-card-body" + i;
     div.id = "card" + i;
     div.innerHTML = JSON.stringify(snowText[i].name + "<br></br>" + snowText[i].price).replace(/\"/g, "");
-    document.body.appendChild(div); 
-    
+    document.body.appendChild(div);
 }}
-
-
-
