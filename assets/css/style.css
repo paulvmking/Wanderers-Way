@@ -113,7 +113,7 @@ a.nav-link.current {
 
 /*styling divs to look like cards*/
 
-#card0, #card1, #card2, #card3, #card4 {
+#card0, #card1, #card2, #card3, #card4, #card5 {
     display: inline;
     height: 100px;
     width: 288px;
@@ -134,6 +134,8 @@ a.nav-link.current {
     color: #e1eedd;
 }
 
-
+.sun-card-body {
+    padding: 20px 20px 20px 20px ;
+}
 
 

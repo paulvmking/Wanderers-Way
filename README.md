@@ -131,6 +131,8 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 1.Images for main choice were not functioning correctly when clicked.
  - Attempted fixes = Non viable solutions tried were wrapping the div in a link or anchor tag which did not work.
  - Solution = created JS function to redirect user upon click event to corresponding page.
+2.New card not styled correctly.
+ - Solution was to add extra card id to styles in css.
 
 ## Known Bugs
 
