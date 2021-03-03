@@ -81,29 +81,39 @@ for(var i = 0; i < sunText.length; i += 1) {
 function cloneFunction1() {
 let snowText = [
     {
+        name:"Munich",
+        price:"€€€",
+        image:"assets/images/snow.jpg"
+    },
+    {
         name:"Brasov",
-        price:"€€"
+        price:"€€",
+        image:"assets/images/snow-5880000_1280.jpg"
     },
     {
         name:"Zurich",
-        price:"€€€€"
+        price:"€€€€",
+        image:"assets/images/switzerland-4974469_1280.webp"
     },
     {
         name:"Vienna",
-        price:"€€€€"
+        price:"€€€€",
+        image:"assets/images/vienna-2989786_1280.jpg"
     },
     {
         name:"Zakopane",
-        price:"€€€"
+        price:"€€€",
+        image:"assets/images/tatry-4359240_1280.jpg"
     },
     {
         name:"Reykjavik",
-        price:"€€€€€"
+        price:"€€€€€",
+        image:"assets/images/reykjavik-635330_1280.jpg"
     }];
 for(var i = 0; i < snowText.length; i += 1) {
     let div = document.createElement("div");
     div.className = "snow-card" + i;
     div.id = "card" + i;
-    div.innerHTML = JSON.stringify(snowText[i].name + "<br></br>" + snowText[i].price).replace(/\"/g, "");
+    div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
     document.body.appendChild(div);
 }}
