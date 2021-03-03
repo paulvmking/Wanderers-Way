@@ -34,6 +34,13 @@ snowEffect1.addEventListener("mouseout", function() {
     snowEffect1.style.opacity = 1.0;
 });
 
+//to iterate and add active class to clicked button 
+
+$('button').on('click', function(){
+    $('button').removeClass('active');
+    $(this).addClass('active');
+});
+
 //To clone cards on sun page 
 
 function cloneFunction() {
@@ -76,7 +83,6 @@ for(var i = 0; i < sunText.length; i += 1) {
     document.body.appendChild(div);
 }
 }
-
 
 function cloneFunction1() {
 let snowText = [
