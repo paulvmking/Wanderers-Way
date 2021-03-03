@@ -121,11 +121,14 @@ a.nav-link.current {
   background-color: #15b3bb;
 }
 
-.btn.active {
+.btn:active {
   background-color: #1e4853;
   color: #e1eedd;
 }
 
+.btn:focus {
+    background-color: #1e4853;
+}
 
 /*For shadow and opacity on choices*/
 
