@@ -121,7 +121,8 @@ a.nav-link.current {
     border: 1px 1px 0px 1px solid #2b6777 ;    
     background-color: #2b6777;
     color: #e1eedd;
-    
+    width: 33vh;
+    height: 33vh;
 }
 
 .card-body {
@@ -129,9 +130,6 @@ a.nav-link.current {
     color: #e1eedd;
 }
 
-img.card-image-top {
-    height: 288px;
-    width: 216px;
-}
+
 
 
