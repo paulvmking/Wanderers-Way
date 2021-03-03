@@ -96,6 +96,33 @@ a.nav-link.current {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.container {
+  overflow: hidden;
+}
+
+/*button styles*/
+
+#myBtnContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #2b6777;
+  cursor: pointer;
+  color: #e1eedd;
+}
+
+.btn:hover {
+  background-color: #15b3bb;
+}
+
+
+
 /*For shadow and opacity on choices*/
 
 #sun-1, #snow-1{
