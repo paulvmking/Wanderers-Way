@@ -133,6 +133,8 @@ The **Google maps** area will be interactive and allow a user to click on the lo
  - Solution = created JS function to redirect user upon click event to corresponding page.
 2.New card not styled correctly.
  - Solution was to add extra card id to styles in css.
+3.Buttons background color change when clicked reverting back to original after mouse is unclicked.
+ - Solution was to add a focus style class to keep the color on the currently cliked button.
 
 ## Known Bugs
 
