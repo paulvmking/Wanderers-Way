@@ -135,7 +135,10 @@ The **Google maps** area will be interactive and allow a user to click on the lo
  - Solution was to add extra card id to styles in css.
 3.Buttons background color change when clicked reverting back to original after mouse is unclicked.
  - Solution was to add a focus style class to keep the color on the currently cliked button.
-
+4.Issue getting divs to display properly when button was clicked to corresponding budget/luxury.
+ - Many solutions were tried but none gave desired effect, most kept hiding or showing the wrong divs for the button selection.
+ - After using toggle a few times while trying to solve the issue I read that toggle can take true and false values so I syncronised each div to 
+ true or false depending which button was clicked and it worked with desired effect.
 ## Known Bugs
 
 # Deployment 
