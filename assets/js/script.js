@@ -124,46 +124,25 @@ for(var i = 0; i < snowText.length; i += 1) {
     document.body.appendChild(div);
 }}
 
-function showBudget() {
-  let x = document.getElementById("card1");
-  let y = document.getElementById("card2");
-  let z = document.getElementById("card5");
-  if (x.style.display !== "none") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-  if (y.style.display !== "none") {
-    y.style.display = "none";
-  } else {
-    y.style.display = "block";
-  }
-  if (z.style.display !== "none") {
-    z.style.display = "none";
-  } else {
-    z.style.display = "block";
-  }
-}
+//to filter divs according to button clicked
 
-function showLuxury() {
-  let x = document.getElementById("card0");
-  let y = document.getElementById("card3");
-  let z = document.getElementById("card4");
-  if (x.style.display !== "none") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-  if (y.style.display !== "none") {
-    y.style.display = "none";
-  } else {
-    y.style.display = "block";
-  }
-  if (z.style.display !== "none") {
-    z.style.display = "none";
-  } else {
-    z.style.display = "block";
-  }
-}
+function showBudgetSun() { 
+            $('.sun-card1').toggle();
+            $('.sun-card2').toggle();
+            $('.sun-card5').toggle();
+        };
 
+function showLuxurySun() {       
+            $('.sun-card0').toggle();
+            $('.sun-card3').toggle();
+            $('.sun-card4').toggle();
+        };
 
+function showLuxurySun() {       
+            $('.sun-card0').toggle();
+            $('.sun-card1').toggle();
+            $('.sun-card2').toggle();
+            $('.sun-card3').toggle();
+            $('.sun-card4').toggle();
+            $('.sun-card5').toggle();
+        };
