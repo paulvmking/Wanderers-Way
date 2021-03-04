@@ -123,3 +123,47 @@ for(var i = 0; i < snowText.length; i += 1) {
     div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
     document.body.appendChild(div);
 }}
+
+function showBudget() {
+  let x = document.getElementById("card1");
+  let y = document.getElementById("card2");
+  let z = document.getElementById("card5");
+  if (x.style.display !== "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  if (y.style.display !== "none") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+  if (z.style.display !== "none") {
+    z.style.display = "none";
+  } else {
+    z.style.display = "block";
+  }
+}
+
+function showLuxury() {
+  let x = document.getElementById("card0");
+  let y = document.getElementById("card3");
+  let z = document.getElementById("card4");
+  if (x.style.display !== "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  if (y.style.display !== "none") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+  if (z.style.display !== "none") {
+    z.style.display = "none";
+  } else {
+    z.style.display = "block";
+  }
+}
+
+
