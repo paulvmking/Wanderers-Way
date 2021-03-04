@@ -127,22 +127,28 @@ for(var i = 0; i < snowText.length; i += 1) {
 //to filter divs according to button clicked
 
 function showBudgetSun() { 
-            $('.sun-card1').toggle();
-            $('.sun-card2').toggle();
-            $('.sun-card5').toggle();
+            $('.sun-card0').toggle(true);
+            $('.sun-card1').toggle(false);
+            $('.sun-card2').toggle(false);
+            $('.sun-card3').toggle(true);
+            $('.sun-card4').toggle(true);
+            $('.sun-card5').toggle(false);
         };
 
 function showLuxurySun() {       
-            $('.sun-card0').toggle();
-            $('.sun-card3').toggle();
-            $('.sun-card4').toggle();
+            $('.sun-card0').toggle(false);
+            $('.sun-card1').toggle(true);
+            $('.sun-card2').toggle(true);
+            $('.sun-card3').toggle(false);
+            $('.sun-card4').toggle(false);
+            $('.sun-card5').toggle(true);
         };
 
-function showLuxurySun() {       
-            $('.sun-card0').toggle();
-            $('.sun-card1').toggle();
-            $('.sun-card2').toggle();
-            $('.sun-card3').toggle();
-            $('.sun-card4').toggle();
-            $('.sun-card5').toggle();
+function showAllSun() {       
+            $('.sun-card0').toggle(true);
+            $('.sun-card1').toggle(true);
+            $('.sun-card2').toggle(true);
+            $('.sun-card3').toggle(true);
+            $('.sun-card4').toggle(true);
+            $('.sun-card5').toggle(true);
         };
