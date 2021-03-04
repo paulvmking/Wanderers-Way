@@ -167,4 +167,16 @@ a.nav-link.current {
     border:1px solid #2b6777 ;
 }
 
+#footer {
+    background-color:#2b6777 ;
+    color: #e1eedd;
+}
 
+.social-icons a {
+    color:#e1eedd;
+    font-size:2rem;
+}
+
+.social-icons a, a:hover {
+    text-decoration: none;
+}
