@@ -1,3 +1,7 @@
+body {
+    background-color: #e1eedd;
+}
+
 .container-fluid, alert, alert-danger {
     margin : 0;
     border: 0;
@@ -160,6 +164,7 @@ a.nav-link.current {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+    border:1px solid #2b6777 ;
 }
 
 
