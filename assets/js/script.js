@@ -1,12 +1,12 @@
 // To redirect user to appropriate page once choice is clicked
 
-let sunFunction = document.getElementById("sun-1");
+const sunChosen = document.getElementById("sun-1");
 
 sunFunction.addEventListener("click", function() {
     location.href = 'sun.html';
 });
 
-let snowFunction = document.getElementById("snow-1");
+const snowChosen = document.getElementById("snow-1");
 
 snowFunction.addEventListener("click", function() {
     location.href = 'snow.html';
