@@ -122,7 +122,8 @@ for(var i = 0; i < snowText.length; i += 1) {
     div.className = "snow-card" + i;
     div.id = "card" + i;
     div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
-    document.body.appendChild(div);
+    let main = document.getElementById("main-row");
+    main.appendChild(div);
 }}
 
 //to append footer in correct location
