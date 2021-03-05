@@ -153,6 +153,23 @@ a.nav-link.current {
     background-color: #2b6777;
     color: #e1eedd;
     width: 33vh;
+    -moz-box-shadow: 3px 3px 4px #000; 
+    -webkit-box-shadow: 3px 3px 4px #000; 
+    box-shadow: 3px 3px 4px #000; 
+}
+
+.btn {
+    -moz-box-shadow: 3px 3px 4px #000; 
+   -webkit-box-shadow: 3px 3px 4px #000; 
+   box-shadow: 3px 3px 4px #000; 
+}
+
+.sun-card0:hover, .sun-card1:hover, .sun-card2:hover, .sun-card3:hover, .sun-card4:hover, .sun-card5:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
 }
 
 .card-body {
@@ -170,6 +187,7 @@ a.nav-link.current {
 #footer {
     background-color:#2b6777 ;
     color: #e1eedd;
+    height: 100px;
 }
 
 .social-icons a {
@@ -180,3 +198,5 @@ a.nav-link.current {
 .social-icons a, a:hover {
     text-decoration: none;
 }
+
+

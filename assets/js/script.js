@@ -34,7 +34,7 @@ snowEffect1.addEventListener("mouseout", function() {
     snowEffect1.style.opacity = 1.0;
 });
 
-//to iterate and add active class to clicked button 
+//to add active class to clicked button 
 
 $('button').on('click', function(){
     $('button').removeClass('active');
@@ -123,6 +123,9 @@ for(var i = 0; i < snowText.length; i += 1) {
     div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
     document.body.appendChild(div);
 }}
+
+//to append footer in correct location
+
 
 //To filter divs according to button clicked
 
