@@ -1,38 +1,26 @@
 // To redirect user to appropriate page once choice is clicked
 
 const sunChosen = document.getElementById("sun-1");
-
-sunFunction.addEventListener("click", function() {
+sunChosen.addEventListener("click", function() {
     location.href = 'sun.html';
 });
 
 const snowChosen = document.getElementById("snow-1");
-
-snowFunction.addEventListener("click", function() {
+snowChosen.addEventListener("click", function() {
     location.href = 'snow.html';
 });
 
 // To give user feedback via opacity change with mouseover/mouseout events
 
-let sunEffect1 = document.getElementById("sun-1");
+const sunCard = document.getElementById("sun-1");
+const snowCard = document.getElementById("snow-1");
 
-sunEffect1.addEventListener("mouseover", function() {
-    sunEffect1.style.opacity = 0.8;
-});
+sunCard.addEventListener("mouseover", mouseEvent(sunCard, "mouseover"));
+sunCard.addEventListener("mouseover", mouseEvent(sunCard, "mouseover"));
+snowCard.addEventListener("mouseout", mouseEvent(snowCard, "mouseout"));
+snowCard.addEventListener("mouseout", mouseEvent(snowCard, "mouseout"));
 
-sunEffect1.addEventListener("mouseout", function() {
-    sunEffect1.style.opacity = 1.0;
-});
-
-let snowEffect1 = document.getElementById("snow-1");
-
-snowEffect1.addEventListener("mouseover", function() {
-    snowEffect1.style.opacity = 0.8;
-});
-
-snowEffect1.addEventListener("mouseout", function() {
-    snowEffect1.style.opacity = 1.0;
-});
+const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.8 : 1.0 ;
 
 //to add active class to clicked button 
 
