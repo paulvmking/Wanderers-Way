@@ -34,18 +34,11 @@ a.nav-link.current {
 }
 
 .choice-question {
-    color:#e1eedd;
+    color:#2b6777;
 }
 
 .container-choice {
     height:100vh;
-
-    background: url('https://cdn.pixabay.com/photo/2017/12/22/05/58/directory-3033061_1280.jpg') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,12 +90,9 @@ a.nav-link.current {
 
 .jumbotron {
     height:100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:#e1eedd;
 }
 
-.container {
-  overflow: hidden;
-}
 
 /*button styles*/
 
@@ -142,6 +132,13 @@ a.nav-link.current {
    box-shadow: 3px 3px 4px #000; 
 }
 
+#sun-1:hover, #snow-1:hover{
+   -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+}
 
 /*styling divs to look like cards*/
 
@@ -165,6 +162,14 @@ a.nav-link.current {
 }
 
 .sun-card0:hover, .sun-card1:hover, .sun-card2:hover, .sun-card3:hover, .sun-card4:hover, .sun-card5:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.snow-card0:hover, .snow-card1:hover, .snow-card2:hover, .snow-card3:hover, .snow-card4:hover, .snow-card5:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
