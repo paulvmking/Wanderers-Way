@@ -80,7 +80,8 @@ for(var i = 0; i < sunText.length; i += 1) {
     div.className = "sun-card" + i;
     div.id = "card" + i;
     div.innerHTML =  `<img class="card-img-top" src="${sunText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunText[i].name}</h5><p class="card-text">${sunText[i].price}</p></div>`;
-    document.body.appendChild(div);
+    let main = document.getElementById("main");
+    main.appendChild(div);
 }
 }
 
