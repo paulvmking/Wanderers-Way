@@ -157,16 +157,26 @@ for(var i = 0; i < snowText.length; i += 1) {
 
 //Sun toggle 
 
-function showAllSun() {       
-            $('.sun-card0').toggle(true);
-            $('.sun-card1').toggle(true);
-            $('.sun-card2').toggle(true);
-            $('.sun-card3').toggle(true);
-            $('.sun-card4').toggle(true);
-            $('.sun-card5').toggle(true);
+function showAll(category) {       
+            $(`.${category}-card0`).toggle(true);
+            $(`.${category}-card1`).toggle(true);
+            $(`.${category}-card2`).toggle(true);
+            $(`.${category}-card3`).toggle(true);
+            $(`.${category}-card4`).toggle(true);
+            $(`.${category}-card5`).toggle(true);
         };
 
-function showBudgetSun() { 
+
+function showBudget(category){
+    if (category === "all") {
+        locations.map((location) => $(`.${location.name}-card`).toggle(true))
+    }else {
+        const selectedCategoryLocations = sunlocations.filter((location) => location.budget === category);
+        const nonCategoryLocations = sunlocations.filter((location) => location.budget !== category);
+    }
+}
+
+/*function showBudgetSun() { 
             $('.sun-card0').toggle(true);
             $('.sun-card1').toggle(false);
             $('.sun-card2').toggle(false);
@@ -211,8 +221,5 @@ function showLuxurySnow () {
             $('.snow-card3').toggle(true);
             $('.snow-card4').toggle(false);
             $('.snow-card5').toggle(true);
-}
-
-
-
+}*/
 
