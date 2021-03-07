@@ -38,42 +38,48 @@ let sunText = [
         name:"Barcelona",
         budget:"budget",
         price:"€€€",
-        image:"assets/images/sun4.webp"
+        image:"assets/images/sun4.webp",
+        location:"destination.html?location=barcelona"
     },
     {
         class: "parisCard",
         name:"Paris",
         budget:"luxury",
         price:"€€€€",
-        image:"assets/images/paris1.jpg"
+        image:"assets/images/paris1.jpg",
+        location:"destination.html?location=paris"
     },
     {
         class: "lisbonCard",
         name:"Lisbon",
         budget:"budget",
         price:"€€",
-        image:"assets/images/sun2.webp"
+        image:"assets/images/sun2.webp",
+        location:"destination.html?location=lisbon"
     },
     {
         class: "romeCard",
         name:"Rome",
         budget:"luxury",
         price:"€€€€€",
-        image:"assets/images/rome1.jpg"
+        image:"assets/images/rome1.jpg",
+        location:"destination.html?location=rome"
     },
     {
         class: "istanbulCard",
         name:"Istanbul",
         budget:"budget",
         price:"€€€",
-        image:"assets/images/istanbul.jpg"
+        image:"assets/images/istanbul.jpg",
+        location:"destination.html?location=istanbul"
     },
     {
         class: "athensCard",
         name:"Athens",
         budget:"luxury",
         price:"€€€€",
-        image:"assets/images/athens2.jpg"
+        image:"assets/images/athens2.jpg",
+        location:"destination.html?location=athens"
     }];
 for(var i = 0; i < sunText.length; i += 1) {
     let div = document.createElement("div");
@@ -92,42 +98,48 @@ let snowText = [
         name:"Munich",
         budget:"budget",
         price:"€€€",
-        image:"assets/images/snow.jpg"
+        image:"assets/images/snow.jpg",
+        location:"destination.html?location=munich"
     },
     {
         class: "zurichCard",
         name:"Zurich",
         budget:"luxury",
         price:"€€€€",
-        image:"assets/images/switzerland-4974469_1280.webp"
+        image:"assets/images/switzerland-4974469_1280.webp",
+        location:"destination.html?location=zurich"
     },
     {
         class: "brasovCard",
         name:"Brasov",
         budget:"budget",
         price:"€€",
-        image:"assets/images/snow-5880000_1280.jpg"
+        image:"assets/images/snow-5880000_1280.jpg",
+        location:"destination.html?location=brasov"
     },
     {
         class: "viennaCard",
         name:"Vienna",
         budget:"luxury",
         price:"€€€€",
-        image:"assets/images/vienna-2989786_1280.jpg"
+        image:"assets/images/vienna-2989786_1280.jpg",
+        location:"destination.html?location=vienna"
     },
     {
         class: "zakopaneCard",
         name:"Zakopane",
         budget:"budget",
         price:"€€€",
-        image:"assets/images/tatry-4359240_1280.jpg"
+        image:"assets/images/tatry-4359240_1280.jpg",
+        location:"destination.html?location=zakopane"
     },
     {
         class: "reykjavikCard",
         name:"Reykjavik",
         budget:"luxury",
         price:"€€€€€",
-        image:"assets/images/reykjavik-635330_1280.jpg"
+        image:"assets/images/reykjavik-635330_1280.jpg",
+        location:"destination.html?location=reykjavik"
     }];
 for(var i = 0; i < snowText.length; i += 1) {
     let div = document.createElement("div");
