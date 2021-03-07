@@ -36,36 +36,42 @@ let sunText = [
     {
         class: "barcelonaCard",
         name:"Barcelona",
+        budget:"budget",
         price:"€€€",
         image:"assets/images/sun4.webp"
     },
     {
         class: "parisCard",
         name:"Paris",
+        budget:"luxury",
         price:"€€€€",
         image:"assets/images/paris1.jpg"
     },
     {
         class: "lisbonCard",
         name:"Lisbon",
+        budget:"budget",
         price:"€€",
         image:"assets/images/sun2.webp"
     },
     {
         class: "romeCard",
         name:"Rome",
+        budget:"luxury",
         price:"€€€€€",
         image:"assets/images/rome1.jpg"
     },
     {
         class: "istanbulCard",
         name:"Istanbul",
+        budget:"budget",
         price:"€€€",
         image:"assets/images/istanbul.jpg"
     },
     {
         class: "athensCard",
         name:"Athens",
+        budget:"luxury",
         price:"€€€€",
         image:"assets/images/athens2.jpg"
     }];
@@ -84,36 +90,42 @@ let snowText = [
     {
         class: "munichCard",
         name:"Munich",
+        budget:"budget",
         price:"€€€",
         image:"assets/images/snow.jpg"
     },
     {
         class: "zurichCard",
         name:"Zurich",
+        budget:"luxury",
         price:"€€€€",
         image:"assets/images/switzerland-4974469_1280.webp"
     },
     {
         class: "brasovCard",
         name:"Brasov",
+        budget:"budget",
         price:"€€",
         image:"assets/images/snow-5880000_1280.jpg"
     },
     {
         class: "viennaCard",
         name:"Vienna",
+        budget:"luxury",
         price:"€€€€",
         image:"assets/images/vienna-2989786_1280.jpg"
     },
     {
         class: "zakopaneCard",
         name:"Zakopane",
+        budget:"budget",
         price:"€€€",
         image:"assets/images/tatry-4359240_1280.jpg"
     },
     {
         class: "reykjavikCard",
         name:"Reykjavik",
+        budget:"luxury",
         price:"€€€€€",
         image:"assets/images/reykjavik-635330_1280.jpg"
     }];
