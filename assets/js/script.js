@@ -173,6 +173,8 @@ function showBudget(category){
     }else {
         const selectedCategoryLocations = sunlocations.filter((location) => location.budget === category);
         const nonCategoryLocations = sunlocations.filter((location) => location.budget !== category);
+
+        selectedCategoryLocations.map((location) => $(`.${location.name}-card`).toggle(true));
     }
 }
 
