@@ -34,38 +34,44 @@ $('button').on('click', function(){
 function cloneFunction() {
 let sunText = [
     {
+        class: "barcelonaCard",
         name:"Barcelona",
         price:"€€€",
         image:"assets/images/sun4.webp"
     },
     {
+        class: "parisCard",
         name:"Paris",
         price:"€€€€",
         image:"assets/images/paris1.jpg"
     },
     {
+        class: "lisbonCard",
         name:"Lisbon",
         price:"€€",
         image:"assets/images/sun2.webp"
     },
     {
+        class: "romeCard",
         name:"Rome",
         price:"€€€€€",
         image:"assets/images/rome1.jpg"
     },
     {
+        class: "istanbulCard",
         name:"Istanbul",
         price:"€€€",
         image:"assets/images/istanbul.jpg"
     },
     {
+        class: "athensCard",
         name:"Athens",
         price:"€€€€",
         image:"assets/images/athens2.jpg"
     }];
 for(var i = 0; i < sunText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "sun-card" + i;
+    div.className = sunText[i].class;
     div.id = "card" + i;
     div.innerHTML =  `<img class="card-img-top" src="${sunText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunText[i].name}</h5><p class="card-text">${sunText[i].price}</p></div>`;
     let main = document.getElementById("main-row");
@@ -76,42 +82,48 @@ for(var i = 0; i < sunText.length; i += 1) {
 function cloneFunction1() {
 let snowText = [
     {
+        class: "munichCard",
         name:"Munich",
         price:"€€€",
         image:"assets/images/snow.jpg"
     },
     {
+        class: "zurichCard",
         name:"Zurich",
         price:"€€€€",
         image:"assets/images/switzerland-4974469_1280.webp"
     },
     {
+        class: "brasovCard",
         name:"Brasov",
         price:"€€",
         image:"assets/images/snow-5880000_1280.jpg"
     },
     {
+        class: "viennaCard",
         name:"Vienna",
         price:"€€€€",
         image:"assets/images/vienna-2989786_1280.jpg"
     },
     {
+        class: "zakopaneCard",
         name:"Zakopane",
         price:"€€€",
         image:"assets/images/tatry-4359240_1280.jpg"
     },
     {
+        class: "reykjavikCard",
         name:"Reykjavik",
         price:"€€€€€",
         image:"assets/images/reykjavik-635330_1280.jpg"
     }];
 for(var i = 0; i < snowText.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "snow-card" + i;
+    div.className = snowText[i].class;
     div.id = "card" + i;
     div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
     let main = document.getElementById("main-row");
-    main.appendChild(div);
+    main.appendChild(div); 
 }}
 
 //to append footer in correct location
