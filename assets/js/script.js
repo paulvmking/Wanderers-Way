@@ -44,14 +44,14 @@ let sunText = [
         image:"assets/images/paris1.jpg"
     },
     {
-        name:"Rome",
-        price:"€€€€€",
-        image:"assets/images/rome1.jpg"
-    },
-    {
         name:"Lisbon",
         price:"€€",
         image:"assets/images/sun2.webp"
+    },
+    {
+        name:"Rome",
+        price:"€€€€€",
+        image:"assets/images/rome1.jpg"
     },
     {
         name:"Istanbul",
@@ -81,14 +81,14 @@ let snowText = [
         image:"assets/images/snow.jpg"
     },
     {
-        name:"Brasov",
-        price:"€€",
-        image:"assets/images/snow-5880000_1280.jpg"
-    },
-    {
         name:"Zurich",
         price:"€€€€",
         image:"assets/images/switzerland-4974469_1280.webp"
+    },
+    {
+        name:"Brasov",
+        price:"€€",
+        image:"assets/images/snow-5880000_1280.jpg"
     },
     {
         name:"Vienna",
