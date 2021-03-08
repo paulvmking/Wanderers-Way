@@ -32,7 +32,7 @@ $('button').on('click', function(){
 //To clone cards on sun page 
 
 function cloneFunction() {
-let sunText = [
+let sunLocation = [
     {
         class: "barcelonaCard",
         name:"Barcelona",
@@ -81,18 +81,18 @@ let sunText = [
         image:"assets/images/athens2.jpg",
         location:"destination.html?location=athens"
     }];
-for(var i = 0; i < sunText.length; i += 1) {
+for(var i = 0; i < sunLocation.length; i += 1) {
     let div = document.createElement("div");
-    div.className = sunText[i].class;
+    div.className = sunLocation[i].class;
     div.id = "card" + i;
-    div.innerHTML =  `<img class="card-img-top" src="${sunText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunText[i].name}</h5><p class="card-text">${sunText[i].price}</p></div>`;
+    div.innerHTML =  `<img class="card-img-top" src="${sunLocation[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunLocation[i].name}</h5><p class="card-text">${sunLocation[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div);
 }
 }
 
 function cloneFunction1() {
-let snowText = [
+let snowLocation = [
     {
         class: "munichCard",
         name:"Munich",
@@ -141,11 +141,11 @@ let snowText = [
         image:"assets/images/reykjavik-635330_1280.jpg",
         location:"destination.html?location=reykjavik"
     }];
-for(var i = 0; i < snowText.length; i += 1) {
+for(var i = 0; i < snowLocation.length; i += 1) {
     let div = document.createElement("div");
-    div.className = snowText[i].class;
+    div.className = snowLocation[i].class;
     div.id = "card" + i;
-    div.innerHTML = `<img class="card-img-top" src="${snowText[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowText[i].name}</h5><p class="card-text">${snowText[i].price}</p></div>`;
+    div.innerHTML = `<img class="card-img-top" src="${snowLocation[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowLocation[i].name}</h5><p class="card-text">${snowLocation[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
 }}
@@ -158,12 +158,12 @@ for(var i = 0; i < snowText.length; i += 1) {
 //Sun toggle 
 
 function showAll(category) {       
-            $(`.${category}-card0`).toggle(true);
-            $(`.${category}-card1`).toggle(true);
-            $(`.${category}-card2`).toggle(true);
-            $(`.${category}-card3`).toggle(true);
-            $(`.${category}-card4`).toggle(true);
-            $(`.${category}-card5`).toggle(true);
+            $(`.${budget}-card0`).toggle(true);
+            $(`.${luxury}-card1`).toggle(true);
+            $(`.${budget}-card2`).toggle(true);
+            $(`.${luxury}-card3`).toggle(true);
+            $(`.${budget}-card4`).toggle(true);
+            $(`.${luxury}-card5`).toggle(true);
         };
 
 
@@ -175,6 +175,7 @@ function showBudget(category){
         const nonCategoryLocations = sunlocations.filter((location) => location.budget !== category);
 
         selectedCategoryLocations.map((location) => $(`.${location.name}-card`).toggle(true));
+        nonCategoryLocations.map((location) => $(`.${location.name}-card`).toggle(false));
     }
 }
 
