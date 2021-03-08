@@ -209,4 +209,3 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
-
