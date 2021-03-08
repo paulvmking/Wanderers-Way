@@ -39,7 +39,7 @@ a.nav-link.current {
 }
 
 .container-choice {
-    height:100vh;
+    height:66vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@ a.nav-link.current {
 }
 
 .jumbotron {
-    height:100vh;
+    height:66vh;
     background-color:#e1eedd;
 }
 
