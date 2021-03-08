@@ -34,7 +34,7 @@ $('button').on('click', function(){
 function cloneFunction() {
 let sunLocation = [
     {
-        class: "barcelonaCard",
+        class: "barcelona-card",
         name:"Barcelona",
         budget:"budget",
         price:"€€€",
@@ -42,7 +42,7 @@ let sunLocation = [
         location:"destination.html?location=barcelona"
     },
     {
-        class: "parisCard",
+        class: "paris-card",
         name:"Paris",
         budget:"luxury",
         price:"€€€€",
@@ -50,7 +50,7 @@ let sunLocation = [
         location:"destination.html?location=paris"
     },
     {
-        class: "lisbonCard",
+        class: "lisbon-card",
         name:"Lisbon",
         budget:"budget",
         price:"€€",
@@ -58,7 +58,7 @@ let sunLocation = [
         location:"destination.html?location=lisbon"
     },
     {
-        class: "romeCard",
+        class: "rome-card",
         name:"Rome",
         budget:"luxury",
         price:"€€€€€",
@@ -66,7 +66,7 @@ let sunLocation = [
         location:"destination.html?location=rome"
     },
     {
-        class: "istanbulCard",
+        class: "istanbul-card",
         name:"Istanbul",
         budget:"budget",
         price:"€€€",
@@ -74,7 +74,7 @@ let sunLocation = [
         location:"destination.html?location=istanbul"
     },
     {
-        class: "athensCard",
+        class: "athens-card",
         name:"Athens",
         budget:"luxury",
         price:"€€€€",
@@ -94,7 +94,7 @@ for(var i = 0; i < sunLocation.length; i += 1) {
 function cloneFunction1() {
 let snowLocation = [
     {
-        class: "munichCard",
+        class: "munich-card",
         name:"Munich",
         budget:"budget",
         price:"€€€",
@@ -102,7 +102,7 @@ let snowLocation = [
         location:"destination.html?location=munich"
     },
     {
-        class: "zurichCard",
+        class: "zurich-card",
         name:"Zurich",
         budget:"luxury",
         price:"€€€€",
@@ -110,7 +110,7 @@ let snowLocation = [
         location:"destination.html?location=zurich"
     },
     {
-        class: "brasovCard",
+        class: "brasov-card",
         name:"Brasov",
         budget:"budget",
         price:"€€",
@@ -118,7 +118,7 @@ let snowLocation = [
         location:"destination.html?location=brasov"
     },
     {
-        class: "viennaCard",
+        class: "vienna-card",
         name:"Vienna",
         budget:"luxury",
         price:"€€€€",
@@ -126,7 +126,7 @@ let snowLocation = [
         location:"destination.html?location=vienna"
     },
     {
-        class: "zakopaneCard",
+        class: "zakopane-card",
         name:"Zakopane",
         budget:"budget",
         price:"€€€",
@@ -134,7 +134,7 @@ let snowLocation = [
         location:"destination.html?location=zakopane"
     },
     {
-        class: "reykjavikCard",
+        class: "reykjavik-card",
         name:"Reykjavik",
         budget:"luxury",
         price:"€€€€€",
@@ -158,12 +158,12 @@ for(var i = 0; i < snowLocation.length; i += 1) {
 //Sun toggle 
 
 function showAll(category) {       
-            $(`.${budget}-card0`).toggle(true);
-            $(`.${luxury}-card1`).toggle(true);
-            $(`.${budget}-card2`).toggle(true);
-            $(`.${luxury}-card3`).toggle(true);
-            $(`.${budget}-card4`).toggle(true);
-            $(`.${luxury}-card5`).toggle(true);
+            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card`).toggle(true);
         };
 
 
