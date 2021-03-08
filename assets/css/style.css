@@ -148,7 +148,7 @@ a.nav-link.current {
 #card0, #card1, #card2, #card3, #card4, #card5 {
     float: left;
     text-align: center;
-    margin: 20px 20px 20px 20px;
+    margin: 20px auto;
     border: 1px 1px 0px 1px solid #2b6777 ;    
     background-color: #2b6777;
     color: #e1eedd;
@@ -184,6 +184,7 @@ a.nav-link.current {
     height: 15vw;
     object-fit: cover;
     border:1px solid #2b6777 ;
+    min-height: 150px;
 }
 
 .sticky-footer {
