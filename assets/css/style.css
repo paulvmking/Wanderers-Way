@@ -65,7 +65,7 @@ a.nav-link.current {
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .snow-media {
@@ -85,7 +85,7 @@ a.nav-link.current {
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .jumbotron {
