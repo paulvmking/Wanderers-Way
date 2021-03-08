@@ -118,9 +118,8 @@ a.nav-link.current {
   background-color: #15b3bb;
 }
 
-.myBtn:active {
-  background-color: #1e4853;
-  color: #e1eedd;
+.myBtn.current {
+    background-color: #1e4853;
 }
 
 .myBtn:focus {
@@ -204,4 +203,6 @@ a.nav-link.current {
     text-decoration: none;
 }
 
-
+.contact-form {
+    margin: auto;
+}

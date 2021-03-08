@@ -46,8 +46,8 @@ snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
 //to add active class to clicked button 
 
 $('button').on('click', function(){
-    $('button').removeClass('active');
-    $(this).addClass('active');
+    $('button').removeClass('current');
+    $(this).addClass('current');
 });
 
 //To build cards on sun page  
