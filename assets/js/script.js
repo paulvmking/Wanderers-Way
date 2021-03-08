@@ -5,11 +5,11 @@
     let message;
 
     if (hourNow > 18) {
-        message = 'Good evening!';
+        message = 'Good Evening!';
     }else if (hourNow > 12) {
-        message = 'Good afternoon!';
+        message = 'Good Afternoon!';
     }else if (hourNow > 0) {
-        message = 'Good morning!';
+        message = 'Good Morning!';
     }else {
         message = 'Welcome!';
     }

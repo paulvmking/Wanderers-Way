@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     background-color: #e1eedd;
 }
@@ -36,6 +39,7 @@ a.nav-link.current {
 
 .choice-question {
     color:#2b6777;
+    font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .container-choice {
@@ -67,6 +71,7 @@ a.nav-link.current {
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 5%;
+    font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .snow-media {
@@ -87,6 +92,7 @@ a.nav-link.current {
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 5%;
+    font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .jumbotron {
