@@ -33,13 +33,13 @@ snowChosen.addEventListener("click", function() {
 
 const sunCard = document.getElementById("sunCard");
 const snowCard = document.getElementById("snowCard");
-
-sunCard.addEventListener("mouseover", mouseEvent(sunCard, "mouseover"));
-sunCard.addEventListener("mouseout", mouseEvent(sunCard, "mouseout"));
-snowCard.addEventListener("mouseover", mouseEvent(snowCard, "mouseover"));
-snowCard.addEventListener("mouseout", mouseEvent(snowCard, "mouseout"));
-
 const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.8 : 1.0 ;
+
+sunCard.addEventListener("mouseover",() =>  mouseEvent(sunCard, "mouseover"));
+sunCard.addEventListener("mouseout", () => mouseEvent(sunCard, "mouseout"));
+snowCard.addEventListener("mouseover", () => mouseEvent(snowCard, "mouseover"));
+snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
+
 
 //to add active class to clicked button 
 
