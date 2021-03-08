@@ -1,3 +1,5 @@
+// To greet user depending on time of day and ask them to choose a way to wander 
+    
     let today = new Date();
     let hourNow = today.getHours();
     let message;
@@ -33,7 +35,7 @@ snowChosen.addEventListener("click", function() {
 
 const sunCard = document.getElementById("sunCard");
 const snowCard = document.getElementById("snowCard");
-const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.8 : 1.0 ;
+const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.7 : 1.0 ;
 
 sunCard.addEventListener("mouseover",() =>  mouseEvent(sunCard, "mouseover"));
 sunCard.addEventListener("mouseout", () => mouseEvent(sunCard, "mouseout"));
