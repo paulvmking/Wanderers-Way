@@ -142,6 +142,9 @@ The **Google maps** area will be interactive and allow a user to click on the lo
  - Many solutions were tried but none gave desired effect, most kept hiding or showing the wrong divs for the button selection.
  - After using toggle a few times while trying to solve the issue I read that toggle can take true and false values so I syncronised each div to 
  true or false depending which button was clicked and it worked with desired effect.
+
+5.Issue with greeting to user not displaying, tried to use innerHTML and appendChild to fix.
+ - Solved by creating a new element with variable as the original was a string and not a node that could be appended, also the class was not targeted the ID was targeted instead to be more specific to where I wanted it appended.
 ## Known Bugs
 
 # Deployment 
