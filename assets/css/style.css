@@ -186,6 +186,22 @@ a.nav-link.current {
     min-height: 150px;
 }
 
+.contact-image {
+    min-height: 66vh;
+
+    background: url('https://cdn.pixabay.com/photo/2018/02/22/11/18/envelope-3172770_1280.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .sticky-footer {
     bottom: 0;
     width: 100%;
@@ -203,6 +219,4 @@ a.nav-link.current {
     text-decoration: none;
 }
 
-.contact-form {
-    margin: auto;
-}
+
