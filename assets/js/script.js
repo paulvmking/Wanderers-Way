@@ -32,7 +32,7 @@ $('button').on('click', function(){
 //To clone cards on sun page 
 
 function cloneFunction() {
-let sunLocation = [
+    const sunLocations = [
     {
         class: "barcelona-card",
         name:"Barcelona",
@@ -81,18 +81,18 @@ let sunLocation = [
         image:"assets/images/athens2.jpg",
         location:"destination.html?location=athens"
     }];
-for(var i = 0; i < sunLocation.length; i += 1) {
+    for(var i = 0; i < sunLocations.length; i += 1) {
     let div = document.createElement("div");
-    div.className = sunLocation[i].class;
+    div.className = "sun-card" + i ;
     div.id = "card" + i;
-    div.innerHTML =  `<img class="card-img-top" src="${sunLocation[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunLocation[i].name}</h5><p class="card-text">${sunLocation[i].price}</p></div>`;
+    div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div);
-}
+  }
 }
 
 function cloneFunction1() {
-let snowLocation = [
+    const snowLocations = [
     {
         class: "munich-card",
         name:"Munich",
@@ -141,88 +141,50 @@ let snowLocation = [
         image:"assets/images/reykjavik-635330_1280.jpg",
         location:"destination.html?location=reykjavik"
     }];
-for(var i = 0; i < snowLocation.length; i += 1) {
+    for(var i = 0; i < snowLocations.length; i += 1) {
     let div = document.createElement("div");
-    div.className = snowLocation[i].class;
+    div.className = "snow-card" + i ;
     div.id = "card" + i;
-    div.innerHTML = `<img class="card-img-top" src="${snowLocation[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowLocation[i].name}</h5><p class="card-text">${snowLocation[i].price}</p></div>`;
+    div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowLocations[i].name}</h5><p class="card-text">${snowLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
-}}
+  }
+}
 
-//to append footer in correct location
+//jQuery To filter divs according to button clicked
 
-
-//To filter divs according to button clicked
-
-//Sun toggle 
+//all toggle 
 
 function showAll(category) {       
-            $(`.${category}-card`).toggle(true);
-            $(`.${category}-card`).toggle(true);
-            $(`.${category}-card`).toggle(true);
-            $(`.${category}-card`).toggle(true);
-            $(`.${category}-card`).toggle(true);
-            $(`.${category}-card`).toggle(true);
+            $(`.${category}-card0`).toggle(true);
+            $(`.${category}-card1`).toggle(true);
+            $(`.${category}-card2`).toggle(true);
+            $(`.${category}-card3`).toggle(true);
+            $(`.${category}-card4`).toggle(true);
+            $(`.${category}-card5`).toggle(true);
+        };
+
+//budget toggle
+
+function showBudget(category) { 
+            $(`.${category}-card0`).toggle(true);
+            $(`.${category}-card1`).toggle(false);
+            $(`.${category}-card2`).toggle(true);
+            $(`.${category}-card3`).toggle(false);
+            $(`.${category}-card4`).toggle(true);
+            $(`.${category}-card5`).toggle(false);
+        };
+
+//luxury toggle
+
+function showLuxury(category) {       
+            $(`.${category}-card0`).toggle(false);
+            $(`.${category}-card1`).toggle(true);
+            $(`.${category}-card2`).toggle(false);
+            $(`.${category}-card3`).toggle(true);
+            $(`.${category}-card4`).toggle(false);
+            $(`.${category}-card5`).toggle(true);
         };
 
 
-function showBudget(category){
-    if (category === "all") {
-        locations.map((location) => $(`.${location.name}-card`).toggle(true))
-    }else {
-        const selectedCategoryLocations = sunlocations.filter((location) => location.budget === category);
-        const nonCategoryLocations = sunlocations.filter((location) => location.budget !== category);
-
-        selectedCategoryLocations.map((location) => $(`.${location.name}-card`).toggle(true));
-        nonCategoryLocations.map((location) => $(`.${location.name}-card`).toggle(false));
-    }
-}
-
-/*function showBudgetSun() { 
-            $('.sun-card0').toggle(true);
-            $('.sun-card1').toggle(false);
-            $('.sun-card2').toggle(false);
-            $('.sun-card3').toggle(true);
-            $('.sun-card4').toggle(true);
-            $('.sun-card5').toggle(false);
-        };
-
-function showLuxurySun() {       
-            $('.sun-card0').toggle(false);
-            $('.sun-card1').toggle(true);
-            $('.sun-card2').toggle(true);
-            $('.sun-card3').toggle(false);
-            $('.sun-card4').toggle(false);
-            $('.sun-card5').toggle(true);
-        };
-
-//Snow toggle
-
-function showAllSnow () {
-            $('.snow-card0').toggle(true);
-            $('.snow-card1').toggle(true);
-            $('.snow-card2').toggle(true);
-            $('.snow-card3').toggle(true);
-            $('.snow-card4').toggle(true);
-            $('.snow-card5').toggle(true);
-}
-
-function showBudgetSnow () {
-            $('.snow-card0').toggle(true);
-            $('.snow-card1').toggle(true);
-            $('.snow-card2').toggle(false);
-            $('.snow-card3').toggle(false);
-            $('.snow-card4').toggle(true);
-            $('.snow-card5').toggle(false);
-}
-
-function showLuxurySnow () {
-            $('.snow-card0').toggle(false);
-            $('.snow-card1').toggle(false);
-            $('.snow-card2').toggle(true);
-            $('.snow-card3').toggle(true);
-            $('.snow-card4').toggle(false);
-            $('.snow-card5').toggle(true);
-}*/
 
