@@ -163,6 +163,7 @@ a.nav-link.current {
     -moz-box-shadow: 3px 3px 4px #000; 
     -webkit-box-shadow: 3px 3px 4px #000; 
     box-shadow: 3px 3px 4px #000; 
+    font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .sun-card0:hover, .sun-card1:hover, .sun-card2:hover, .sun-card3:hover, .sun-card4:hover, .sun-card5:hover {

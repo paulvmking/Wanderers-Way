@@ -106,7 +106,7 @@ function showSunLocations() {
     let div = document.createElement("div");
     div.className = "sun-card" + i ;
     div.id = "card" + i;
-    div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
+    div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div);
   }
@@ -168,7 +168,7 @@ function showSnowLocations() {
     let div = document.createElement("div");
     div.className = "snow-card" + i ;
     div.id = "card" + i;
-    div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h5 class="card-title">${snowLocations[i].name}</h5><p class="card-text">${snowLocations[i].price}</p></div>`;
+    div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${snowLocations[i].name}</h4><p class="card-text">${snowLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
   }
