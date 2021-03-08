@@ -145,6 +145,10 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 
 5.Issue with greeting to user not displaying, tried to use innerHTML and appendChild to fix.
  - Solved by creating a new element with variable as the original was a string and not a node that could be appended, also the class was not targeted the ID was targeted instead to be more specific to where I wanted it appended.
+
+6.Issue with mouse events not displaying opcity on sunCard and snowCard.
+ - This was caused because I declared the function after it was being used and because a function was not declared as the 2nd parameter.
+ - Solution was to move the declaration above the working code to ensure it was declared before use and i also added arrow functions as the 2nd parameters to ensure the mouseEvent was working as a function.
 ## Known Bugs
 
 # Deployment 
