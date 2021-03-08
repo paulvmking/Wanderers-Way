@@ -1,23 +1,42 @@
+    let today = new Date();
+    let hourNow = today.getHours();
+    let message;
+
+    if (hourNow > 18) {
+        message = 'Good evening!';
+    }else if (hourNow > 12) {
+        message = 'Good afternoon!';
+    }else if (hourNow > 0) {
+        message = 'Good morning!';
+    }else {
+        message = 'Welcome!';
+    }
+
+    let hello = document.createElement('h1');
+    hello.innerHTML = ("<h1>" + message +  "<br></br>" + "Which way shall you wander?" + "</h1>");
+    let greeting = document.getElementById("greeting-question");
+    greeting.appendChild(hello);
+
 // To redirect user to appropriate page once choice is clicked
 
-const sunChosen = document.getElementById("sun-1");
+const sunChosen = document.getElementById("sunCard");
 sunChosen.addEventListener("click", function() {
     location.href = 'sun.html';
 });
 
-const snowChosen = document.getElementById("snow-1");
+const snowChosen = document.getElementById("snowCard");
 snowChosen.addEventListener("click", function() {
     location.href = 'snow.html';
 });
 
 // To give user feedback via opacity change with mouseover/mouseout events
 
-const sunCard = document.getElementById("sun-1");
-const snowCard = document.getElementById("snow-1");
+const sunCard = document.getElementById("sunCard");
+const snowCard = document.getElementById("snowCard");
 
 sunCard.addEventListener("mouseover", mouseEvent(sunCard, "mouseover"));
-sunCard.addEventListener("mouseover", mouseEvent(sunCard, "mouseover"));
-snowCard.addEventListener("mouseout", mouseEvent(snowCard, "mouseout"));
+sunCard.addEventListener("mouseout", mouseEvent(sunCard, "mouseout"));
+snowCard.addEventListener("mouseover", mouseEvent(snowCard, "mouseover"));
 snowCard.addEventListener("mouseout", mouseEvent(snowCard, "mouseout"));
 
 const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.8 : 1.0 ;
@@ -29,9 +48,9 @@ $('button').on('click', function(){
     $(this).addClass('active');
 });
 
-//To clone cards on sun page 
+//To build cards on sun page  
 
-function cloneFunction() {
+function showSunLocations() {
     const sunLocations = [
     {
         class: "barcelona-card",
@@ -91,7 +110,9 @@ function cloneFunction() {
   }
 }
 
-function cloneFunction1() {
+//To build cards on snow page
+
+function showSnowLocations() {
     const snowLocations = [
     {
         class: "munich-card",
@@ -185,6 +206,5 @@ function showLuxury(category) {
             $(`.${category}-card4`).toggle(false);
             $(`.${category}-card5`).toggle(true);
         };
-
 
 

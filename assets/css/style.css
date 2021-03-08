@@ -129,13 +129,13 @@ a.nav-link.current {
 
 /*For shadow and opacity on choices*/
 
-#sun-1, #snow-1{
+#sunCard, #snowCard{
    -moz-box-shadow: 3px 3px 4px #000; 
    -webkit-box-shadow: 3px 3px 4px #000; 
    box-shadow: 3px 3px 4px #000; 
 }
 
-#sun-1:hover, #snow-1:hover{
+#sunCard:hover, #snowCard:hover{
    -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
