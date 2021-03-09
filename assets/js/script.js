@@ -1,5 +1,3 @@
-// To greet user depending on time of day and ask them to choose a way to wander 
-    
     let today = new Date();
     let hourNow = today.getHours();
     let message;
