@@ -134,6 +134,38 @@ a.nav-link.current {
     background-color: #1e4853;
 }
 
+.register-Btn {
+ text-align: center;
+}
+
+.modalBtn {
+    background-color: #e1eedd;
+    border-radius: 5%;
+    -moz-box-shadow: 3px 3px 4px #000; 
+    -webkit-box-shadow: 3px 3px 4px #000; 
+    box-shadow: 3px 3px 4px #000; 
+    cursor: pointer;
+}
+
+.modalBtn:hover {
+    background-color: #70776e;
+    color:#e1eedd;
+}
+
+.closeBtn {
+    background-color: #70776e;
+    color:#e1eedd;
+    border-radius: 5%;
+    -moz-box-shadow: 3px 3px 4px #000; 
+    -webkit-box-shadow: 3px 3px 4px #000; 
+    box-shadow: 3px 3px 4px #000; 
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    background-color: #e1eedd;
+}
+
 /*For shadow and opacity on choices*/
 
 #sunCard, #snowCard{
@@ -230,35 +262,6 @@ a.nav-link.current {
     justify-content: center;
 } 
 
-.modalBtn {
-    background-color: #e1eedd;
-    border-radius: 5%;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    cursor: pointer;
-}
-
-.modalBtn:hover {
-    background-color: #70776e;
-    color:#e1eedd;
-}
-
-.closeBtn {
-    background-color: #70776e;
-    color:#e1eedd;
-    border-radius: 5%;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    cursor: pointer;
-}
-
-.closeBtn:hover {
-    background-color: #e1eedd;
-    
-}
-
 .sticky-footer {
     position: flex;
     bottom: 0;
@@ -275,10 +278,6 @@ a.nav-link.current {
 
 .social-icons a, a:hover {
     text-decoration: none;
-}
-
-.register-Btn {
- text-align: center;
 }
 
 hr {
