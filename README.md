@@ -149,6 +149,10 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 6.Issue with mouse events not displaying opcity on sunCard and snowCard.
  - This was caused because I declared the function after it was being used and because a function was not declared as the 2nd parameter.
  - Solution was to move the declaration above the working code to ensure it was declared before use and i also added arrow functions as the 2nd parameters to ensure the mouseEvent was working as a function.
+
+7.Issue with display of user welcome after email.js added to index page.
+ - Problem was that js was in head tags and was loading before the html.
+ - Solution was to add "defer" to the script tags to ensure they loaded last after the html.(while this resolved the issue it also made the code browser dependant)
 ## Known Bugs
 
 # Deployment 
