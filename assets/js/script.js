@@ -208,4 +208,3 @@ function showLuxury(category) {
             $(`.${category}-card4`).toggle(false);
             $(`.${category}-card5`).toggle(true);
         };
-
