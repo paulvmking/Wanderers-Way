@@ -182,6 +182,14 @@ a.nav-link.current {
     cursor: pointer;
 }
 
+.legend-cost {
+    color: #2b6777;
+}
+
+.cost {
+    margin-bottom: 0;
+}
+
 /*styling divs to look like cards*/
 
 #card0, #card1, #card2, #card3, #card4, #card5 {
