@@ -1,5 +1,5 @@
 function loadWelcome() {
-  let today = new Date();
+    let today = new Date();
     let hourNow = today.getHours();
     let message;
 
@@ -20,19 +20,22 @@ function loadWelcome() {
 }
 
 // To redirect user to appropriate page once choice is clicked
-
+function sunChosen(){
 const sunChosen = document.getElementById("sunCard");
 sunChosen.addEventListener("click", function() {
     location.href = 'sun.html';
 });
+}
 
+function snowChosen(){
 const snowChosen = document.getElementById("snowCard");
 snowChosen.addEventListener("click", function() {
     location.href = 'snow.html';
 });
+}
 
 // To give user feedback via opacity change with mouseover/mouseout events
-
+function makeOpacity(){
 const sunCard = document.getElementById("sunCard");
 const snowCard = document.getElementById("snowCard");
 const mouseEvent = (card, action) => card.style.opacity = action === "mouseover" ? 0.7 : 1.0 ;
@@ -41,7 +44,7 @@ sunCard.addEventListener("mouseover",() =>  mouseEvent(sunCard, "mouseover"));
 sunCard.addEventListener("mouseout", () => mouseEvent(sunCard, "mouseout"));
 snowCard.addEventListener("mouseover", () => mouseEvent(snowCard, "mouseover"));
 snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
-
+}
 
 //to add active class to clicked button 
 
