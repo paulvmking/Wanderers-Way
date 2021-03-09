@@ -1,3 +1,5 @@
+// To greet user depending on time of day and give them main choice
+
 function loadWelcome() {
     let today = new Date();
     let hourNow = today.getHours();
