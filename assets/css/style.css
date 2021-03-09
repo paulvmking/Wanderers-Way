@@ -251,17 +251,22 @@ a.nav-link.current {
     position: relative;
 }
 
+.img-container {
+    padding: 0;
+}
+
 .main-destination-image {
-    height: 100%;
+    height: 66vh;
     position: relative;
     text-align: center;
     color: white;
     font-family: "Lobster", "sans-serif";
-    overflow: auto;
+    overflow: hidden;
 }
 
 .map-right {
-    overflow: auto;
+    height: 33vh;
+    overflow: hidden;
 }
 
 .centered {
@@ -271,13 +276,9 @@ a.nav-link.current {
   transform: translate(-50%, -50%);
 }
 
-.map-container {
-    min-height: 66vh;
-}
-
 .map-buttons {
   justify-content: center;
-
+  height: 33vh;
 }
 
 .map-buttons button {
@@ -285,7 +286,7 @@ a.nav-link.current {
 }
 
 .mapBtn {
-    border: none;
+  border: none;
   outline: none;
   padding: 10px 10px;
   background-color: #2b6777;
