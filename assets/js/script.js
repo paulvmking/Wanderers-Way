@@ -1,4 +1,5 @@
-    let today = new Date();
+function loadWelcome() {
+  let today = new Date();
     let hourNow = today.getHours();
     let message;
 
@@ -16,6 +17,7 @@
     hello.innerHTML = ("<h1>" + message +  "<br><hr></br>" + "Which way shall you wander?" + "</h1>");
     let greeting = document.getElementById("greeting-question");
     greeting.appendChild(hello);
+}
 
 // To redirect user to appropriate page once choice is clicked
 
@@ -43,10 +45,7 @@ snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
 
 //to add active class to clicked button 
 
-$('button').on('click', function(){
-    $('button').removeClass('current');
-    $(this).addClass('current');
-});
+
 
 //To build cards on sun page  
 
