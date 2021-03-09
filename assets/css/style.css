@@ -264,6 +264,10 @@ a.nav-link.current {
     overflow: hidden;
 }
 
+.city-info {
+    font-family: "Akaya Telivigala","sans-serif";
+}
+
 .map-right {
     height: 33vh;
     overflow: hidden;
