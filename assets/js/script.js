@@ -213,7 +213,7 @@ function showLuxury(category) {
 
 console.log(localStorage);
 
-const selectedSunPage = [
+const selectedPage = [
 {
     name: "Barcelona",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
@@ -261,5 +261,53 @@ const selectedSunPage = [
     transport:"€13",
     meals:"€20",
     language: "Greek (Native) - English (Widely spoken)",
+},
+{
+    name: "Munich",
+    image: "https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg",
+    costday: "€109",
+    transport:"€14",
+    meals:"€20",
+    language: "German (Native) - English (Widely spoken)",
+},
+{
+    name: "Zurich",
+    image: "https://cdn.pixabay.com/photo/2016/11/05/22/13/lisbon-1801727_1280.jpg",
+    costday: "€168.65",
+    transport:"€16.78",
+    meals:"€36.08",
+    language: "Swiss German (Native) - English (Widely spoken)",
+},
+{
+    name: "Brasov",
+    image: "https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_1280.jpg",
+    costday: "€45.31",
+    transport:"€13.42",
+    meals:"€19.30",
+    language: "Romanian (Native) - English (Widely spoken)",
+},
+{
+    name: "Vienna",
+    image: "https://cdn.pixabay.com/photo/2016/03/16/16/31/ayasofia-1261148__340.jpg",
+    costday: "€117",
+    transport:"€12",
+    meals:"€23",
+    language: "German (Native) - English (Widely spoken)",
+},
+{
+    name: "Zakopane",
+    image: "https://cdn.pixabay.com/photo/2020/03/18/11/28/athens-4943645_1280.jpg",
+    costday: "€45.31",
+    transport:"€3.93",
+    meals:"€9.23",
+    language: "Polish (Native) - English (Widely spoken)",
+},
+{
+    name: "Reykjavik",
+    image: "https://cdn.pixabay.com/photo/2020/03/18/11/28/athens-4943645_1280.jpg",
+    costday: "€179.55",
+    transport:"€33.56",
+    meals:"€21.81",
+    language: "Icelandic (Native) - English (Widely spoken)",
 }
 ]
