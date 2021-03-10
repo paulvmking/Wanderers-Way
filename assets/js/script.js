@@ -211,7 +211,6 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
-console.log(localStorage);
 
 let selectedPage = [
 {
