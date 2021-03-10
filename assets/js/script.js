@@ -213,7 +213,7 @@ function showLuxury(category) {
 
 console.log(localStorage);
 
-const selectedPage = [
+let selectedPage = [
 {
     name: "Barcelona",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
@@ -264,7 +264,7 @@ const selectedPage = [
 },
 {
     name: "Munich",
-    image: "https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2017/07/18/17/32/munich-2516492_1280.jpg",
     costday: "€109",
     transport:"€14",
     meals:"€20",
@@ -272,7 +272,7 @@ const selectedPage = [
 },
 {
     name: "Zurich",
-    image: "https://cdn.pixabay.com/photo/2016/11/05/22/13/lisbon-1801727_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2019/11/19/07/50/zurich-4636746__340.jpg",
     costday: "€168.65",
     transport:"€16.78",
     meals:"€36.08",
@@ -280,7 +280,7 @@ const selectedPage = [
 },
 {
     name: "Brasov",
-    image: "https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2019/10/19/13/10/mountains-4561361_1280.jpg",
     costday: "€45.31",
     transport:"€13.42",
     meals:"€19.30",
@@ -288,7 +288,7 @@ const selectedPage = [
 },
 {
     name: "Vienna",
-    image: "https://cdn.pixabay.com/photo/2016/03/16/16/31/ayasofia-1261148__340.jpg",
+    image: "https://cdn.pixabay.com/photo/2015/09/09/21/33/vienna-933500_1280.jpg",
     costday: "€117",
     transport:"€12",
     meals:"€23",
@@ -296,7 +296,7 @@ const selectedPage = [
 },
 {
     name: "Zakopane",
-    image: "https://cdn.pixabay.com/photo/2020/03/18/11/28/athens-4943645_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2019/01/26/19/44/zakopane-3956852_1280.jpg",
     costday: "€45.31",
     transport:"€3.93",
     meals:"€9.23",
@@ -304,7 +304,7 @@ const selectedPage = [
 },
 {
     name: "Reykjavik",
-    image: "https://cdn.pixabay.com/photo/2020/03/18/11/28/athens-4943645_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2019/01/02/10/23/iceland-3908508_1280.jpg",
     costday: "€179.55",
     transport:"€33.56",
     meals:"€21.81",
