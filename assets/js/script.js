@@ -211,6 +211,8 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
+//To handle click events on cards and redirect to destination page 
+
 function destinationChosen(category){
     $(`.${category}-card0`).click(function() {
   location.href = "destination.html"
