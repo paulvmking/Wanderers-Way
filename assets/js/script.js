@@ -37,6 +37,7 @@ snowChosen.addEventListener("click", function() {
 }
 
 // To give user feedback via opacity change with mouseover/mouseout events
+
 function makeOpacity(){
 const sunCard = document.getElementById("sunCard");
 const snowCard = document.getElementById("snowCard");
@@ -47,10 +48,6 @@ sunCard.addEventListener("mouseout", () => mouseEvent(sunCard, "mouseout"));
 snowCard.addEventListener("mouseover", () => mouseEvent(snowCard, "mouseover"));
 snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
 }
-
-//to add active class to clicked button 
-
-
 
 //To build cards on sun page  
 
@@ -218,7 +215,20 @@ function destinationChosen(category){
   location.href = "destination.html"
 }),
     $(`.${category}-card1`).click(function() {
-  location.href = "destination.html"
+    location.href = "destination.html";
+    if(category === "sun"){
+    destinationName.innerHTML = getDestination[1].name;
+    destinationCostDay.innerHTML = getDestination[1].costday;
+    destinationTransport.innerHTML = getDestination[1].transport;
+    destinationMeals.innerHTML = getDestination[1].meals;
+    destinationLanguage.innerHTML = getDestination[1].language;
+    }else {
+        destinationName.innerHTML = getDestination[7].name;
+        destinationCostDay.innerHTML = getDestination[7].costday;
+        destinationTransport.innerHTML = getDestination[7].transport;
+        destinationMeals.innerHTML = getDestination[7].meals;
+        destinationLanguage.innerHTML = getDestination[7].language;
+    }
 }), 
     $(`.${category}-card2`).click(function() {
   location.href = "destination.html"
@@ -339,3 +349,17 @@ let destinationObjString = JSON.stringify(destinationObj);
 localStorage.setItem("destinationObj", destinationObjString);
 let getDestination = JSON.parse(localStorage.getItem("destinationObj"));
 console.log(getDestination);
+
+
+let destinationName = document.getElementById("dName");
+let destinationCostDay = document.getElementById("dayCost");
+let destinationTransport = document.getElementById("transCost");
+let destinationMeals = document.getElementById("mealCost");
+let destinationLanguage = document.getElementById("language");
+
+/*
+destinationName.innerHTML = getDestination[1].name;
+destinationName.innerHTML = getDestination[2].name;
+destinationName.innerHTML = getDestination[3].name;
+destinationName.innerHTML = getDestination[4].name;
+destinationName.innerHTML = getDestination[5].name;*/
