@@ -63,10 +63,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 img-container">
-                    <div class="main-destination-image">
+                    <div class="main-destination-image" id="dImage">
                         <img src="https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg" alt="barcelona">
                         <div class="centered">
-                            <h1>Barcelona</h1>
+                            <h1 id="dName">Barcelona</h1>
                         </div>
                     </div>
                 </div>
@@ -90,22 +90,22 @@
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>Average Cost of day</td>
-                                    <td>€116</td>
+                                    <td id="dayCost">€116</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>Average Cost of transport</td>
-                                    <td>€15</td>
+                                    <td id="transCost">€15</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>Average Cost of Meals</td>
-                                    <td>€23</td>
+                                    <td id="mealCost">€23</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">4</th>
                                     <td>Local Language</td>
-                                    <td>Spanish (Native) - English (Widely spoken)</td>
+                                    <td id="language">Spanish (Native) - English (Widely spoken)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -117,9 +117,9 @@
             <div class="row">
                 <div class="col-6 map-container">
                     <div class="map-buttons text-center my-5" id="map-buttons">
-                        <button class="mapBtn">Hotels</button>
-                        <button class="mapBtn">Food & Drinks</button>
-                        <button class="mapBtn">Things to do</button>
+                        <button class="mapBtn" id="hotelBtn">Hotels</button>
+                        <button class="mapBtn" id="foodBtn">Food & Drinks</button>
+                        <button class="mapBtn" id="thingsBtn">Things to do</button>
                     </div>
                 </div>
                 <div class="col-6">
