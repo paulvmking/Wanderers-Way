@@ -211,11 +211,25 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
-function destinationChosen(){
-const barcaChosen = document.getElementById("barcelona-card");
-barcaChosen.addEventListener("click", function() {
-    location.href = 'destination.html';
-});
+function destinationChosen(category){
+    $(`.${category}-card0`).click(function() {
+  location.href = "destination.html"
+}),
+    $(`.${category}-card1`).click(function() {
+  location.href = "destination.html"
+}), 
+    $(`.${category}-card2`).click(function() {
+  location.href = "destination.html"
+}),
+    $(`.${category}-card3`).click(function() {
+  location.href = "destination.html"
+}),
+    $(`.${category}-card4`).click(function() {
+  location.href = "destination.html"
+}),
+    $(`.${category}-card5`).click(function() {
+  location.href = "destination.html"
+})
 }
 
 
