@@ -237,7 +237,7 @@ function destinationChosen(category){
 
 var barcelonaObj = 
 {
-    name: "Barcelona",
+    name: "Japan",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
     costday: "€116",
     transport:"€15",
@@ -249,6 +249,8 @@ let barcelonaObjString = JSON.stringify(barcelonaObj);
 localStorage.setItem("BarObj", barcelonaObjString);
 let getBarcelona = JSON.parse(localStorage.getItem("BarObj"));
 console.log(getBarcelona.name);
+let japan = document.getElementById("dName");
+japan.innerHTML = getBarcelona.name;
 
 
 
