@@ -246,7 +246,9 @@ var barcelonaObj =
 }
 
 let barcelonaObjString = JSON.stringify(barcelonaObj);
-localStorage.setItem("BarObj", barcelonaObjString)
+localStorage.setItem("BarObj", barcelonaObjString);
+let getBarcelona = JSON.parse(localStorage.getItem("BarObj"));
+console.log(getBarcelona);
 
 
 
