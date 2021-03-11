@@ -234,29 +234,15 @@ function destinationChosen(category){
 })
 }
 
-
-var barcelonaObj = 
+var destinationObj = [
 {
-    name: "Japan",
+    name: "Barcelona",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
     costday: "€116",
     transport:"€15",
     meals:"€23",
     language: "Spanish (Native) - English (Widely spoken)",
-}
-
-let barcelonaObjString = JSON.stringify(barcelonaObj);
-localStorage.setItem("BarObj", barcelonaObjString);
-let getBarcelona = JSON.parse(localStorage.getItem("BarObj"));
-console.log(getBarcelona.name);
-let japan = document.getElementById("dName");
-japan.innerHTML = getBarcelona.name;
-
-
-
-
-
-/*
+},
 {
     name: "Paris",
     image: "https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg",
@@ -345,4 +331,9 @@ japan.innerHTML = getBarcelona.name;
     meals:"€21.81",
     language: "Icelandic (Native) - English (Widely spoken)",
 }
-*/
+]
+
+let destinationObjString = JSON.stringify(destinationObj);
+localStorage.setItem("destinationObj", destinationObjString);
+let getDestination = JSON.parse(localStorage.getItem("destinationObj"));
+console.log(getDestination);
