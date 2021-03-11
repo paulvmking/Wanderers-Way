@@ -234,6 +234,8 @@ function destinationChosen(category){
 })
 }
 
+//to add all replaceable information to local storage to be used for destination page 
+
 var destinationObj = [
 {
     name: "Barcelona",
