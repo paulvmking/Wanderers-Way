@@ -235,7 +235,7 @@ function destinationChosen(category){
 }
 
 
-var selectedPage = [
+var barcelonaObj = 
 {
     name: "Barcelona",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
@@ -243,7 +243,16 @@ var selectedPage = [
     transport:"€15",
     meals:"€23",
     language: "Spanish (Native) - English (Widely spoken)",
-},
+}
+
+let barcelonaObjString = JSON.stringify(barcelonaObj);
+localStorage.setItem("BarObj", barcelonaObjString)
+
+
+
+
+
+/*
 {
     name: "Paris",
     image: "https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg",
@@ -332,4 +341,4 @@ var selectedPage = [
     meals:"€21.81",
     language: "Icelandic (Native) - English (Widely spoken)",
 }
-]
+*/
