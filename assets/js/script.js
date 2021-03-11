@@ -211,8 +211,15 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
+function destinationChosen(){
+const barcaChosen = document.getElementById("barcelona-card");
+barcaChosen.addEventListener("click", function() {
+    location.href = 'destination.html';
+});
+}
 
-let selectedPage = [
+
+var selectedPage = [
 {
     name: "Barcelona",
     image: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
