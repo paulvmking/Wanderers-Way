@@ -48,6 +48,57 @@ const snowLocations = [
         location:"destination.html?location=reykjavik"
     }];
 
+const sunLocations = [
+    {
+        class: "barcelona-card",
+        name:"Barcelona",
+        budget:"budget",
+        price:"€€€",
+        image:"assets/images/sun4.webp",
+        location:"destination.html?location=barcelona"
+    },
+    {
+        class: "paris-card",
+        name:"Paris",
+        budget:"luxury",
+        price:"€€€€",
+        image:"assets/images/paris1.jpg",
+        location:"destination.html?location=paris"
+    },
+    {
+        class: "lisbon-card",
+        name:"Lisbon",
+        budget:"budget",
+        price:"€€",
+        image:"assets/images/sun2.webp",
+        location:"destination.html?location=lisbon"
+    },
+    {
+        class: "rome-card",
+        name:"Rome",
+        budget:"luxury",
+        price:"€€€€€",
+        image:"assets/images/rome1.jpg",
+        location:"destination.html?location=rome"
+    },
+    {
+        class: "istanbul-card",
+        name:"Istanbul",
+        budget:"budget",
+        price:"€€€",
+        image:"assets/images/istanbul.jpg",
+        location:"destination.html?location=istanbul"
+    },
+    {
+        class: "athens-card",
+        name:"Athens",
+        budget:"luxury",
+        price:"€€€€",
+        image:"assets/images/athens2.jpg",
+        location:"destination.html?location=athens"
+    }];
+
+
 function showSnowLocations() {
     for(var i = 0; i < snowLocations.length; i += 1) {
     let div = document.createElement("div");
@@ -57,5 +108,17 @@ function showSnowLocations() {
     div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${snowLocations[i].name}</h4><p class="card-text">${snowLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
+  }
+}
+
+function showSunLocations() {
+    for(var i = 0; i < sunLocations.length; i += 1) {
+    let div = document.createElement("div");
+    div.className = "sun-card" + i ;
+    div.id = sunLocations[i].class;
+    div.onclick = destinationChosen('sun');
+    div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
+    let main = document.getElementById("main-row");
+    main.appendChild(div);
   }
 }
