@@ -16,7 +16,7 @@ function loadWelcome() {
     }
 
     let hello = document.createElement('h1');
-    hello.innerHTML = ("<h1>" + message +  "<br><hr></br>" + "Which way shall you wander?" + "</h1>");
+    hello.innerHTML = ( message +  "<br><hr></br>" + "Which way shall you wander?");
     let greeting = document.getElementById("greeting-question");
     greeting.appendChild(hello);
 }
@@ -172,6 +172,8 @@ function showSnowLocations() {
     main.appendChild(div); 
   }
 }
+
+//To add and removed current class styling when buttons are clicked
 
 $('#myBtnContainer').on('click', '.myBtn', function() {
   $(this).addClass('current').siblings().removeClass('current');
