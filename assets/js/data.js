@@ -98,27 +98,20 @@ const sunLocations = [
         location:"destination.html?location=athens"
     }];
 
-
-function showSnowLocations() {
-    for(var i = 0; i < snowLocations.length; i += 1) {
+for(var i = 0; i < snowLocations.length; i += 1) {
     let div = document.createElement("div");
     div.className = "snow-card" + i ;
     div.id = snowLocations[i].class;
-    div.onclick = destinationChosen('snow');
     div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${snowLocations[i].name}</h4><p class="card-text">${snowLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
-  }
-}
+    }
 
-function showSunLocations() {
-    for(var i = 0; i < sunLocations.length; i += 1) {
+for(var i = 0; i < sunLocations.length; i += 1) {
     let div = document.createElement("div");
     div.className = "sun-card" + i ;
     div.id = sunLocations[i].class;
-    div.onclick = destinationChosen('sun');
     div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div);
-  }
-}
+    }
