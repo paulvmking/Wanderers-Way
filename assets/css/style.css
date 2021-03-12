@@ -130,7 +130,7 @@ a.nav-link.current {
     background-color: #1e4853;
 }
 
-.myBtn:focus {
+.myBtn:active {
     background-color: #1e4853;
 }
 

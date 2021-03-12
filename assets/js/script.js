@@ -173,6 +173,10 @@ function showSnowLocations() {
   }
 }
 
+$('#myBtnContainer').on('click', '.myBtn', function() {
+  $(this).addClass('current').siblings().removeClass('current');
+});
+
 //jQuery To filter divs according to button clicked
 
 //all toggle 
