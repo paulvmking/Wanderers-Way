@@ -1,6 +1,7 @@
 const snowLocations = [
     {
         class: "munich-card",
+        weather:"snow",
         name:"Munich",
         budget:"budget",
         price:"€€€",
@@ -9,6 +10,7 @@ const snowLocations = [
     },
     {
         class: "zurich-card",
+        weather:"snow",
         name:"Zurich",
         budget:"luxury",
         price:"€€€€",
@@ -17,6 +19,7 @@ const snowLocations = [
     },
     {
         class: "brasov-card",
+        weather:"snow",
         name:"Brasov",
         budget:"budget",
         price:"€€",
@@ -25,6 +28,7 @@ const snowLocations = [
     },
     {
         class: "vienna-card",
+        weather:"snow",
         name:"Vienna",
         budget:"luxury",
         price:"€€€€",
@@ -33,6 +37,7 @@ const snowLocations = [
     },
     {
         class: "zakopane-card",
+        weather:"snow",
         name:"Zakopane",
         budget:"budget",
         price:"€€€",
@@ -41,6 +46,7 @@ const snowLocations = [
     },
     {
         class: "reykjavik-card",
+        weather:"snow",
         name:"Reykjavik",
         budget:"luxury",
         price:"€€€€€",
@@ -51,6 +57,7 @@ const snowLocations = [
 const sunLocations = [
     {
         class: "barcelona-card",
+        weather:"sun",
         name:"Barcelona",
         budget:"budget",
         price:"€€€",
@@ -59,6 +66,7 @@ const sunLocations = [
     },
     {
         class: "paris-card",
+        weather:"sun",
         name:"Paris",
         budget:"luxury",
         price:"€€€€",
@@ -67,6 +75,7 @@ const sunLocations = [
     },
     {
         class: "lisbon-card",
+        weather:"sun",
         name:"Lisbon",
         budget:"budget",
         price:"€€",
@@ -75,6 +84,7 @@ const sunLocations = [
     },
     {
         class: "rome-card",
+        weather:"sun",
         name:"Rome",
         budget:"luxury",
         price:"€€€€€",
@@ -83,6 +93,7 @@ const sunLocations = [
     },
     {
         class: "istanbul-card",
+        weather:"sun",
         name:"Istanbul",
         budget:"budget",
         price:"€€€",
@@ -91,6 +102,7 @@ const sunLocations = [
     },
     {
         class: "athens-card",
+        weather:"sun",
         name:"Athens",
         budget:"luxury",
         price:"€€€€",
