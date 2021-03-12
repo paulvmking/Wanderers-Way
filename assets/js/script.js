@@ -214,20 +214,21 @@ function destinationChosen(category){
     $(`.${category}-card0`).click(function() {
   location.href = "destination.html"
 }),
-    $(`.${category}-card1`).click(function() {
-    location.href = "destination.html";
+    $(`.${category}-card1`).click(function(category) {
     if(category === "sun"){
     destinationName.innerHTML = getDestination[1].name;
     destinationCostDay.innerHTML = getDestination[1].costday;
     destinationTransport.innerHTML = getDestination[1].transport;
     destinationMeals.innerHTML = getDestination[1].meals;
     destinationLanguage.innerHTML = getDestination[1].language;
+    location.href = "destination.html";
     }else {
         destinationName.innerHTML = getDestination[7].name;
         destinationCostDay.innerHTML = getDestination[7].costday;
         destinationTransport.innerHTML = getDestination[7].transport;
         destinationMeals.innerHTML = getDestination[7].meals;
         destinationLanguage.innerHTML = getDestination[7].language;
+        location.href = "destination.html";
     }
 }), 
     $(`.${category}-card2`).click(function() {

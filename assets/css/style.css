@@ -134,6 +134,10 @@ a.nav-link.current {
     background-color: #1e4853;
 }
 
+.mapBtn:focus {
+    background-color: #1e4853;
+}
+
 .register-Btn {
  text-align: center;
 }
