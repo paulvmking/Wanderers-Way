@@ -1,4 +1,4 @@
-const snowLocations = [
+const locations = [
     {
         class: "munich-card",
         weather:"snow",
@@ -52,9 +52,7 @@ const snowLocations = [
         price:"€€€€€",
         image:"assets/images/reykjavik-635330_1280.jpg",
         location:"destination.html?location=reykjavik"
-    }];
-
-const sunLocations = [
+    },
     {
         class: "barcelona-card",
         weather:"sun",
@@ -110,20 +108,11 @@ const sunLocations = [
         location:"destination.html?location=athens"
     }];
 
-for(var i = 0; i < snowLocations.length; i += 1) {
+for(var i = 0; i < locations.length; i += 1) {
     let div = document.createElement("div");
     div.className = "snow-card" + i ;
-    div.id = snowLocations[i].class;
-    div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${snowLocations[i].name}</h4><p class="card-text">${snowLocations[i].price}</p></div>`;
+    div.id = locations[i].class;
+    div.innerHTML = `<img class="card-img-top" src="${locations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${locations[i].name}</h4><p class="card-text">${locations[i].price}</p></div>`;
     let main = document.getElementById("destinations");
     main.appendChild(div); 
-    }
-
-for(var i = 0; i < sunLocations.length; i += 1) {
-    let div = document.createElement("div");
-    div.className = "sun-card" + i ;
-    div.id = sunLocations[i].class;
-    div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
-    let main = document.getElementById("destinations");
-    main.appendChild(div);
     }
