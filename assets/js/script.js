@@ -105,6 +105,7 @@ function showSunLocations() {
     let div = document.createElement("div");
     div.className = "sun-card" + i ;
     div.id = sunLocations[i].class;
+    div.onclick = destinationChosen('sun');
     div.innerHTML =  `<img class="card-img-top" src="${sunLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${sunLocations[i].name}</h5><p class="card-text">${sunLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div);
@@ -167,6 +168,7 @@ function showSnowLocations() {
     let div = document.createElement("div");
     div.className = "snow-card" + i ;
     div.id = snowLocations[i].class;
+    div.onclick = destinationChosen('snow');
     div.innerHTML = `<img class="card-img-top" src="${snowLocations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${snowLocations[i].name}</h4><p class="card-text">${snowLocations[i].price}</p></div>`;
     let main = document.getElementById("main-row");
     main.appendChild(div); 
@@ -219,22 +221,22 @@ function showLuxury(category) {
 function destinationChosen(category){
     $(`.${category}-card0`).click(function() {
   location.href = "destination.html"
+  
 }),
     $(`.${category}-card1`).click(function(category) {
+    location.href = "destination.html";
     if(category === "sun"){
     destinationName.innerHTML = getDestination[1].name;
     destinationCostDay.innerHTML = getDestination[1].costday;
     destinationTransport.innerHTML = getDestination[1].transport;
     destinationMeals.innerHTML = getDestination[1].meals;
     destinationLanguage.innerHTML = getDestination[1].language;
-    location.href = "destination.html";
-    }else {
+    }else if (category === "snow") {
         destinationName.innerHTML = getDestination[7].name;
         destinationCostDay.innerHTML = getDestination[7].costday;
         destinationTransport.innerHTML = getDestination[7].transport;
         destinationMeals.innerHTML = getDestination[7].meals;
         destinationLanguage.innerHTML = getDestination[7].language;
-        location.href = "destination.html";
     }
 }), 
     $(`.${category}-card2`).click(function() {
