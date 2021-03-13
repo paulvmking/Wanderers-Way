@@ -25,14 +25,14 @@ function loadWelcome() {
 function sunChosen(){
 const sunChosen = document.getElementById("sunCard");
 sunChosen.addEventListener("click", function() {
-    location.href = "/destinations.html?weather=sun";
+    location.href = "destinations.html?weather=sun";
 });
 }
 
 function snowChosen(){
 const snowChosen = document.getElementById("snowCard");
 snowChosen.addEventListener("click", function() {
-    location.href = "/destinations.html?weather=snow";
+    location.href = "destinations.html?weather=snow";
 });
 }
 
