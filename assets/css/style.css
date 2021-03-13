@@ -5,7 +5,7 @@ body {
     background-color: #e1eedd;
 }
 
-.container-fluid, alert, alert-danger {
+.container-fluid, .alert, .alert-danger {
     margin : 0;
     border: 0;
 }

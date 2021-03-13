@@ -108,10 +108,3 @@ const locations = [
         location:"destination.html?location=athens"
     }];
 
-for(var i = 0; i < locations.length; i += 1) {
-    let div = document.createElement("div");
-    div.className = "snow-card" + i ;
-    div.id = locations[i].class;
-    let main = document.getElementById("destinations");
-    main.appendChild(div); 
-    }
