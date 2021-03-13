@@ -31,7 +31,6 @@ sunChosen.addEventListener("click", function() {
     }else {
         location.href = destinationUrl;
     }
-    
 });
 }
 

@@ -14,7 +14,7 @@ const renderDestination = () => {
             <div class="row">
                 <div class="col-12 img-container">
                     <div class="main-destination-image" id="dImage">
-                        <img src="${selectedLocation.image}" alt="barcelona">
+                        <img src="${selectedLocation.image}" alt="${selectedLocation.class}">
                         <div class="centered">
                             <h1 id="dName">${selectedLocation.name}</h1>
                         </div>

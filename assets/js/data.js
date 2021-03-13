@@ -54,7 +54,7 @@ const locations = [
         location:"destination.html?location=reykjavik"
     },
     {
-        class: "barcelona-card",
+        class: "barcelona-image",
         weather:"sun",
         name:"Barcelona",
         budget:"budget",
@@ -68,7 +68,7 @@ const locations = [
         language: "Spanish (Native) - English (Widely spoken)",
     },
     {
-        class: "paris-card",
+        class: "paris-image",
         weather:"sun",
         name:"Paris",
         budget:"luxury",
@@ -82,7 +82,7 @@ const locations = [
         language: "French (Native) - English (Widely spoken)",
     },
     {
-        class: "lisbon-card",
+        class: "lisbon-image",
         weather:"sun",
         name:"Lisbon",
         budget:"budget",
@@ -96,7 +96,7 @@ const locations = [
         language: "Portugese (Native) - English (Widely spoken)",
     },
     {
-        class: "rome-card",
+        class: "rome-image",
         weather:"sun",
         name:"Rome",
         budget:"luxury",
@@ -110,7 +110,7 @@ const locations = [
         language: "Italian (Native) - English (Widely spoken)",
     },
     {
-        class: "istanbul-card",
+        class: "istanbul-image",
         weather:"sun",
         name:"Istanbul",
         budget:"budget",
@@ -124,7 +124,7 @@ const locations = [
         language: "Turkish (Native) - English (Widely spoken)",
     },
     {
-        class: "athens-card",
+        class: "athens-image",
         weather:"sun",
         name:"Athens",
         budget:"luxury",
