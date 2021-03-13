@@ -23,16 +23,27 @@ function loadWelcome() {
 
 // To redirect user to appropriate page once choice is clicked
 function sunChosen(){
+let destinationUrl = "destinations.html?weather=sun";
 const sunChosen = document.getElementById("sunCard");
 sunChosen.addEventListener("click", function() {
-    location.href = "destinations.html?weather=sun";
+    if (parent.hostname === "paulvmking.github.io"){
+        parent.location.href = destinationUrl;
+    }else {
+        location.href = destinationUrl;
+    }
+    
 });
 }
 
 function snowChosen(){
+const destinationUrl = "destinations.html?weather=snow";
 const snowChosen = document.getElementById("snowCard");
 snowChosen.addEventListener("click", function() {
-    location.href = "destinations.html?weather=snow";
+    if (parent.hostname === "paulvmking.github.io"){
+        parent.location.href = destinationUrl;
+    }else {
+        location.href = destinationUrl;
+    }
 });
 }
 
