@@ -103,7 +103,7 @@ const locations = [
         price:"€€€€€",
         image:"assets/images/rome1.jpg",
         location:"destination.html?location=rome",
-        image: "https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_1280.jpg",
+        mainimage: "https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_1280.jpg",
         costday: "€131",
         transport:"€17",
         meals:"€37",
