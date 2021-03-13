@@ -22,6 +22,7 @@ function loadWelcome() {
 }
 
 // To redirect user to appropriate page once choice is clicked
+
 function sunChosen(){
 let destinationUrl = "destinations.html?weather=sun";
 const sunChosen = document.getElementById("sunCard");
@@ -100,42 +101,6 @@ function showLuxury(category) {
             $(`.${category}-card5`).toggle(true);
         };
 
-//To handle click events on cards and redirect to destination page 
-
-function destinationChosen(category){
-    $(`.${category}-card0`).click(function() {
-  location.href = "destination.html"
-  
-}),
-    $(`.${category}-card1`).click(function(category) {
-    location.href = "destination.html";
-    if(category === "sun"){
-    destinationName.innerHTML = getDestination[1].name;
-    destinationCostDay.innerHTML = getDestination[1].costday;
-    destinationTransport.innerHTML = getDestination[1].transport;
-    destinationMeals.innerHTML = getDestination[1].meals;
-    destinationLanguage.innerHTML = getDestination[1].language;
-    }else if (category === "snow") {
-        destinationName.innerHTML = getDestination[7].name;
-        destinationCostDay.innerHTML = getDestination[7].costday;
-        destinationTransport.innerHTML = getDestination[7].transport;
-        destinationMeals.innerHTML = getDestination[7].meals;
-        destinationLanguage.innerHTML = getDestination[7].language;
-    }
-}), 
-    $(`.${category}-card2`).click(function() {
-  location.href = "destination.html"
-}),
-    $(`.${category}-card3`).click(function() {
-  location.href = "destination.html"
-}),
-    $(`.${category}-card4`).click(function() {
-  location.href = "destination.html"
-}),
-    $(`.${category}-card5`).click(function() {
-  location.href = "destination.html"
-})
-}
 
 let destinationObjString = JSON.stringify(destinationObj);
 localStorage.setItem("destinationObj", destinationObjString);
