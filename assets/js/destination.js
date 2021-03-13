@@ -9,7 +9,6 @@ const renderDestination = () => {
 
   Object.keys(selectedLocation).filter(key => {
     return innerDestination = `
-    <div class="destination-container container-fluid">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 img-container">
@@ -79,7 +78,6 @@ const renderDestination = () => {
                 </div>
             </div>
         </div>
-    </div>
     </br>`;
   });
 
