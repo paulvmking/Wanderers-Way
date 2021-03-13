@@ -7,8 +7,8 @@ const destinationDiv = document.getElementById('destination');
 const renderDestination = () => {
   let innerDestination = '';
 
-  Object.keys(selectedLocation).map(key => {
-    return innerDestination += `
+  Object.keys(selectedLocation).filter(key => {
+    return innerDestination = `
     <div class="destination-container container-fluid">
         <div class="container-fluid">
             <div class="row">
