@@ -6,7 +6,12 @@ const locations = [
         budget:"budget",
         price:"€€€",
         image:"assets/images/snow.jpg",
-        location:"destination.html?location=munich"
+        location:"destination.html?location=munich",
+        mainimage: "https://cdn.pixabay.com/photo/2017/07/18/17/32/munich-2516492_1280.jpg",
+        costday: "€109",
+        transport:"€14",
+        meals:"€20",
+        language: "German (Native) - English (Widely spoken)",
     },
     {
         class: "zurich-card",
@@ -15,7 +20,12 @@ const locations = [
         budget:"luxury",
         price:"€€€€",
         image:"assets/images/switzerland-4974469_1280.webp",
-        location:"destination.html?location=zurich"
+        location:"destination.html?location=zurich",
+        mainimage: "https://cdn.pixabay.com/photo/2019/11/19/07/50/zurich-4636746__340.jpg",
+        costday: "€168.65",
+        transport:"€16.78",
+        meals:"€36.08",
+        language: "Swiss German (Native) - English (Widely spoken)",
     },
     {
         class: "brasov-card",
@@ -24,7 +34,12 @@ const locations = [
         budget:"budget",
         price:"€€",
         image:"assets/images/snow-5880000_1280.jpg",
-        location:"destination.html?location=brasov"
+        location:"destination.html?location=brasov",
+        mainimage: "https://cdn.pixabay.com/photo/2019/10/19/13/10/mountains-4561361_1280.jpg",
+        costday: "€45.31",
+        transport:"€13.42",
+        meals:"€19.30",
+        language: "Romanian (Native) - English (Widely spoken)",
     },
     {
         class: "vienna-card",
@@ -33,7 +48,12 @@ const locations = [
         budget:"luxury",
         price:"€€€€",
         image:"assets/images/vienna-2989786_1280.jpg",
-        location:"destination.html?location=vienna"
+        location:"destination.html?location=vienna",
+        mainimage: "https://cdn.pixabay.com/photo/2015/09/09/21/33/vienna-933500_1280.jpg",
+        costday: "€117",
+        transport:"€12",
+        meals:"€23",
+        language: "German (Native) - English (Widely spoken)",
     },
     {
         class: "zakopane-card",
@@ -42,7 +62,12 @@ const locations = [
         budget:"budget",
         price:"€€€",
         image:"assets/images/tatry-4359240_1280.jpg",
-        location:"destination.html?location=zakopane"
+        location:"destination.html?location=zakopane",
+        mainimage: "https://cdn.pixabay.com/photo/2019/01/26/19/44/zakopane-3956852_1280.jpg",
+        costday: "€45.31",
+        transport:"€3.93",
+        meals:"€9.23",
+        language: "Polish (Native) - English (Widely spoken)",
     },
     {
         class: "reykjavik-card",
@@ -51,7 +76,12 @@ const locations = [
         budget:"luxury",
         price:"€€€€€",
         image:"assets/images/reykjavik-635330_1280.jpg",
-        location:"destination.html?location=reykjavik"
+        location:"destination.html?location=reykjavik",
+        mainimage: "https://cdn.pixabay.com/photo/2019/01/02/10/23/iceland-3908508_1280.jpg",
+        costday: "€179.55",
+        transport:"€33.56",
+        meals:"€21.81",
+        language: "Icelandic (Native) - English (Widely spoken)",
     },
     {
         class: "barcelona-image",

@@ -137,59 +137,6 @@ function destinationChosen(category){
 })
 }
 
-//to add all replaceable information to local storage to be used for destination page 
-
-var destinationObj = [
-{
-    name: "Munich",
-    image: "https://cdn.pixabay.com/photo/2017/07/18/17/32/munich-2516492_1280.jpg",
-    costday: "€109",
-    transport:"€14",
-    meals:"€20",
-    language: "German (Native) - English (Widely spoken)",
-},
-{
-    name: "Zurich",
-    image: "https://cdn.pixabay.com/photo/2019/11/19/07/50/zurich-4636746__340.jpg",
-    costday: "€168.65",
-    transport:"€16.78",
-    meals:"€36.08",
-    language: "Swiss German (Native) - English (Widely spoken)",
-},
-{
-    name: "Brasov",
-    image: "https://cdn.pixabay.com/photo/2019/10/19/13/10/mountains-4561361_1280.jpg",
-    costday: "€45.31",
-    transport:"€13.42",
-    meals:"€19.30",
-    language: "Romanian (Native) - English (Widely spoken)",
-},
-{
-    name: "Vienna",
-    image: "https://cdn.pixabay.com/photo/2015/09/09/21/33/vienna-933500_1280.jpg",
-    costday: "€117",
-    transport:"€12",
-    meals:"€23",
-    language: "German (Native) - English (Widely spoken)",
-},
-{
-    name: "Zakopane",
-    image: "https://cdn.pixabay.com/photo/2019/01/26/19/44/zakopane-3956852_1280.jpg",
-    costday: "€45.31",
-    transport:"€3.93",
-    meals:"€9.23",
-    language: "Polish (Native) - English (Widely spoken)",
-},
-{
-    name: "Reykjavik",
-    image: "https://cdn.pixabay.com/photo/2019/01/02/10/23/iceland-3908508_1280.jpg",
-    costday: "€179.55",
-    transport:"€33.56",
-    meals:"€21.81",
-    language: "Icelandic (Native) - English (Widely spoken)",
-}
-]
-
 let destinationObjString = JSON.stringify(destinationObj);
 localStorage.setItem("destinationObj", destinationObjString);
 let getDestination = JSON.parse(localStorage.getItem("destinationObj"));
