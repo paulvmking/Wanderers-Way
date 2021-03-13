@@ -60,7 +60,12 @@ const locations = [
         budget:"budget",
         price:"€€€",
         image:"assets/images/sun4.webp",
-        location:"destination.html?location=barcelona"
+        location:"destination.html?location=barcelona",
+        mainimage: "https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_1280.jpg",
+        costday: "€116",
+        transport:"€15",
+        meals:"€23",
+        language: "Spanish (Native) - English (Widely spoken)",
     },
     {
         class: "paris-card",
@@ -69,7 +74,12 @@ const locations = [
         budget:"luxury",
         price:"€€€€",
         image:"assets/images/paris1.jpg",
-        location:"destination.html?location=paris"
+        location:"destination.html?location=paris",
+        mainimage: "https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg",
+        costday: "€162",
+        transport:"€16",
+        meals:"€29",
+        language: "French (Native) - English (Widely spoken)",
     },
     {
         class: "lisbon-card",
@@ -78,7 +88,12 @@ const locations = [
         budget:"budget",
         price:"€€",
         image:"assets/images/sun2.webp",
-        location:"destination.html?location=lisbon"
+        location:"destination.html?location=lisbon",
+        mainimage: "https://cdn.pixabay.com/photo/2016/11/05/22/13/lisbon-1801727_1280.jpg",
+        costday: "€96",
+        transport:"€17",
+        meals:"€31",
+        language: "Portugese (Native) - English (Widely spoken)",
     },
     {
         class: "rome-card",
@@ -87,7 +102,12 @@ const locations = [
         budget:"luxury",
         price:"€€€€€",
         image:"assets/images/rome1.jpg",
-        location:"destination.html?location=rome"
+        location:"destination.html?location=rome",
+        image: "https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_1280.jpg",
+        costday: "€131",
+        transport:"€17",
+        meals:"€37",
+        language: "Italian (Native) - English (Widely spoken)",
     },
     {
         class: "istanbul-card",
@@ -96,7 +116,12 @@ const locations = [
         budget:"budget",
         price:"€€€",
         image:"assets/images/istanbul.jpg",
-        location:"destination.html?location=istanbul"
+        location:"destination.html?location=istanbul",
+        mainimage: "https://cdn.pixabay.com/photo/2016/03/16/16/31/ayasofia-1261148__340.jpg",
+        costday: "€25",
+        transport:"€1.70",
+        meals:"€3.85",
+        language: "Turkish (Native) - English (Widely spoken)",
     },
     {
         class: "athens-card",
@@ -105,6 +130,11 @@ const locations = [
         budget:"luxury",
         price:"€€€€",
         image:"assets/images/athens2.jpg",
-        location:"destination.html?location=athens"
+        location:"destination.html?location=athens",
+        mainimage: "https://cdn.pixabay.com/photo/2020/03/18/11/28/athens-4943645_1280.jpg",
+        costday: "€72",
+        transport:"€13",
+        meals:"€20",
+        language: "Greek (Native) - English (Widely spoken)",
     }];
 
