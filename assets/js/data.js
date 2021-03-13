@@ -110,9 +110,8 @@ const locations = [
 
 for(var i = 0; i < locations.length; i += 1) {
     let div = document.createElement("div");
-    div.className = "card" + i ;
+    div.className = "snow-card" + i ;
     div.id = locations[i].class;
-    div.innerHTML = `<img class="card-img-top" src="${locations[i].image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${locations[i].name}</h4><p class="card-text">${locations[i].price}</p></div>`;
     let main = document.getElementById("destinations");
     main.appendChild(div); 
     }
