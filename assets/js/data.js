@@ -117,7 +117,7 @@ const locations = [
         price:"€€€",
         image:"assets/images/istanbul.jpg",
         location:"destination.html?location=istanbul",
-        mainimage: "https://cdn.pixabay.com/photo/2016/03/16/16/31/ayasofia-1261148__340.jpg",
+        mainimage: "https://cdn.pixabay.com/photo/2015/12/15/15/12/istanbul-1094404_1280.jpg",
         costday: "€25",
         transport:"€1.70",
         meals:"€3.85",
