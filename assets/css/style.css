@@ -216,15 +216,7 @@ a.nav-link.current {
     font-family: "Akaya Telivigala", "sans-serif";
 }
 
-.sun-card0:hover, .sun-card1:hover, .sun-card2:hover, .sun-card3:hover, .sun-card4:hover, .sun-card5:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 1s ease;
-    cursor: pointer;
-}
-
-.snow-card0:hover, .snow-card1:hover, .snow-card2:hover, .snow-card3:hover, .snow-card4:hover, .snow-card5:hover {
+.hover:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
