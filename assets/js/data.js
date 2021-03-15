@@ -100,14 +100,14 @@ const locations = [
         transport:"€3.93",
         meals:"€9.23",
         language: "Polish (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"49.298096112740424",
+        long:"19.948639660043415",
+        thingsToDoLat:"49.309475227442256",
+        thingsToDoLong:"19.936680452120314",
+        hotelsLat:"49.295521323546794",
+        hotelsLong:"19.949412136279772",
+        foodDrinksLat:"49.29185481551452",
+        foodDrinksLong:"19.93610837884912"
     },
     {
         class: "reykjavik-card",
