@@ -78,14 +78,14 @@ const locations = [
         transport:"€12",
         meals:"€23",
         language: "German (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"48.20858936355958",
+        long:"16.374216077515435",
+        thingsToDoLat:"48.21010512378387",
+        thingsToDoLong:"16.367006299006672",
+        hotelsLat:"48.20675895171026",
+        hotelsLong:"16.371297833653102",
+        foodDrinksLat:"48.20929005071677",
+        foodDrinksLong:"16.376061436992668"
     },
     {
         class: "zakopane-card",
