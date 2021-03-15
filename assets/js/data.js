@@ -14,6 +14,12 @@ const locations = [
         language: "German (Native) - English (Widely spoken)",
         lat:"48.141539",
         long:"11.539766",
+        thingsToDoLat:"48.13823115892342",
+        thingsToDoLong:"11.575333604083548",
+        hotelsLat:"48.137290551318856",
+        hotelsLong:"11.56119329839521",
+        foodDrinksLat:"48.13703263975606",
+        foodDrinksLong:"11.574819255902263"
     },
     {
         class: "zurich-card",
