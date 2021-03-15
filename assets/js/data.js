@@ -144,14 +144,14 @@ const locations = [
         transport:"€15",
         meals:"€23",
         language: "Spanish (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"41.38214759416147",
+        long:"2.1642152748812653",
+        thingsToDoLat:"41.3789310645375",
+        thingsToDoLong:"2.192511692778776",
+        hotelsLat:"41.37995794944715",
+        hotelsLong:"2.1692685570815877",
+        foodDrinksLat:"41.38552851839112",
+        foodDrinksLong:"2.18279761990032"
     },
     {
         class: "paris-image",
