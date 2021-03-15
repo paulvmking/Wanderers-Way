@@ -232,14 +232,14 @@ const locations = [
         transport:"€1.70",
         meals:"€3.85",
         language: "Turkish (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"41.01120013872559",
+        long:"28.9833067567099",
+        thingsToDoLat:"41.00609960054103",
+        thingsToDoLong:"28.97532450077274",
+        hotelsLat:"41.01107060621938",
+        hotelsLong:"28.95764337907456",
+        foodDrinksLat:"41.0066987318718",
+        foodDrinksLong:"28.969981540388353"
     },
     {
         class: "athens-image",
