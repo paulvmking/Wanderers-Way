@@ -81,14 +81,7 @@ function showAll(category) {
 
 //budget toggle
 
-function showBudget(category) { 
-            $(`.${category}-card0`).toggle(true);
-            $(`.${category}-card1`).toggle(false);
-            $(`.${category}-card2`).toggle(true);
-            $(`.${category}-card3`).toggle(false);
-            $(`.${category}-card4`).toggle(true);
-            $(`.${category}-card5`).toggle(false);
-        };
+
 
 //luxury toggle
 
@@ -102,21 +95,3 @@ function showLuxury(category) {
         };
 
 
-let destinationObjString = JSON.stringify(destinationObj);
-localStorage.setItem("destinationObj", destinationObjString);
-let getDestination = JSON.parse(localStorage.getItem("destinationObj"));
-console.log(getDestination);
-
-
-let destinationName = document.getElementById("dName");
-let destinationCostDay = document.getElementById("dayCost");
-let destinationTransport = document.getElementById("transCost");
-let destinationMeals = document.getElementById("mealCost");
-let destinationLanguage = document.getElementById("language");
-
-/*
-destinationName.innerHTML = getDestination[1].name;
-destinationName.innerHTML = getDestination[2].name;
-destinationName.innerHTML = getDestination[3].name;
-destinationName.innerHTML = getDestination[4].name;
-destinationName.innerHTML = getDestination[5].name;*/
