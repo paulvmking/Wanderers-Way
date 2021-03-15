@@ -15,12 +15,17 @@ const renderDestinations = () => {
 }
 
 renderDestinations();
+// to show only selected budget locations after button click 
 
 function showBudget(category){
     if (category === 'all'){
         locations.map((location) => $(`.${location.name}-card`).toggle(true));
     }else {
-        const selectedLocation = locations.filter((location) => location.budget === category);
+        let selectedLocation = locations.filter((location) => location.budget === category);
+        let nonSelectedLocation = locations.filter((location) => location.budget !== category);
+
+        selectedLocation.map((location) => $(`.${location.name}-card`).toggle(true));
+        nonSelectedLocation.map((location) => $(`.${location.name}-card`).toggle(false));
     }
 }
 
