@@ -56,14 +56,14 @@ const locations = [
         transport:"€13.42",
         meals:"€19.30",
         language: "Romanian (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"45.65197672756528",
+        long:"25.60882046938026",
+        thingsToDoLat:"45.67477092044061",
+        thingsToDoLong:"25.586075335754167",
+        hotelsLat:"45.66169538679689",
+        hotelsLong:"25.61474278719234",
+        foodDrinksLat:"45.655402736904314",
+        foodDrinksLong:"25.62671987392006"
     },
     {
         class: "vienna-card",
