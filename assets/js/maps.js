@@ -20,7 +20,7 @@ function initMap(){
         }
     })
 
-    let labels = selectedLocation.name;
+    let labels = "ABC";
 
     let allLocationsShow = [
     {lat:hotelCoordLat, lng:hotelCoordLong},
@@ -31,7 +31,7 @@ function initMap(){
     let markers = allLocationsShow.map(function(location, i ){
         return new google.maps.Marker({
             position:location,
-            label:labels
+            label:labels[i % labels.length]
         });
     })
     let markerClusters = new MarkerClusterer(destMap, markers, {
