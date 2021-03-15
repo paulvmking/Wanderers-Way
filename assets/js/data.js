@@ -166,14 +166,14 @@ const locations = [
         transport:"€16",
         meals:"€29",
         language: "French (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"48.86403265645354",
+        long:"2.352894555060878",
+        thingsToDoLat:"48.86380680170476",
+        thingsToDoLong:"2.336071739246861",
+        hotelsLat:"48.8617175969587",
+        hotelsLong:"2.323025473921705",
+        foodDrinksLat:"48.85358580773305",
+        foodDrinksLong:"2.343367348145797"
     },
     {
         class: "lisbon-image",
