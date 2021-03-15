@@ -34,14 +34,14 @@ const locations = [
         transport:"€16.78",
         meals:"€36.08",
         language: "Swiss German (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"47.38853330757656",
+        long:"8.511715371276626",
+        thingsToDoLat:"47.39313827423268",
+        thingsToDoLong:"8.504645068035096",
+        hotelsLat:"47.390697837296784",
+        hotelsLong:"8.509998757227716",
+        foodDrinksLat:"47.391671120325846",
+        foodDrinksLong:"8.511929947818611"
     },
     {
         class: "brasov-card",
