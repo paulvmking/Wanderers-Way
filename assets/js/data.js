@@ -254,13 +254,13 @@ const locations = [
         transport:"€13",
         meals:"€20",
         language: "Greek (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"37.97554288082995",
+        long:"23.731815666061753",
+        thingsToDoLat:"37.97542447903629",
+        thingsToDoLong:"23.7214516098628",
+        hotelsLat:"37.97598265679962",
+        hotelsLong:"23.731386512496947",
+        foodDrinksLat:"37.976862200928345",
+        foodDrinksLong:"23.724520057135"
     }];
 
