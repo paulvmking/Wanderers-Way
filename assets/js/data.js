@@ -34,6 +34,14 @@ const locations = [
         transport:"€16.78",
         meals:"€36.08",
         language: "Swiss German (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "brasov-card",
@@ -48,6 +56,14 @@ const locations = [
         transport:"€13.42",
         meals:"€19.30",
         language: "Romanian (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "vienna-card",
@@ -62,6 +78,14 @@ const locations = [
         transport:"€12",
         meals:"€23",
         language: "German (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "zakopane-card",
@@ -76,6 +100,14 @@ const locations = [
         transport:"€3.93",
         meals:"€9.23",
         language: "Polish (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "reykjavik-card",
@@ -90,6 +122,14 @@ const locations = [
         transport:"€33.56",
         meals:"€21.81",
         language: "Icelandic (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "barcelona-image",
@@ -104,6 +144,14 @@ const locations = [
         transport:"€15",
         meals:"€23",
         language: "Spanish (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "paris-image",
@@ -118,6 +166,14 @@ const locations = [
         transport:"€16",
         meals:"€29",
         language: "French (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "lisbon-image",
@@ -132,6 +188,14 @@ const locations = [
         transport:"€17",
         meals:"€31",
         language: "Portugese (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "rome-image",
@@ -146,6 +210,14 @@ const locations = [
         transport:"€17",
         meals:"€37",
         language: "Italian (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "istanbul-image",
@@ -160,6 +232,14 @@ const locations = [
         transport:"€1.70",
         meals:"€3.85",
         language: "Turkish (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     },
     {
         class: "athens-image",
@@ -174,5 +254,13 @@ const locations = [
         transport:"€13",
         meals:"€20",
         language: "Greek (Native) - English (Widely spoken)",
+        lat:"",
+        long:"",
+        thingsToDoLat:"",
+        thingsToDoLong:"",
+        hotelsLat:"",
+        hotelsLong:"",
+        foodDrinksLat:"",
+        foodDrinksLong:""
     }];
 
