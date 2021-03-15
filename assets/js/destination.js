@@ -73,7 +73,6 @@ const renderDestination = () => {
                 </div>
                 <div class="col-6">
                     <div class="map-right my-5" id="map-canvas">
-                        
                     </div>
                 </div>
             </div>

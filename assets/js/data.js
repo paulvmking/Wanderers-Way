@@ -13,7 +13,7 @@ const locations = [
         meals:"€20",
         language: "German (Native) - English (Widely spoken)",
         lat:"48.141539",
-        long:"11.539766"
+        long:"11.539766",
     },
     {
         class: "zurich-card",
