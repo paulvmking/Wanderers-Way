@@ -188,14 +188,14 @@ const locations = [
         transport:"€17",
         meals:"€31",
         language: "Portugese (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"38.72398841310525",
+        long:"-9.139434406348734",
+        thingsToDoLat:"38.7144791190023",
+        thingsToDoLong:"-9.133555003920966",
+        hotelsLat:"38.715266027592065",
+        hotelsLong:"-9.13705260465781",
+        foodDrinksLat:"38.720656955716",
+        foodDrinksLong:"-9.135893890303274"
     },
     {
         class: "rome-image",
