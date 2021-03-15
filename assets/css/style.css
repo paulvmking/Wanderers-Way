@@ -274,6 +274,7 @@ a.nav-link.current {
 .map-buttons {
   justify-content: center;
   height: 33vh;
+  min-height: 360px;
 }
 
 .map-buttons button {
@@ -292,6 +293,10 @@ a.nav-link.current {
   box-shadow: 3px 3px 4px #000; 
   border-radius: 5%;
   margin: 10px auto;
+}
+
+div#map-canvas {
+    min-height: 360px;
 }
 
 .modal-content{
