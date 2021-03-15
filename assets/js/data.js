@@ -122,14 +122,14 @@ const locations = [
         transport:"€33.56",
         meals:"€21.81",
         language: "Icelandic (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"64.14470503876494",
+        long:"-21.94685730903377",
+        thingsToDoLat:"64.14287087177821",
+        thingsToDoLong:"-21.948058937995746",
+        hotelsLat:"64.14657651285384",
+        hotelsLong:"-21.92831787936118",
+        foodDrinksLat:"64.14463017718708",
+        foodDrinksLong:"-21.90746102024049"
     },
     {
         class: "barcelona-image",
