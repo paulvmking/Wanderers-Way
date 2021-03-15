@@ -210,14 +210,14 @@ const locations = [
         transport:"€17",
         meals:"€37",
         language: "Italian (Native) - English (Widely spoken)",
-        lat:"",
-        long:"",
-        thingsToDoLat:"",
-        thingsToDoLong:"",
-        hotelsLat:"",
-        hotelsLong:"",
-        foodDrinksLat:"",
-        foodDrinksLong:""
+        lat:"41.896954188685164",
+        long:"12.490670987039529",
+        thingsToDoLat:"41.89088455755253",
+        thingsToDoLong:"12.492130108819316",
+        hotelsLat:"41.894398624826074",
+        hotelsLong:"12.471788234595227",
+        foodDrinksLat:"41.892577723067305",
+        foodDrinksLong:"12.50530511996795"
     },
     {
         class: "istanbul-image",
