@@ -84,5 +84,7 @@ const renderDestination = () => {
   destinationDiv.innerHTML = innerDestination;
   console.log(destinationDiv);
 }
-
 renderDestination();
+
+
+const apiKey = "AIzaSyCPorRsusa8jyaTlU75exBR0zZuH3Lx-Iw";
