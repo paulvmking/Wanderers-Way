@@ -8,12 +8,21 @@ const renderDestinations = () => {
   let innerDestination = '';
 
   destinationsByWeather.map(dest => {
-    return innerDestination = `${innerDestination}<a class="hover" href="destination.html?destination=${dest.name}"><img class="card-img-top" src="${dest.image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${dest.name}</h4><p class="card-text">${dest.price}</p></div></a>`;
+    return innerDestination = `${innerDestination}<a class="hover ${dest.name}-card" href="destination.html?destination=${dest.name}"><img class="card-img-top" src="${dest.image}" alt="Card image cap"><div class="card-body"><h4 class="card-title">${dest.name}</h4><p class="card-text">${dest.price}</p></div></a>`;
   });
 
   destinationsDiv.innerHTML = innerDestination
 }
 
 renderDestinations();
+
+function showBudget(category){
+    if (category === 'all'){
+        locations.map((location) => $(`.${location.name}-card`).toggle(true));
+    }else {
+        const selectedLocation = locations.filter((location) => location.budget === category);
+    }
+}
+
 
  

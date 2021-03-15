@@ -246,11 +246,13 @@ a.nav-link.current {
 
 .main-destination-image {
     height: 66vh;
+    width: 100%;
     position: relative;
     text-align: center;
     color: white;
     font-family: "Lobster", "sans-serif";
     overflow: hidden;
+    opacity: 0.8;
 }
 
 .city-info {

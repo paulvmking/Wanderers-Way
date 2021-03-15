@@ -25,7 +25,7 @@ const renderDestination = () => {
             <div class="row">
                 <div class="col-12">
                     <div class="city-info">
-                        <h3>City Information</h3>
+                        <h3>City Information<h5>All prices in euros € regardless of local currency</h5></h3>
                     </div>
                 </div>
             </div>
