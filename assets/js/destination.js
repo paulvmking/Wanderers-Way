@@ -73,7 +73,7 @@ const renderDestination = () => {
                 </div>
                 <div class="col-6">
                     <div class="map-right my-5" id="map-canvas">
-                        <img src="https://cdn.pixabay.com/photo/2012/01/09/09/59/earth-11595_1280.jpg" alt="">
+                        
                     </div>
                 </div>
             </div>
