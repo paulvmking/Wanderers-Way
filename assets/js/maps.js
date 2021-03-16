@@ -61,5 +61,4 @@ function initMap(){
     markers[i].setMap(map);
   }
 }
-
 }
