@@ -62,6 +62,13 @@ const renderDestination = () => {
                 </div>
             </div>
         </div>
+        <div class= "container">
+          <div class= "row">
+            <div class="col-12">
+              <button class ="myBtn" onclick="backChosen()"  >${selectedLocation.button}</button>
+            </div>
+          </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-6 map-container">
@@ -84,3 +91,9 @@ const renderDestination = () => {
   console.log(destinationDiv);
 }
 renderDestination();
+
+
+function backChosen(){
+    let backChosen = selectedLocation.link;
+    location.href = backChosen;
+}
