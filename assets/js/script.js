@@ -71,7 +71,7 @@ $('#map-buttons').on('click', '.mapBtn', function() {
 });
 
 document.getElementById('register-modal').addEventListener('submit', function () {
-    alert("Thank you for registering!Please await a reply to continue to your bookings!");
-}, false);
+    alert("Thank you for registering!  Please await a reply to continue to your bookings!");
+},false);
 
 
