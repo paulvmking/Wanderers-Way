@@ -1,5 +1,3 @@
-const apiKey = "AIzaSyAEu1mtMmyOj19JwZwkD93bJvNCcDdgGNA";
-
 let centerCoordLat = parseFloat(selectedLocation.lat);
 let centerCoordLong = parseFloat(selectedLocation.long);
 
@@ -9,10 +7,15 @@ let thingsCoordLat = parseFloat(selectedLocation.thingsToDoLat);
 let thingsCoordLong = parseFloat(selectedLocation.thingsToDoLong);
 let foodDrinksLat = parseFloat(selectedLocation.foodDrinksLat);
 let foodDrinksLong = parseFloat(selectedLocation.foodDrinksLong);
-
+let map;
+let markers = []
 
 function initMap(){
-    let destMap = new google.maps.Map(document.getElementById("map-canvas"), {
+    let hotel = {lat:hotelCoordLat, lng:hotelCoordLong};
+    let things = {lat:thingsCoordLat, lng:thingsCoordLong};
+    let food = {lat:foodDrinksLat, lng:foodDrinksLong};
+
+    map = new google.maps.Map(document.getElementById("map-canvas"), {
         zoom: 8,
         center:{
             lat:centerCoordLat,
@@ -20,24 +23,43 @@ function initMap(){
         }
     })
 
-    let labels = "ABC";
-
-    let allLocationsShow = [
-    {lat:hotelCoordLat, lng:hotelCoordLong},
-    {lat:thingsCoordLat, lng:thingsCoordLong},
-    {lat:foodDrinksLat, lng:foodDrinksLong}
-    ];
-
-    let markers = allLocationsShow.map(function(location, i ){
-        return new google.maps.Marker({
+    function addMarker(location) {
+        var marker = new google.maps.Marker({
             position:location,
-            label:labels[i % labels.length]
+            map:map
         });
+        markers.push(marker);
+  }
+
+  function clearMarkers() {
+        setMapOnAll(null);
+    }
+
+    $(document).ready(function () {
+        $("#hotelBtn").on("click", (event) => {
+          clearMarkers();
+          addMarker(hotel);
+        })
     })
-    let markerClusters = new MarkerClusterer(destMap, markers, {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-  });
+
+    $(document).ready(function () {
+        $("#thingsBtn").on("click", (event) => {
+            clearMarkers();
+            addMarker(things);
+        })
+    })
+
+    $(document).ready(function () {
+        $("#foodBtn").on("click", (event) => {
+            clearMarkers();
+            addMarker(food);
+        })
+    })
+
+    function setMapOnAll(map) {
+    for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(map);
+  }
 }
 
-
+}
