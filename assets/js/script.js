@@ -70,6 +70,8 @@ $('#map-buttons').on('click', '.mapBtn', function() {
   $(this).addClass('current').siblings().removeClass('current');
 });
 
-
+document.getElementById('register-modal').addEventListener('submit', function () {
+    alert("Thank you for registering!Please await a reply to continue to your bookings!");
+}, false);
 
 
