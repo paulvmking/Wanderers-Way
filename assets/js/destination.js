@@ -64,7 +64,7 @@ const renderDestination = () => {
         </div>
         <div class= "container">
           <div class= "row">
-            <div class="col-12">
+            <div class="col-12 backBtn">
               <button class ="myBtn" onclick="backChosen()"  >${selectedLocation.button}</button>
             </div>
           </div>

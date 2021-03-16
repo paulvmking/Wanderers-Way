@@ -103,6 +103,10 @@ a.nav-link.current {
 
 /*button styles*/
 
+.backBtn {
+    text-align: center;
+}
+
 #myBtnContainer {
     margin-top: 20px;
     margin-bottom: 20px;
