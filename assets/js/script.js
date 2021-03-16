@@ -70,32 +70,6 @@ $('#map-buttons').on('click', '.mapBtn', function() {
   $(this).addClass('current').siblings().removeClass('current');
 });
 
-//jQuery To filter divs according to button clicked
 
-//all toggle 
-
-function showAll(category) {       
-            $(`.${category}-card0`).toggle(true);
-            $(`.${category}-card1`).toggle(true);
-            $(`.${category}-card2`).toggle(true);
-            $(`.${category}-card3`).toggle(true);
-            $(`.${category}-card4`).toggle(true);
-            $(`.${category}-card5`).toggle(true);
-        };
-
-//budget toggle
-
-
-
-//luxury toggle
-
-function showLuxury(category) {       
-            $(`.${category}-card0`).toggle(false);
-            $(`.${category}-card1`).toggle(true);
-            $(`.${category}-card2`).toggle(false);
-            $(`.${category}-card3`).toggle(true);
-            $(`.${category}-card4`).toggle(false);
-            $(`.${category}-card5`).toggle(true);
-        };
 
 
