@@ -61,4 +61,10 @@ function initMap(){
     markers[i].setMap(map);
   }
 }
+
+$('#map-buttons').on('click', '.mapBtn', function() {
+  $(this).addClass('current').siblings().removeClass('current');
+});
+
 }
+

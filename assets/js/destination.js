@@ -98,3 +98,6 @@ function backChosen(){
     let backChosen = selectedLocation.link;
     location.href = backChosen;
 }
+
+
+
