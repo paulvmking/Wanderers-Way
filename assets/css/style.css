@@ -130,7 +130,15 @@ a.nav-link.current {
   background-color: #15b3bb;
 }
 
+.mapBtn:hover {
+  background-color: #15b3bb;
+}
+
 .myBtn.current {
+    background-color: #1e4853;
+}
+
+.mapBtn.current {
     background-color: #1e4853;
 }
 
