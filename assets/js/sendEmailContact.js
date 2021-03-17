@@ -4,7 +4,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "message":contactForm.message.value
     }) 
-    alert("Thank you for registering!  Please await a reply to continue to your bookings!");
+    alert("Thank you for contacting us!  Please await a reply to continue!");
     return false;
     }
 
