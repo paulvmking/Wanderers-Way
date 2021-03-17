@@ -268,6 +268,10 @@ a.nav-link.current {
     opacity: 0.8;
 }
 
+#dName {
+    -webkit-text-stroke: 1px black;
+}
+
 .city-info {
     font-family: "Akaya Telivigala","sans-serif";
 }
