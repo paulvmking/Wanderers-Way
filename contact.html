@@ -51,32 +51,27 @@
             </ul>
         </div>
     </nav>
-<div class="grid">
+    <div class="grid">
         <div class="container contact-form-container">
             <div class="row">
                 <div class="col-6 contact-form-left my-5 d-none d-sm-none d-md-inline d-lg-inline">
                     <div class="contact-image"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 contact-form-right my-5">
-                    <form class="contact-form">
+                    <form class="contact-form" onsubmit="return sendMail(this);">
                         <div class="form-group">
                             <label for="first-name-input">Name</label>
-                            <input type="text" class="form-control" id="first-name-input"
+                            <input type="text" name="name" class="form-control" id="first-name-input"
                                 placeholder="Enter your first name" required>
                         </div>
                         <div class="form-group">
-                            <label for="surname-input">Surname</label>
-                            <input type="text" class="form-control" id="surname-input"
-                                placeholder="Enter your last name" required>
-                        </div>
-                        <div class="form-group">
                             <label for="email-input">Email Address</label>
-                            <input type="email" class="form-control" id="email-input"
+                            <input type="email" name="emailaddress" class="form-control" id="email-input"
                                 placeholder="Enter your email address" required>
                         </div>
                         <div class="form-group">
                             <label for="query-input">Your Question</label>
-                            <input type="text" class="form-control" id="query-input" placeholder="Ask us something">
+                            <input type="text" name="message" class="form-control" id="query-input" placeholder="Ask us something" required>
                         </div>
                         <div class="form-group row my-5">
                             <button type="submit" class=" myBtn btn-lg btn-info offset-5">Send!</button>
@@ -106,10 +101,17 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="assets/js/sendEmail.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_uZfhju5blSucDKMUF6PGS");
+        })();
+    </script>
 </body>
 
 </html>
