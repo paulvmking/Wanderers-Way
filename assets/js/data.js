@@ -31,7 +31,7 @@ const locations = [
         price:"€€€€",
         image:"assets/images/switzerland-4974469_1280.webp",
         location:"destination.html?location=zurich",
-        mainimage: "https://cdn.pixabay.com/photo/2019/11/19/07/50/zurich-4636746__340.jpg",
+        mainimage: "https://cdn.pixabay.com/photo/2014/10/26/19/02/zurich-504252_1280.jpg",
         costday: "€168.65",
         transport:"€16.78",
         meals:"€36.08",
