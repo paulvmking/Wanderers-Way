@@ -328,27 +328,27 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - All information is labelled and contrasted to allow even users who have difficulty reading to see all text and content clearly.
   - All links like **gov.ie** and the additonal information are highlighted in blue for easy recognition.
 
-   3. **As a new user I expect to be able to navigate the site easily to find a holiday.**
+ 3. **As a new user I expect to be able to navigate the site easily to find a holiday.**
   - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
   - The **cards** and **images** are clearly labelled with destination **names** and provide additonal infromation when clicked.
   - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**.
 
-   4. **As a new user I expect to be able to sign up to services.**
+ 4. **As a new user I expect to be able to sign up to services.**
   - **Register now** button located on the **homepage** for ability to sign up to services immediately this is also located on the main **destinations** page.
 
-   5. **As a new user I expect to be able to contact the business to ask question prior to signing up.**
+ 5. **As a new user I expect to be able to contact the business to ask question prior to signing up.**
   - The **contact page** is labelled in the navigation menu and easy to find.
   - Upon clicking on contact tab the user will find a simple 3 step form with the ability to ask a question but **no requirement** to sign up.
 
-   6. **As a new user I expect to be able to find additional information to help my decision.**
+ 6. **As a new user I expect to be able to find additional information to help my decision.**
   - Additional information is included on each of the destination pages showing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** to aid the user in deciding.
   - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**. 
 
-   7. **As a potential customer I want an easy sign up process.**
+ 7. **As a potential customer I want an easy sign up process.**
   - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
   - The sign up form is contained in the **modal** and is accessed with the **register now** button.
 
-   8. **As a potential customer I want reassurance that the service is indeed worth it.**
+ 8. **As a potential customer I want reassurance that the service is indeed worth it.**
   - The site contains price indications both on the **destinations** page in the form of **€** signs with a legend and also on the destination page once one has been chosen where it lists common costs.
   - These features are not present in most travel sites and from **usability** testing done seems to have a positive impact as it is so simple and really conveys the ideal **cost** for each user.
   - The sites **simplicity** in navigation and a **stress free** environment to browse destinations also add value to this with no bold advertisements or constant links to other websites most
