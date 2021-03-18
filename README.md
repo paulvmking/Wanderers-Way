@@ -1,5 +1,7 @@
 # Wanderers Way
 
+<img src="assets/images/responsive.png">
+
 ### Travel Planner 
 
 A website designed to provide user's with a choice of avaiable travel locations in an easy to use and new format.
