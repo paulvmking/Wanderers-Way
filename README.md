@@ -312,6 +312,20 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - The register button is available immediately to allow the user to bypass not being able to book(this feature is not implemented yet.).
   - Upon clicking either of the images they will be redirected to obvious travel related pages with multiple choices of destinations.
 
+ 2. **As a new user I want an intuitive search experience**
+  - Upon landing on the home page the user will see the first navigation option which is the choice between sun and snow.Upon choosing the will be redirected to another choice page
+  this time containing cards the user can click to view more information about their chosen destination.This route of clicking images I found to be intuitive as there is little 
+  to no reading involved as the images describe the location mostly allowing for a very relaxing search experience.
+  - Navigation is done mainly by clicking images, cards or buttons as the destination and destinations pages are hidden from the navbar to encourage the user to use the 
+  intended navigational route.
+  - Upon entering the page the user will notice the **top located Navbar**. On mobile this is displayed as a hamburger icon and on desktop it will be a standard navbar layout. Upon clicking any of these
+  navbar links the user will be redirected to the corresponding page.
+  - The **navbar** sticks to the screen responsively allowing the user to navigate to other pages at any time.
+  - The **buttons** on the pages are highlighted in different colours to stand out from the background allowing the user to find them easily and are all linked either
+  to internal pages or external pages.
+  - All information is labelled and contrasted to allow even users who have difficulty reading to see all text and content clearly.
+  - All links like **gov.ie** and the additonal information are highlighted in blue for easy recognition.
+
 ## Usability 
 
 - I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
