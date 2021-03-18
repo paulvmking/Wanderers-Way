@@ -202,6 +202,18 @@ Also used to create destination cards and destination page content through use o
 
 ## Navbar Functionality 
 
+- **Aim** - When the **WW** icon on the left of navbar is clicked it redirects user to homepage.
+- **Result** - This was done and user is redirected therefore passing the test.
+- **Aim** - When links to other pages are clicked, the user is redirected to the mentioned page.
+- **Result** - Navbar link clicked and redirected to corresponding page therefore passing the test.
+- **Aim** - When screen size is reduced the **hamburger** icon displays and when clicked redirects user to corresponding page.
+- **Result** - Screen size reduced activates **hamburger** icon and when clicked it reveals the page navigation which when clicked redirects user to corresponding page 
+therefore passing the test.
+ - **Aim** - To see whether nagivation bar stays on the top of the screen on both all screen sizes.
+ - **Result** - Screen size was reduced and navigation bar sticks to top of page on all sizes therefore passing the test.
+ - **Aim** - When **navbar** navigation link to other pages is clicked colour should change indicating current page.
+ - **Result** - Links clicked and colour changes showing users current location therefore passing the test.
+
 ## Footer Functionality
 
 ## Button/Link Functionality 
