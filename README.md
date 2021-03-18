@@ -366,6 +366,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - The sites sign up is free and there is no charge displayed on the site(although average costs of destinations are shown).
   - It's value is maintained from that as the main revenue will come from **advertising** and sharing with 3rd parties but for the **user**
   it presents as a free to use travel organiser with ease of use(costs will come in the form of booking fees in future).
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user8.png" alt="User story!" />
 
  10. **As a returning user I want news and other useful content to entice me to return.**
   - Useful information is contained on the **Destination page** with valuable information to any holiday maker or traveller.
