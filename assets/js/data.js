@@ -1,3 +1,5 @@
+//Array of objects for reference use to create content when needed
+
 const locations = [
     {
         class: "munich-card",
