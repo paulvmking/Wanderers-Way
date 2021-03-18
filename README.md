@@ -474,6 +474,11 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Code
 
+ - My mentor **Marantha Ilesanmi** for all his advice, and help with implementation of URLs.
+ <img style="border:0;width:150px;height:100px" src="assets/images/credit1.png" alt="User story!" />
+
+
+
  - **Color Scheme** chosen by creator. (**Paul King**)
 
  - **Readme** inspiration was taken from 
