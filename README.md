@@ -6,7 +6,7 @@
 
 ### Travel Planner 
 
-A website designed to provide user's with a choice of avaiable travel locations in an easy to use and new format.
+A website designed to provide user's with a choice of available travel locations in an easy to use and new format.
 It features a register button on the **Welcome Page** to allow users to bypass all information on the site instantly to sign up.
 It also features a choice on the **Home Page** to allow users to choose either a sun holiday or snow holiday which is a search feature that will narrow the field based on the users interest.
 By clicking either **Sun** or **Snow** the user can bypass any locations that are immediatley not of interest.
@@ -42,7 +42,7 @@ The **Google maps** area will be interactive and allow a user to view the locati
   - Accurate information detailing why it is convenient.
   - A good UX so as to encourage visitors to return and continue to use to site to book future holidays.
   - Details of convenient information on each destination so as to help the user decide which location suits their needs and budgets.
-  - Good interactivity so as to keep the user engaged throughout the booking process.
+  - Good interactivity so as to keep the user engaged throughout the process.
 
 #### User Stories
 
@@ -110,7 +110,7 @@ both images and a site color theme that worked well together I feel I was succes
 
 ### Common features on all pages 
 
-The site features a responsive navigation bar stuck **on top** for easy navigation to the different pages.The logo on the **top left** will provide a one click link to the **Home** page this is inlcluded on every page.The navigation bar is also linked to the other page **Contact Us** to allow easy access to any information the user may require,this is contained within a drop down menu for mobile devices.
+The site features a responsive navigation bar stuck **on top** for easy navigation to the different pages.The logo on the **top left** will provide a one click link to the **Home** page this is included on every page.The navigation bar is also linked to the other page **Contact Us** to allow easy access to any information the user may require,this is contained within a drop down menu for mobile devices.
 A **Register Now** button is located on the homepage to allow sign up easily and instantly this is done by way of a **modal form**.
 Has a footer containing social media links to **Facebook**, **Instagram**, **Twitter**, **Youtube**.
 Has a Covid-19 **alert** on each page to warn users that certain destinations may not be available. The **images**, **fonts** and **colors** were also continued page to page
@@ -404,7 +404,7 @@ Additional comments were that the page highlighted the destinations well and tha
  - Solution was to add extra card id to styles in css.
 
 3.Buttons background color change when clicked reverting back to original after mouse is unclicked.
- - Solution was to add a focus style class to keep the color on the currently cliked button.
+ - Solution was to add a focus style class to keep the color on the currently clicked button.
 
 4.Issue getting divs to display properly when button was clicked to corresponding budget/luxury.
  - Many solutions were tried but none gave desired effect, most kept hiding or showing the wrong divs for the button selection.
