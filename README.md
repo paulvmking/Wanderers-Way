@@ -338,6 +338,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
 
  4. **As a new user I expect to be able to sign up to services.**
   - **Register now** button located on the **homepage** for ability to sign up to services immediately this is also located on the main **destinations** page.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user1.png" alt="User story!" />
 
  5. **As a new user I expect to be able to contact the business to ask question prior to signing up.**
   - The **contact page** is labelled in the navigation menu and easy to find.
