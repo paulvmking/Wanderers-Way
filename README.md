@@ -72,15 +72,21 @@ The site features a few choice colors being :
 
 These colours were chosen to give a **bright, light and relaxed** feel to the website and to contrast well against pictures on the site.
 The colours were also chosen because of the nature of the site and the fact alot of colours would be present from the destination images, colours who were somewhat "neutral" visually
-were used to add good visual contrast and draw the users attention to these areas.
+were used to add good visual contrast and draw the users attention to the destinations.
 
 ## Fonts
 
-- The site mainly uses the default font of **sans-serif** for easyness to read as there is not much styling to it, but **"Lobster"** was used and it gave a sort of "fancy" feel to the site,it has a fallback of **"sans-serif"**.
-- The **"Akaya Telivigala"** with a fallback of **"sans-serif"** was used to counteract the "fancy" feel and bring a youthful feel to the text.
-- The combination of all fonts I feel combined both youthful and refined energies together thus appealing visually to a wider variety audience.
+- The site mainly uses the default font of **"sans-serif"** for easyness to read as there is not much styling to it, but **"Lobster"** was used in parts and it gave a sort of "fancy" feel to the destination pages, it has a fallback of **"sans-serif"**.
+- The **"Akaya Telivigala"** font with a fallback of **"sans-serif"** was used to counteract the "fancy" feel and bring a youthful feel to the text such as on the greeting page.
+- The combination of all fonts I feel incorporated both youthful and refined energies together thus appealing visually to a wider variety audience.
 
 ## Imagery
+
+- The images used are all **travel related**. I thought it was important to have a consistant theme of visually striking images,
+that were all close enough in subject matter and color to make a consistent feel across the site.The color of the images was important to have good crossover with the site **color scheme** and 
+I believe the images chosen fit very well overall as they relate to the subject matter.
+- Another important aspect was to pick images that no matter the content fit well together and provided impact against the background and while it was difficult to find 
+both images and a site color theme that worked well together I feel I was successful in this regard without losing anything from either the image impact or color impact of the site.
 
 ### Wireframes
 
