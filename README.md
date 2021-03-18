@@ -108,7 +108,18 @@ both images and a site color theme that worked well together I feel I was succes
 
 ### Common features on all pages 
 
+The site features a responsive navigation bar stuck **on top** for easy navigation to the different pages.The logo on the **top left** will provide a one click link to the **Home** page this is inlcluded on every page.The navigation bar is also linked to the other page **Contact Us** to allow easy access to any information the user may require,this is contained within a drop down menu for mobile devices.
+A **Register Now** button is located on the homepage to allow sign up easily and instantly this is done by way of a **modal form**.
+Has a footer containing social media links to **Facebook**, **Instagram**, **Twitter**, **Youtube**.
+Has a Covid-19 **alert** on each page to warn users that certain destinations may not be available. The **images**, **fonts** and **colors** were also continued page to page
+to give uniformity to the appearance and provide a consistent experience.
+
 ### Home Page
+
+- Has a **"Greeting"** made with JavaScript which welcomes the user depending on the **hour**, and offers them a choice between either **sun** or **snow**.
+- Has a **Register now** button located on it,it is presented as a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button..
+- Has an **Sun** clickable image to redirect user to the **sun destinations** page.
+- Has an **Snow** clickable image to redirect user to the **snow destinations** page.
 
 ### Contact Us Page
 
