@@ -10,7 +10,7 @@ It also features a choice on the **Home Page** to allow users to choose either a
 By clicking either **Sun** or **Snow** the user can bypass any locations that are immediatley not of interest.
 Upon choosing the climate of choice the user is presented with various locations to choose from in that given climate.
 After choosing a destination, a page containing some useful travel information as well as a **Google map** showing locations of interest (Hotels, Food & Drinks and Attractions) is displayed.
-The **Google maps** area will be interactive and allow a user to click on the locator pins and view more information about the hotel,attraction etc..
+The **Google maps** area will be interactive and allow a user to view the location of a recommended hotel, thing to do or food and drinks venue.
 
 #### Business Goals
   - To increase traffic to the site and in turn increase registration.
@@ -126,9 +126,9 @@ to continue.
 
 ### Destinations Page 
 
-- This page features either the **Sun** or **Snow** **Destinations**.This depends entirely on the **User** and which choice they make.
-- This page appears after the user chooses a destination type **"sun" or "snow"** on the homepage by way of **URL Parameters**. In other words clicking **"Sun"** 
-will redirect the user to the **sun** version of the destination page and the same with **snow** but never shows both.
+- This page features either the **sun** or **snow** **destinations**.This depends entirely on the **user** and which choice they make.
+- This page appears after the user chooses a destination type **"sun" or "snow"** on the homepage by way of **URL Parameters**. In other words clicking **"sun"** 
+will redirect the user to the **sun** version of the **"destinations"** page and the same with **snow** but never shows both.
 - Has **Destination cards** created with JavaScript with **Images, Destination name,** and a small average **Price** indication in the form of **"€"** signs 
 this immediately give the user a rough idea of the cost of booking for each destination.
 - Has a legend explaining the meaning of the **"€€€"** symbols.
@@ -138,6 +138,16 @@ this immediately give the user a rough idea of the cost of booking for each dest
 is connected to emailJs to allow user to register.
 - Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
 to continue.
+
+### Destination Page 
+
+- This page is the **final** page the **user** navigates to and is accessed by **choosing a destination** from the **cards** on the **destinations** page.
+- It features a **hero image** on the top of the page which contains and image **relevant** to the chosen **destination** with the name of the **destination** overlayed.
+- It features a **table** containing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** relevant to each destination to provide extra information to the **user**.
+- It features a **"back to" button** located under the **table** to navigate back to the category page in **destinations** in other words if you are viewing a **snow**
+destination then pressing the **back to snow** will bring the **user** back to the main **snow destinations** page.
+- It features a **Google map** on the **bottom right** side of the page to allow the **user** to see the destination on the map and view **markers**.
+- It features **Hotel, Food and Drinks** and **Things to do buttons** to allow the user to select what **markers** are shown.
 
 ### Contact Us Page
 
