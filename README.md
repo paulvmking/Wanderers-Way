@@ -347,6 +347,12 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
   - The sign up form is contained in the **modal** and is accessed with the **register now** button.
 
+   8. **As a potential customer I want reassurance that the service is indeed worth it.**
+  - The site contains price indications both on the **destinations** page in the form of **€** signs with a legend and also on the destination page once one has been chosen where it lists common costs.
+  - These features are not present in most travel sites and from **usability** testing done seems to have a positive impact as it is so simple and really conveys the ideal **cost** for each user.
+  - The sites **simplicity** in navigation and a **stress free** environment to browse destinations also add value to this with no bold advertisements or constant links to other websites most
+  information is contained within the site.
+
 ## Usability 
 
 - I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
