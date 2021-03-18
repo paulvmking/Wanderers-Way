@@ -294,6 +294,15 @@ to the largest (1200px +).
 
 ## Performance 
 
+Testing for performance was done using [WebPageTest](https://www.webpagetest.org/).
+
+- **Home page** = 100/100 on all except security and cache static content [View Results](https://www.webpagetest.org/result/210318_Xi9Q_3b4522ed74d17b0d63b237095c019164/1/performance_optimization/)
+- **Destinations Page Sun** = 100/100 on all except security and cache static content.Compress Images was also scored 83/100[View Results](https://www.webpagetest.org/result/210318_Xi26_ecab10e5e8c5d81781b667a4acb3caac/1/performance_optimization/)
+- **Destinations Page Snow** = 100/100 on all except security and cache static content.Compress Images was also scored 78/100 [View Results](https://www.webpagetest.org/result/210318_Xi3S_d261b4552b50bbf18f499b2edc7edd74/1/performance_optimization/)
+- **Destination Page Snow Munich Chosen** = 100/100 on all except security and cache static content.Compress Images was also scored 87/100[View Results](https://www.webpagetest.org/result/210318_XiDS_534eae8b9901811e069e8ebe48e79024/1/performance_optimization/)
+- **Destination Page Sun Barcelona Chosen** = 100/100 on all except security and cache static content [View Results](https://www.webpagetest.org/result/210318_XiQW_bb25a641b5b955cf28b34ee3820e863e/1/performance_optimization/)
+- **Contact Us Page** = 100/100 on all except security and cache static content [View Results](https://www.webpagetest.org/result/210318_XiWY_fdec7bcfbe6ab7b0bba8f578f7078f45/1/performance_optimization/)
+
 ## User Stories Testing
 
 ## Usability 
