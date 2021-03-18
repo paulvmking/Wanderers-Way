@@ -225,7 +225,25 @@ therefore passing the test.
 
 ### Buttons 
 
+- **Aim** - When the **register now** button is clicked it opens a modal of a form to register
+- **Result** - Button is clicked and opens modal as expected therefore passing the test.
+- **Aim** - When **form fields** within modal are not filled out button in form will not submit due to required attribute.
+- **Result** - When all fields are filled out the submit button works when clicked but when even one isnt the required information prompt displays therfore passing the test.
+- **Aim** - When **registration form** submit is clicked it should only work when required fields have been filled out.
+- **Result** - Button clicked and doesnt submit until required info is enter therefore passing the test.
+- **Aim** - When **contact form** submit is clicked it should only work when required fields have been filled out.
+- **Result** - Button clicked and doesnt submit until required info is enter therefore passing the test.
+- **Aim** - When **Budget filter** buttons are clicked it should only show locations belonging to that budget group.
+- **Result** - Button clicked and only showed locations belonging to that budget group therefore passing the test.
+- **Aim** - When **Back to** buttons are clicked it should redirect user back to destinations page relating to that climate.
+- **Result** - Buttons clicked and redirects user to appropriate page for snow and sun locations therefore passing the test.
+- **Aim** - When **Hotel,Food and Drink and Things** buttons are clicked it should show the corresponding markers on the google map.
+- **Result** - Buttons clicked and only shows marker for corresponding button therefore passing the test.
+
 ### Links
+
+- **Aim** - When **covid-19**, **Gov.ie** link is clicked it should redirect user to Gov.ie.
+- **Result** - Link was clicked and user redirected to **Gov.ie** in a new tab therefore passing the test.
 
 ## CSS3 Validator 
 
