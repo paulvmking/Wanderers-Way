@@ -231,6 +231,18 @@ Also used to create destination cards and destination page content through use o
 - **Destination Page** = **Passed** - No errors found. [Results](https://validator.w3.org/nu/#textarea)
 - **Contact us page** = **Passed** - No errors found. [Results](https://validator.w3.org/nu/#textarea)
 
+## JavaScript Validator
+
+- **[JSHint](https://jshint.com/)** - To Validate JavScript and Jquery(Please copy and paste selected file into JSHint to reproduce results).
+
+- **data.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **destinations.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **destination.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **maps.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **script.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **sendEmail.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+- **sendEmailContact.js** File = **Passed**- No errors found. (Warnings are ES6 related)
+
 ## Compatibility
 
 ## Performance 
