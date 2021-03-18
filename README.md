@@ -177,6 +177,7 @@ in future.
 - **Book now** Button for each destination. Reason - **Will be implemented in future after creation of sign in area but for now funds and time do not allow.**
 - **Advertising** spaces to the sides of **Hero** images on destination page. Reason -  **Funds do not allow.**
 - **Rewards Badge** system to benfit **Members**. Reason - **Time and resources do not allow currently.**
+- **Connecting to 3rd party websites** for both advertising and linking **Skyscanner.com** for flights and **Booking.com** to allow booking of accomodation.
 
 # Technologies Used
 
