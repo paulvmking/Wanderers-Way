@@ -269,7 +269,7 @@ therefore passing the test.
 
 ## JavaScript Validator
 
-- **[JSHint](https://jshint.com/)** - To Validate JavScript and Jquery(Please copy and paste selected file into JSHint to reproduce results).
+- **[JSHint](https://jshint.com/)** - To Validate JavaScript and Jquery(Please copy and paste selected file into JSHint to reproduce results).
 
 - **data.js** File = **Passed**- No errors found. (Warnings are ES6 related)
 - **destinations.js** File = **Passed**- No errors found. (Warnings are ES6 related)
@@ -307,6 +307,11 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
 ## User Stories Testing
 
 ## Usability 
+
+- I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
+all features implemented fuctioned as expected and there were no issues brought ot me attention.
+They also mentioned that its simplicity lead to easy usage and navigation and the text and color choices made everything very user friendly.
+Additional comments were that the page highlighted the destinations well and that the navigation was different than usual and lead to a very calm browsing experience.
 
 ## Issues and Fixes during Development
 
