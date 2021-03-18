@@ -366,6 +366,12 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
  11. **As a returning user I want to be able to have access to follow the company on social media.**
   - The site contains **social media icons** to redirect the user to each platform, they are located in the footer and are consistent on every page of the site.
 
+ 12. **As a user I expect to be able to search locations and information about where I'm staying..**
+  - The **user** can search the site using the intended navigation system.
+  - The site contains **Google maps** and is fully interactive.
+  - The **user** has the ability to filter the desired info on the map.
+  - The **user** can see a **table** of very relevant information above the map and all destinations are clear and easy to navigate.
+
 ## Usability 
 
 - I shared the website with friends and family and received feedback from them stating the site was eay to use,
