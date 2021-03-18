@@ -211,7 +211,9 @@ Also used to create destination cards and destination page content through use o
 ### Links
 
 ## CSS3 Validator 
+
 - **[jigsawW3C](https://jigsaw.w3.org/css-validator/#validate_by_input-)** - To Validate CSS.
+
 - **Results** = **Passed** with no errors found.
 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -221,6 +223,8 @@ Also used to create destination cards and destination page content through use o
     </a>
 
 ## HTML5 Validator
+
+- **[validatorW3C](https://validator.w3.org/#validate_by_input)** - To Validate HTML5.
 
 - **Homepage** = **Passed**- No errors found. [Results]()
 - **Destinations** = **Passed** - No errors found. [Results]()
