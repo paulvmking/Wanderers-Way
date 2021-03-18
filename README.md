@@ -334,6 +334,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
   - The **cards** and **images** are clearly labelled with destination **names** and provide additonal infromation when clicked.
   - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user2.png" alt="User story!" />
 
  4. **As a new user I expect to be able to sign up to services.**
   - **Register now** button located on the **homepage** for ability to sign up to services immediately this is also located on the main **destinations** page.
