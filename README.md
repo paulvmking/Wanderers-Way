@@ -229,7 +229,7 @@ Also used to create destination cards and destination page content through use o
 - **Home Page** = **Passed**- No errors found. [Results](https://validator.w3.org/nu/#textarea)
 - **Destinations Page** = **Passed** - No errors found. [Results](https://validator.w3.org/nu/#textarea)
 - **Destination Page** = **Passed** - No errors found. [Results](https://validator.w3.org/nu/#textarea)
-- **Contact us page** = **Passed** - No errors found. [Results]()
+- **Contact us page** = **Passed** - No errors found. [Results](https://validator.w3.org/nu/#textarea)
 
 ## Compatibility
 
