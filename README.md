@@ -226,7 +226,7 @@ Also used to create destination cards and destination page content through use o
 
 - **[validatorW3C](https://validator.w3.org/#validate_by_input)** - To Validate HTML5.
 
-- **Homepage** = **Passed**- No errors found. [Results]()
+- **Homepage** = **Passed**- No errors found. [Results](https://validator.w3.org/nu/#textarea)
 - **Destinations** = **Passed** - No errors found. [Results]()
 - **Destination** = **Passed** - No errors found. [Results]()
 - **Contact us page** = **Passed** - No errors found. [Results]()
