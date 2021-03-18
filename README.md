@@ -112,7 +112,8 @@ The site features a responsive navigation bar stuck **on top** for easy navigati
 A **Register Now** button is located on the homepage to allow sign up easily and instantly this is done by way of a **modal form**.
 Has a footer containing social media links to **Facebook**, **Instagram**, **Twitter**, **Youtube**.
 Has a Covid-19 **alert** on each page to warn users that certain destinations may not be available. The **images**, **fonts** and **colors** were also continued page to page
-to give uniformity to the appearance and provide a consistent experience.**Logo** which allows user to navigate to **home** page from anywhere on the site, located on all pages.
+to give uniformity to the appearance and provide a consistent experience.**Logo** which allows user to navigate to **home** page from anywhere on the site, located on all pages.Each page also contains a **Favicon** tab **plane** image 
+to help the user navigate multiple tabs and stick with the travel theme.
 
 ### Home Page
 
@@ -158,13 +159,13 @@ destination then pressing the **back to snow** will bring the **user** back to t
 
 ### Existing Features 
 
-- **Home Page** - **Time Based Greeting**, **Register now button** and **Modal**,**User alert**, **Sun**/**Snow** navigation **Images**, **Navbar**, **Footer** with **social icon links**,**Logo**.
+- **Home Page** - **Time Based Greeting**, **Register now button** and **Modal**,**User alert**, **Sun**/**Snow** navigation **Images**, **Navbar**, **Footer** with **social icon links**,**Logo**, **Favicon**.
 - **Destinations Page** - **Clickable Destination Cards** with **image, location name** and **price**, **€€€ Legend**, **"All", "Budget"** and **"Luxury"** button filters, 
-**Register now button and Modal**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
+**Register now button and Modal**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**, **Favicon**.
 - **Destination Page** - **Hero Image** and **Name overlay** relating to destination, **City Information** heading with **User info** about **registration**, 
 **Table** containing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** relevant to each destination, **Google map** with **Markers**,
-**Hotel, Food and Drinks** and **Things to do Filter Buttons**, **Navbar**, **Footer with social icon links**,**Logo**.
-- **Contact Page** - **Image** to show page purpose, **Contact Form**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
+**Hotel, Food and Drinks** and **Things to do Filter Buttons**, **Navbar**, **Footer with social icon links**,**Logo**, **Favicon**.
+- **Contact Page** - **Image** to show page purpose, **Contact Form**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**, **Favicon**.
 
 ### Features Left to Implement
 
@@ -181,15 +182,18 @@ in future.
 
 - **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
 - **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
-- **[JavaScript](https://www.javascript.com/)** - To add interactive elements to the site such as the google maps API.
-- **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal.
+- **[JavaScript](https://www.javascript.com/)** - To add interactive elements to the site such as the google maps API, **Click** functions **Greeting**.
+Also used to create **Destination cards** and **Destination** page content through use of **Array** and **URL Parameters**.
+- **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal and to shorten the amount of "vanilla" **JavaScript** used.
 - **[BootstrapCDN](https://www.bootstrapcdn.com/)** - Used to help style and provide grids for layout of the site. Also used to design the site with mobile first mindset and implement features for responsiveness such as the navigation bar more easily.Bootstrap version 4.5.2 was used and was also used to provide links to **[FontAwesome](https://fontawesome.com/)** for icons and to help with the register now modal.
 - **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
 - **[Google Fonts](https://fonts.google.com/)** - Used to link and source fonts for the site.
+- **[Favicon.cc](https://www.favicon.cc/)** - To obtain favicon for site.
 - **[Pixabay](https://pixabay.com/)** - Used to source copyright free images for the site which were downloaded and then linked in files when needed.
 - **[Unsplash](https://unsplash.com/)** - Used to source copyright free images for the site which were downloaded and then linked in files when needed.
 - **[Gitpod](https://www.gitpod.io/)** - Used as the interactive development environment (IDE) for the project.
 - **[GitHub](https://github.com/)** - Used to display and share all files related to the project.
+- **[EmailJS](https://www.emailjs.com/)** - Used to send and receive emails from registration and contact forms.
 - **[Google Maps Platform](https://developers.google.com/maps/documentation/api-picker)** - Used to get API key for google map.
 - **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** - Used to create wireframes for the site.
 - **[Placeholder](https://placeholder.com/)** - Used to add colors to Readme.
