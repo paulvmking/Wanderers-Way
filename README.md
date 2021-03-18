@@ -135,7 +135,7 @@ this immediately give the user a rough idea of the cost of booking for each dest
 - Has **Button** filters to allow user to see one of 3 categories which are **"All, "Budget"** and **"Luxury"** locations.
 - Each **card** is **interactive** and when **clicked** redirects user to the final **"Destination Page"**.
 - Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button. This **modal**
-is connected to emailJs to allow user to register.
+is connected to **emailJs** to allow user to register.
 - Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
 to continue.
 
@@ -167,6 +167,15 @@ destination then pressing the **back to snow** will bring the **user** back to t
 - **Contact Page** - **Image** to show page purpose, **Contact Form**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
 
 ### Features Left to Implement
+
+- Option to change **languages** to some other than English. Reason - **Too expensive to hire someone to check translations on current budget.**
+- **Terms and conditions** page to allow users to read through the legal documentation associated with the site. Reason - **Too much time involved reviewing legal documentation to implement straight away.**
+- Members **sign in area**. Reason - **Will require another page which time doesnt allow for currently.**
+- Ability to click **Markers** and display extra infromation about **Hotel, Restaurant/Bar** or **Attraction**. Reason - **Time** did not allow for implementation of this feature though can be added easily 
+in future.
+- **Book now** Button for each destination. Reason - **Will be implemented in future after creation of sign in area but for now funds and time do not allow.**
+- **Advertising** spaces to the sides of **Hero** images on destination page. Reason -  **Funds do not allow.**
+- **Rewards Badge** system to benfit **Members**. Reason - **Time and resources do not allow currently.**
 
 # Technologies Used
 
