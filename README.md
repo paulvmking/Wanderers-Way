@@ -309,7 +309,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
  1. **As a new user I want to know the sites purpose immediately.**
   - The Home page has a greeting displaying and is displaying two images one of sun and one of snow to
   show the user what content is to be expected the name also suggests travel.
-  - The register button is available immediately to allow the user to bypass not being able to book(this feature is not implemented yet.).
+  - The register button is available immediately to allow the user to bypass not being able to book(this booking feature is not implemented yet.).
   - Upon clicking either of the images they will be redirected to obvious travel related pages with multiple choices of destinations.
 
  2. **As a new user I want an intuitive search experience**
@@ -325,6 +325,10 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   to internal pages or external pages.
   - All information is labelled and contrasted to allow even users who have difficulty reading to see all text and content clearly.
   - All links like **gov.ie** and the additonal information are highlighted in blue for easy recognition.
+
+   3. **As a new user I expect to be able to navigate the site easily to find a holiday.**
+  - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
+  - The **cards** and **images** are clearly labelled with destination **names** and provide additonal infromation when clicked.
 
 ## Usability 
 
