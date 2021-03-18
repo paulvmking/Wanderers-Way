@@ -330,6 +330,9 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
   - The **cards** and **images** are clearly labelled with destination **names** and provide additonal infromation when clicked.
 
+   4. **As a new user I expect to be able to sign up to services.**
+  - **Register now** button located on the **homepage** for ability to sign up to services immediately this is also located on the main **destinations** page.
+
 ## Usability 
 
 - I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
