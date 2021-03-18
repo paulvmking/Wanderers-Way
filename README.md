@@ -475,6 +475,7 @@ To clone this repsoitory or to download it to a local device please follow the s
  ## Code
 
  - **Color Scheme** chosen by creator. (**Paul King**)
+
  - **Readme** inspiration was taken from 
    - **Code institute's** [README Template](https://github.com/Code-Institute-Solutions/readme-template).
    - **Code Institute's** [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME).
@@ -492,3 +493,6 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Acknowledgements 
 
+- My mentor **Marantha Ilesanmi** for all his advice, guidance, help with tough decisions and implementation. 
+- The **Slack** community for help with the peer review of my project.
+- The **Code Institute** team for always helping with classes and holding regular masterclasses and giving advice for projects on **Slack**.
