@@ -394,5 +394,8 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Media 
 
+- **Images** for the entire site were all found on [pixabay.com](https://pixabay.com/).
+ - **Icons** for the entire site were all found on [fontawesome.com](https://fontawesome.com/)
+
  ## Acknowledgements 
 
