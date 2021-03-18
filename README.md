@@ -70,7 +70,15 @@ The site features a few choice colors being :
 - ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) **White** (#ffffff)
 - ![#101010](https://via.placeholder.com/15/101010/000000?text=+) **Black** (#101010)
 
+These colours were chosen to give a **bright, light and relaxed** feel to the website and to contrast well against pictures on the site.
+The colours were also chosen because of the nature of the site and the fact alot of colours would be present from the destination images, colours who were somewhat "neutral" visually
+were used to add good visual contrast and draw the users attention to these areas.
+
 ## Fonts
+
+- The site mainly uses the default font of **sans-serif** for easyness to read as there is not much styling to it, but **"Lobster"** was used and it gave a sort of "fancy" feel to the site,it has a fallback of **"sans-serif"**.
+- The **"Akaya Telivigala"** with a fallback of **"sans-serif"** was used to counteract the "fancy" feel and bring a youthful feel to the text.
+- The combination of all fonts I feel combined both youthful and refined energies together thus appealing visually to a wider variety audience.
 
 ## Imagery
 
