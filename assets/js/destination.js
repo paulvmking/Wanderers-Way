@@ -94,7 +94,6 @@ const renderDestination = () => {
     });
 
     destinationDiv.innerHTML = innerDestination;
-    console.log(destinationDiv);
 };
 renderDestination();
 
