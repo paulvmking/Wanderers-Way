@@ -312,6 +312,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   show the user what content is to be expected the name also suggests travel.
   - The register button is available immediately to allow the user to bypass not being able to book(this booking feature is not implemented yet.).
   - Upon clicking either of the images they will be redirected to obvious travel related pages with multiple choices of destinations.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user1.png" alt="User story!" />
 
  2. **As a new user I want an intuitive search experience**
   - Upon landing on the home page the user will see the first navigation option which is the choice between sun and snow.Upon choosing the will be redirected to another choice page
