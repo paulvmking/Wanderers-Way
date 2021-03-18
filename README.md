@@ -212,7 +212,13 @@ Also used to create destination cards and destination page content through use o
 
 ## CSS3 Validator 
 
-- **Results** =
+- **Results** = **Passed** with no errors found.
+
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
 
 ## HTML5 Validator
 
