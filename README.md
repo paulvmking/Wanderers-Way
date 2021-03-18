@@ -443,7 +443,7 @@ To publish this page as I did on **Github Pages** please follow the procedure ou
 
 1. Enter **"Github"** into browser and arrive at main Github page.
 2. Sign into **Github** or sign up.
-3. Once you have signed into your account you will see a list of **repositories** on the left hand side, from here select the repository used for this project. [Available Here](https://github.com/paulvmking/Milestone-1-Game-of-Kings)
+3. Once you have signed into your account you will see a list of **repositories** on the left hand side, from here select the repository used for this project. [Available Here](https://github.com/paulvmking/Wanderers-Way)
 4. You will see a list of possible selections including : **Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights and Settings**. From this list click on **Settings**.
 5. Scroll down on the page until you come to the heading reading **Github Pages**.
 6. In the **"source"** select **"master branch"**.
