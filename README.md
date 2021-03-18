@@ -406,7 +406,10 @@ Additional comments were that the page highlighted the destinations well and tha
 7.Issue with display of user welcome after email.js added to index page.
  - Problem was that js was in head tags and was loading before the html.
  - Solution was to add "defer" to the script tags to ensure they loaded last after the html.(while this resolved the issue it also made the code browser dependant)
+
 ## Known Bugs
+
+There are no bugs to date to the best of my knowledge.
 
 # Deployment 
 
