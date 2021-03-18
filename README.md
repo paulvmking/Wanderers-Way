@@ -474,10 +474,14 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Code
 
+ - **Bootstrap** library was used to implement responsive features throughout the website such as the **navbar**, **footer**, **cards**, **tables**, **modals**, **forms**, **jumbotron** and was edited as needed. It was also used to generally style the layout of the page before adding **CSS**.
+
  - My mentor **Marantha Ilesanmi** for all his advice, and help with implementation of URLs.
  <img style="border:0;width:150px;height:100px" src="assets/images/credit1.png" alt="User story!" />
 
+ - All other code was written by the creator of the site - **Paul King**.
 
+ ## Content 
 
  - **Color Scheme** chosen by creator. (**Paul King**)
 
