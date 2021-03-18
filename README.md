@@ -112,7 +112,7 @@ The site features a responsive navigation bar stuck **on top** for easy navigati
 A **Register Now** button is located on the homepage to allow sign up easily and instantly this is done by way of a **modal form**.
 Has a footer containing social media links to **Facebook**, **Instagram**, **Twitter**, **Youtube**.
 Has a Covid-19 **alert** on each page to warn users that certain destinations may not be available. The **images**, **fonts** and **colors** were also continued page to page
-to give uniformity to the appearance and provide a consistent experience.
+to give uniformity to the appearance and provide a consistent experience.**Logo** which allows user to navigate to **home** page from anywhere on the site, located on all pages.
 
 ### Home Page
 
@@ -148,6 +148,7 @@ to continue.
 destination then pressing the **back to snow** will bring the **user** back to the main **snow destinations** page.
 - It features a **Google map** on the **bottom right** side of the page to allow the **user** to see the destination on the map and view **markers**.
 - It features **Hotel, Food and Drinks** and **Things to do buttons** to allow the user to select what **markers** are shown.
+- It features above the table a **City information** heading and information to the user that **booking is required to view full prices** and that **all prices are in euros**.
 
 ### Contact Us Page
 
@@ -156,6 +157,14 @@ destination then pressing the **back to snow** will bring the **user** back to t
 - Upon completion of contact form a **user alert** is displayed informing user of the next steps.
 
 ### Existing Features 
+
+- **Home Page** - **Time Based Greeting**, **Register now button and Modal**,**User alert**, **Sun**/**Snow** navigation **Images**, **Navbar**, **Footer with social icon links**,**Logo**.
+- **Destinations Page** - **Clickable Destination Cards** with **image, location name** and **price**, **€€€ Legend**, **"All", "Budget"** and **"Luxury"** button filters, 
+**Register now button and Modal**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
+- **Destination Page** - **Hero Image** and **Name overlay** relating to destination, **City Information** heading with **User info** about **registration**, 
+**Table** containing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** relevant to each destination, **Google map** with **Markers**,
+**Hotel, Food and Drinks** and **Things to do Filter Buttons**, **Navbar**, **Footer with social icon links**,**Logo**.
+- **Contact Page** - **Image** to show page purpose, **Contact Form**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
 
 ### Features Left to Implement
 
