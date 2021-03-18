@@ -483,6 +483,8 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Text
 
+ - **[BudgetYourTrip](https://www.budgetyourtrip.com/)** - Used to find cost information for table in destination page and edited as needed.
+
  ## Media 
 
 - **Images** for the entire site were all found on [pixabay.com](https://pixabay.com/) and [Unsplash.com](https://unsplash.com/).
