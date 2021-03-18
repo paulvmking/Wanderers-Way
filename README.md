@@ -2,6 +2,8 @@
 
 <img src="assets/images/responsive.png">
 
+# Live Site = [Wanderers Way](https://paulvmking.github.io/Wanderers-Way/index.html)
+
 ### Travel Planner 
 
 A website designed to provide user's with a choice of avaiable travel locations in an easy to use and new format.
