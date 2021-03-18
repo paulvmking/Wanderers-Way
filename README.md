@@ -158,7 +158,7 @@ destination then pressing the **back to snow** will bring the **user** back to t
 
 ### Existing Features 
 
-- **Home Page** - **Time Based Greeting**, **Register now button and Modal**,**User alert**, **Sun**/**Snow** navigation **Images**, **Navbar**, **Footer with social icon links**,**Logo**.
+- **Home Page** - **Time Based Greeting**, **Register now button** and **Modal**,**User alert**, **Sun**/**Snow** navigation **Images**, **Navbar**, **Footer** with **social icon links**,**Logo**.
 - **Destinations Page** - **Clickable Destination Cards** with **image, location name** and **price**, **€€€ Legend**, **"All", "Budget"** and **"Luxury"** button filters, 
 **Register now button and Modal**, **User Alert**, **Navbar**, **Footer with social icon links**,**Logo**.
 - **Destination Page** - **Hero Image** and **Name overlay** relating to destination, **City Information** heading with **User info** about **registration**, 
