@@ -1,4 +1,5 @@
 // To filter what cards are shown depending on the url of the current page and what category sun or snow was clicked
+// Mentor assisted with implementation of Url Parameters 
 
 const destinationsDiv = document.getElementById('destinations');
 const queryParam = window.location.search;

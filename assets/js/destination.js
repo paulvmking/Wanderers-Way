@@ -1,4 +1,5 @@
 // To filter destination shown depending on which destination was chosen but only if the name matches the name in the url parameters
+// Mentor assisted with implementation of Url Parameters 
 
 const queryParam = window.location.search;
 const destination = new URLSearchParams(queryParam.slice(1)).getAll('destination')[0];
