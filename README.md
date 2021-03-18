@@ -371,6 +371,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
  10. **As a returning user I want news and other useful content to entice me to return.**
   - Useful information is contained on the **Destination page** with valuable information to any holiday maker or traveller.
   - Due to the layout/construction of the site this information can be updated and expanded upon very easily.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user8.png" alt="User story!" />
 
  11. **As a returning user I want to be able to have access to follow the company on social media.**
   - The site contains **social media icons** to redirect the user to each platform, they are located in the footer and are consistent on every page of the site.
