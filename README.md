@@ -382,6 +382,8 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - The site contains **Google maps** and is fully interactive.
   - The **user** has the ability to filter the desired info on the map.
   - The **user** can see a **table** of very relevant information above the map and all destinations are clear and easy to navigate.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user8.png" alt="User story!" />
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user4.png" alt="User story!" />
 
 ## Usability 
 
