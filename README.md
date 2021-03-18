@@ -328,6 +328,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   to internal pages or external pages.
   - All information is labelled and contrasted to allow even users who have difficulty reading to see all text and content clearly.
   - All links like **gov.ie** and the additonal information are highlighted in blue for easy recognition.
+<img style="border:0;width:150px;height:100px" src="assets/images/userImages/user3.png" alt="User story!" />
 
  3. **As a new user I expect to be able to navigate the site easily to find a holiday.**
   - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
