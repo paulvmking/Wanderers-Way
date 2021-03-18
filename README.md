@@ -407,6 +407,15 @@ Additional comments were that the page highlighted the destinations well and tha
  - Problem was that js was in head tags and was loading before the html.
  - Solution was to add "defer" to the script tags to ensure they loaded last after the html.(while this resolved the issue it also made the code browser dependant)
 
+**Most of these previous issues have been made redundant and no longer apply due to reformatting the site(please check commit history if interested)**
+
+**Main Issue** - The main issue I was tasked with was providing a site that was easy to use and implemented as much reasonable JavaScript/ jQuery as possible.
+My first plan was to store all of my **array** in **local storage** but when it came to extracting data the issue I came across was the destination page had not loaded for me to be able to target what was shown and where.
+Because of this the only option I would have had was to use **Asynchronous JavaScript** which I am not familiar with. So I switched to using **URL parameters** to perform the function and was met with great success. Implementing **URLS** I was able to filter my information and display it when required and **store my pages** in the **URL** for all the sites choices.
+The site was quiet complex in all the pages relationships to each other so I opted for creating seperate files for specific pages like destination.js was for the destination page only.
+All of the sites intended functions and navigation works as intended and overall I am very happy with it and the JS knowledge I was able to implement, no doubt there are still things to change in future but 
+at present the site functions exactly as it is supposed to.
+
 ## Known Bugs
 
 There are no bugs to date to the best of my knowledge.
