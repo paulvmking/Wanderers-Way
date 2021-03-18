@@ -318,6 +318,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   to no reading involved as the images describe the location mostly allowing for a very relaxing search experience.
   - Navigation is done mainly by clicking images, cards or buttons as the destination and destinations pages are hidden from the navbar to encourage the user to use the 
   intended navigational route.
+  - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**.
   - Upon entering the page the user will notice the **top located Navbar**. On mobile this is displayed as a hamburger icon and on desktop it will be a standard navbar layout. Upon clicking any of these
   navbar links the user will be redirected to the corresponding page.
   - The **navbar** sticks to the screen responsively allowing the user to navigate to other pages at any time.
@@ -329,6 +330,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
    3. **As a new user I expect to be able to navigate the site easily to find a holiday.**
   - As mentioned above in **User Story 2** the search experience is designed to be very simple for all ages.
   - The **cards** and **images** are clearly labelled with destination **names** and provide additonal infromation when clicked.
+  - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**.
 
    4. **As a new user I expect to be able to sign up to services.**
   - **Register now** button located on the **homepage** for ability to sign up to services immediately this is also located on the main **destinations** page.
@@ -336,6 +338,10 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
    5. **As a new user I expect to be able to contact the business to ask question prior to signing up.**
   - The **contact page** is labelled in the navigation menu and easy to find.
   - Upon clicking on contact tab the user will find a simple 3 step form with the ability to ask a question but **no requirement** to sign up.
+
+   6. **As a new user I expect to be able to find additional information to help my decision.**
+  - Additional information is included on each of the destination pages showing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** to aid the user in deciding.
+  - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**. 
 
 ## Usability 
 
