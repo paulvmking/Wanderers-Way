@@ -2,7 +2,7 @@
 
 <img src="assets/images/responsive.png">
 
-# Live Site = [Wanderers Way](https://paulvmking.github.io/Wanderers-Way/index.html)
+### Live Site = [Wanderers Way](https://paulvmking.github.io/Wanderers-Way/index.html)
 
 ### Travel Planner 
 
