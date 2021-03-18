@@ -90,11 +90,19 @@ both images and a site color theme that worked well together I feel I was succes
 
 ### Wireframes
 
+- The wireframes were created using **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** and were used as a rough guideline towards the finished product visualisation.
+
 ## **Mobile**
+
+<img src="assets/images/wireframes/mobile.png">
 
 ## **Tablet**
 
+<img src="assets/images/wireframes/tablet.png">
+
 ## **Desktop**
+
+<img src="assets/images/wireframes/desktop.png">
 
 # Features
 
