@@ -117,11 +117,18 @@ to give uniformity to the appearance and provide a consistent experience.
 ### Home Page
 
 - Has a **"Greeting"** made with JavaScript which welcomes the user depending on the **hour**, and offers them a choice between either **sun** or **snow**.
-- Has a **Register now** button located on it,it is presented as a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button..
+- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button.This **modal**
+is connected to emailJs to allow user to register.
+- Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
+to continue.
 - Has an **Sun** clickable image to redirect user to the **sun destinations** page.
 - Has an **Snow** clickable image to redirect user to the **snow destinations** page.
 
 ### Contact Us Page
+
+- Has a contact form featuring **"name", "email", and "question"** this is to allow the user to ask a question without registering and is also connected to emailJs.
+- Contains a site appropriate styled image to the left to let users know it is for contact purposes.
+- Upon completion of contact form a **user alert** is displayed informing user of the next steps.
 
 ### Existing Features 
 
