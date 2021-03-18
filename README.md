@@ -343,6 +343,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
  5. **As a new user I expect to be able to contact the business to ask question prior to signing up.**
   - The **contact page** is labelled in the navigation menu and easy to find.
   - Upon clicking on contact tab the user will find a simple 3 step form with the ability to ask a question but **no requirement** to sign up.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user5.png" alt="User story!" />
 
  6. **As a new user I expect to be able to find additional information to help my decision.**
   - Additional information is included on each of the destination pages showing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** to aid the user in deciding.
