@@ -280,6 +280,18 @@ therefore passing the test.
 
 ## Compatibility
 
+| Screen              | Google Chrome    | Safari           | Microsoft Edge   | Opera            | Mozilla Firefox  | Internet Explorer |
+| --------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:-----------------:|
+| Mobile              |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+| Tablet              |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+| Desktop             |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+
+- The devices used for iOS testing were Macbook Pro, iPad mini, iPhone 10 and iPhone 8.
+- The devices used for android testing were Huawei P30, Samsung A40, Samsung S20 aswell as Samsung Galaxy tab A7.
+- For Windows 10 testing a HP pavillion was used as well as a HP Chromebook.
+- Chrome Dev Tools was used for the other testing and every phone/tablet type and screen size was checked form the smallest available (320px),
+to the largest (1200px +).
+
 ## Performance 
 
 ## User Stories Testing
