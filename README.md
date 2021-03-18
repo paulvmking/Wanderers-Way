@@ -182,9 +182,9 @@ in future.
 
 - **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
 - **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
-- **[JavaScript](https://www.javascript.com/)** - To add interactive elements to the site such as the google maps API, **Click** functions **Greeting**.
-Also used to create **Destination cards** and **Destination** page content through use of **Array** and **URL Parameters**.
-- **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal and to shorten the amount of "vanilla" **JavaScript** used.
+- **[JavaScript](https://www.javascript.com/)** - To add interactive elements to the site such as the google maps API, click functions, greeting etc..
+Also used to create destination cards and destination page content through use of array and url parameters.
+- **[jQuery](https://jquery.com/)** - Used to reference Javascript used for register now modal and to shorten the amount of "vanilla" JavaScript used.
 - **[BootstrapCDN](https://www.bootstrapcdn.com/)** - Used to help style and provide grids for layout of the site. Also used to design the site with mobile first mindset and implement features for responsiveness such as the navigation bar more easily.Bootstrap version 4.5.2 was used and was also used to provide links to **[FontAwesome](https://fontawesome.com/)** for icons and to help with the register now modal.
 - **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
 - **[Google Fonts](https://fonts.google.com/)** - Used to link and source fonts for the site.
