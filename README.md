@@ -353,6 +353,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
  7. **As a potential customer I want an easy sign up process.**
   - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
   - The sign up form is contained in the **modal** and is accessed with the **register now** button.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user6.png" alt="User story!" />
 
  8. **As a potential customer I want reassurance that the service is indeed worth it.**
   - The site contains price indications both on the **destinations** page in the form of **€** signs with a legend and also on the destination page once one has been chosen where it lists common costs.
