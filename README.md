@@ -306,6 +306,12 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
 
 ## User Stories Testing
 
+ 1. **As a new user I want to know the sites purpose immediately.**
+  - The Home page has a greeting displaying and is displaying two images one of sun and one of snow to
+  show the user what content is to be expected the name also suggests travel.
+  - The register button is available immediately to allow the user to bypass not being able to book(this feature is not implemented yet.).
+  - Upon clicking either of the images they will be redirected to obvious travel related pages with multiple choices of destinations.
+
 ## Usability 
 
 - I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
@@ -394,7 +400,7 @@ To clone this repsoitory or to download it to a local device please follow the s
 
  ## Media 
 
-- **Images** for the entire site were all found on [pixabay.com](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
+- **Images** for the entire site were all found on [pixabay.com](https://pixabay.com/) and [Unsplash.com](https://unsplash.com/).
  - **Icons** for the entire site were all found on [fontawesome.com](https://fontawesome.com/).
 
  ## Acknowledgements 
