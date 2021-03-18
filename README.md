@@ -343,6 +343,10 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - Additional information is included on each of the destination pages showing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** to aid the user in deciding.
   - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**. 
 
+   7. **As a potential customer I want an easy sign up process.**
+  - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
+  - The sign up form is contained in the **modal** and is accessed with the **register now** button.
+
 ## Usability 
 
 - I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
