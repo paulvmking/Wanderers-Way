@@ -360,6 +360,7 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - These features are not present in most travel sites and from **usability** testing done seems to have a positive impact as it is so simple and really conveys the ideal **cost** for each user.
   - The sites **simplicity** in navigation and a **stress free** environment to browse destinations also add value to this with no bold advertisements or constant links to other websites most
   information is contained within the site.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user3.png" alt="User story!" />
 
  9. **As a potential customer I want to be able to easily know how much this service will cost me.**
   - The sites sign up is free and there is no charge displayed on the site(although average costs of destinations are shown).
