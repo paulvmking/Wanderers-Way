@@ -347,7 +347,8 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
 
  6. **As a new user I expect to be able to find additional information to help my decision.**
   - Additional information is included on each of the destination pages showing **Average Cost of day, Average Cost of transport, Average Cost of Meals** and **Local Language** to aid the user in deciding.
-  - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**. 
+  - **Budget** filter buttons are found on the main **destinations** page to allow the user to show only locations that fit their **budget**.
+  <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user8.png" alt="User story!" />
 
  7. **As a potential customer I want an easy sign up process.**
   - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
