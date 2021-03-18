@@ -262,14 +262,14 @@ a.nav-link.current {
     width: 100%;
     position: relative;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-family: "Lobster", "sans-serif";
     overflow: hidden;
     opacity: 0.8;
 }
 
 #dName {
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #101010;
 }
 
 .city-info {

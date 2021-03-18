@@ -61,6 +61,15 @@ The **Google maps** area will be interactive and allow a user to click on the lo
 
 ## Colour Scheme
 
+The site features a few choice colors being :
+- ![#e1eedd](https://via.placeholder.com/15/e1eedd/000000?text=+) **Light Grayish-Green** (#e1eedd),
+- ![#2b6777](https://via.placeholder.com/15/2b6777/000000?text=+) **Strong Blue** (#2b6777), 
+- ![#15b3bb](https://via.placeholder.com/15/15b3bb/000000?text=+) **Bright Cyan** (#15b3bb), 
+- ![#1e4853](https://via.placeholder.com/15/1e4853/000000?text=+) **Dark Blue** (#1e4853), 
+- ![#70776e](https://via.placeholder.com/15/70776e/000000?text=+) **Grayish Green** (#70776e),
+- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) **White** (#ffffff)
+- ![#101010](https://via.placeholder.com/15/101010/000000?text=+) **Black** (#101010)
+
 ## Fonts
 
 ## Imagery
