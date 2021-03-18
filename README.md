@@ -354,9 +354,14 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - The sites **simplicity** in navigation and a **stress free** environment to browse destinations also add value to this with no bold advertisements or constant links to other websites most
   information is contained within the site.
 
+ 9. **As a potential customer I want to be able to easily know how much this service will cost me.**
+  - The sites sign up is free and there is no charge displayed on the site(although average costs of destinations are shown).
+  - It's value is maintained from that as the main revenue will come from **advertising** and sharing with 3rd parties but for the **user**
+  it presents as a free to use travel organiser with ease of use(costs will come in the form of booking fees in future).
+
 ## Usability 
 
-- I shared the website with friends and family and recieved feedback from them stating the site was eay to use,
+- I shared the website with friends and family and received feedback from them stating the site was eay to use,
 all features implemented fuctioned as expected and there were no issues brought ot me attention.
 They also mentioned that its simplicity lead to easy usage and navigation and the text and color choices made everything very user friendly.
 Additional comments were that the page highlighted the destinations well and that the navigation was different than usual and lead to a very calm browsing experience.
