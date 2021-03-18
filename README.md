@@ -359,6 +359,10 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   - It's value is maintained from that as the main revenue will come from **advertising** and sharing with 3rd parties but for the **user**
   it presents as a free to use travel organiser with ease of use(costs will come in the form of booking fees in future).
 
+ 10. **As a returning user I want news and other useful content to entice me to return.**
+  - Useful information is contained on the **Destination page** with valuable information to any holiday maker or traveller.
+  - Due to the layout/construction of the site this information can be updated and expanded upon very easily.
+
 ## Usability 
 
 - I shared the website with friends and family and received feedback from them stating the site was eay to use,
