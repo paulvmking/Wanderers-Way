@@ -124,9 +124,24 @@ to continue.
 - Has an **Sun** clickable image to redirect user to the **sun destinations** page.
 - Has an **Snow** clickable image to redirect user to the **snow destinations** page.
 
+### Destinations Page 
+
+- This page features either the **Sun** or **Snow** **Destinations**.This depends entirely on the **User** and which choice they make.
+- This page appears after the user chooses a destination type **"sun" or "snow"** on the homepage by way of **URL Parameters**. In other words clicking **"Sun"** 
+will redirect the user to the **sun** version of the destination page and the same with **snow** but never shows both.
+- Has **Destination cards** created with JavaScript with **Images, Destination name,** and a small average **Price** indication in the form of **"€"** signs 
+this immediately give the user a rough idea of the cost of booking for each destination.
+- Has a legend explaining the meaning of the **"€€€"** symbols.
+- Has **Button** filters to allow user to see one of 3 categories which are **"All, "Budget"** and **"Luxury"** locations.
+- Each **card** is **interactive** and when **clicked** redirects user to the final **"Destination Page"**.
+- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button. This **modal**
+is connected to emailJs to allow user to register.
+- Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
+to continue.
+
 ### Contact Us Page
 
-- Has a contact form featuring **"name", "email", and "question"** this is to allow the user to ask a question without registering and is also connected to emailJs.
+- Has a contact form featuring **"Name", "Email", and "Question"** this is to allow the user to ask a question without registering and is also connected to **emailJs**.
 - Contains a site appropriate styled image to the left to let users know it is for contact purposes.
 - Upon completion of contact form a **user alert** is displayed informing user of the next steps.
 
