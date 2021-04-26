@@ -9,9 +9,9 @@ function sendMail(contactForm) {
     return false;
 }
 
-// To provide user alert upon completion of form
+// To provide user feedback upon successful completion of form
 
-document.getElementById('sendContact')
-    .addEventListener('click', function () {
-        alert('Thanks for contacting us!Please await an email to continue!');
-    });
+$('#myForm').on('submit', function(e){
+    $('#contact-modal').modal('show');
+    e.preventDefault();
+  });
