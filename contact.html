@@ -53,7 +53,7 @@
         </div>
     </nav>
 
-<!-- Contact Form -->
+    <!-- Contact Form -->
 
     <div class="grid">
         <div class="container contact-form-container">
@@ -62,7 +62,7 @@
                     <div class="contact-image"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 contact-form-right my-5">
-                    <form class="contact-form" onsubmit="return sendMail(this);">
+                    <form class="contact-form" onsubmit="return sendMail(this);" id="myForm">
                         <div class="form-group">
                             <label for="first-name-input">Name</label>
                             <input type="text" name="name" class="form-control" id="first-name-input"
@@ -71,7 +71,7 @@
                         <div class="form-group">
                             <label for="email-input">Email Address</label>
                             <input type="email" name="emailaddress" class="form-control" id="email-input"
-                                placeholder="Enter your email address" required>
+                                placeholder="Enter your email address" aria-describedby="emailHelp" required>
                         </div>
                         <div class="form-group">
                             <label for="query-input">Your Question</label>
@@ -79,8 +79,7 @@
                                 placeholder="Ask us something" required>
                         </div>
                         <div class="form-group row my-5">
-                            <button type="submit" id="sendContact"
-                                class=" myBtn btn-lg btn-info offset-5">Send!</button>
+                            <button type="submit" id="contact" class="myBtn btn-lg btn-info offset-5">Send!</button>
                         </div>
                     </form>
                 </div>
@@ -88,7 +87,26 @@
         </div>
     </div>
 
-<!-- Footer -->
+    <div class="modal" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sign-up">Message sent Successfully!</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="form-group">
+                        <h4>Please await a response via your email to continue our conversation.</h4>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="window.location.href = 'index.html'" class="btn closeBtn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
 
     <footer class="sticky-footer text-center">
         <div class="container-fluid social-icons">
@@ -110,7 +128,6 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/sendEmailContact.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -127,6 +144,7 @@
             emailjs.init("user_uZfhju5blSucDKMUF6PGS");
         })();
     </script>
+    <script src="assets/js/sendEmailContact.js"></script>
 </body>
 
 </html>
