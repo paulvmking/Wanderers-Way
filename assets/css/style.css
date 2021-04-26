@@ -55,26 +55,21 @@ a.nav-link.current {
     display: block;
     align-items: center;
     justify-content: center;
-
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .sun-media {
-    
     height:33vh;
-
     background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80') no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
@@ -82,20 +77,16 @@ a.nav-link.current {
     font-family: "Akaya Telivigala", "sans-serif";
 }
 
-.snow-media {
-    
+.snow-media {  
     height:33vh;
-
     background: url('https://cdn.pixabay.com/photo/2021/01/09/20/23/road-5903402__340.jpg') no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
@@ -107,7 +98,6 @@ a.nav-link.current {
     height:33vh;
     background-color:#e1eedd;
 }
-
 
 /*button styles*/
 
@@ -318,17 +308,14 @@ div#map-canvas {
 
 .contact-image {
     min-height: 66vh;
-
     background: url('https://cdn.pixabay.com/photo/2018/02/22/11/18/envelope-3172770_1280.png') no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
