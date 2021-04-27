@@ -153,15 +153,15 @@
                                 placeholder="Please re-enter your password..." required>
                         </div>
                     </div>
+                    <span id="message" class="text-center"></span>
                     <div class="modal-footer">
                         <button class="btn closeBtn" data-dismiss="modal">Close</button>
-                        <button type="submit" class="modalBtn btn">Register Now!</button>
+                        <button type="submit" id="register" class="modalBtn btn">Register Now!</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-    <script src="assets/js/sendEmail.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -178,6 +178,7 @@
             emailjs.init("user_uZfhju5blSucDKMUF6PGS");
         })();
     </script>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
