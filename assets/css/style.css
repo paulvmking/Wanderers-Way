@@ -342,6 +342,10 @@ div#map-canvas {
   background-color: #e1eedd;
 }
 
+#message {
+  background-color: #e1eedd;
+}
+
 .modal-footer {
   background-color: #2b6777;
   justify-content: center;
