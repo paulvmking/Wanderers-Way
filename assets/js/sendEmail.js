@@ -7,3 +7,10 @@ function sendMail(registerForm) {
   });
   return false;
 }
+
+$('#enter-password, #re-enter-password').on('keyup', function () {
+  if ($('#enter-password').val() == $('#re-enter-password').val()) {
+    $('#message').html('Matching').css('color', 'green');
+  } else 
+    $('#message').html('Not Matching').css('color', 'red');
+});
