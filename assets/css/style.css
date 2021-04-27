@@ -1,372 +1,380 @@
 /*Fonts Import*/
 
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 /*Main body color*/
 
 body {
-    background-color: #e1eedd;
+  background-color: #e1eedd;
 }
 
 /*Navbar and alert*/
 
-.container-fluid, .alert, .alert-danger {
-    margin : 0;
-    border: 0;
+.container-fluid,
+.alert,
+.alert-danger {
+  margin: 0;
+  border: 0;
 }
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: #2b6777;
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: #2b6777;
 }
 
 a.nav-link {
-    color: #e1eedd;
+  color: #e1eedd;
 }
 
 a.navbar-brand {
-    color: #e1eedd;
+  color: #e1eedd;
 }
 
 a.nav-link.current {
-    background-color: #e1eedd;
-    color:#2b6777;
-    border-radius: 5%;
+  background-color: #e1eedd;
+  color: #2b6777;
+  border-radius: 5%;
 }
 
-.navbar-toggler-icon  {
-    color: #e1eedd;
-    width: 100%;
-    height:100%;
+.navbar-toggler-icon {
+  color: #e1eedd;
+  width: 100%;
+  height: 100%;
 }
 
 /*Homepage choice*/
 
 .choice-question {
-    color:#2b6777;
-    font-family: "Akaya Telivigala", "sans-serif";
+  color: #2b6777;
+  font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .container-choice {
-    min-height:33vh;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
+  min-height: 33vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .sun-media {
-    height:33vh;
-    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 5%;
-    font-family: "Akaya Telivigala", "sans-serif";
+  height: 33vh;
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 5%;
+  font-family: "Akaya Telivigala", "sans-serif";
 }
 
-.snow-media {  
-    height:33vh;
-    background: url('https://cdn.pixabay.com/photo/2021/01/09/20/23/road-5903402__340.jpg') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 5%;
-    font-family: "Akaya Telivigala", "sans-serif";
+.snow-media {
+  height: 33vh;
+  background: url("https://cdn.pixabay.com/photo/2021/01/09/20/23/road-5903402__340.jpg")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 5%;
+  font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .jumbotron {
-    height:33vh;
-    background-color:#e1eedd;
+  height: 33vh;
+  background-color: #e1eedd;
 }
 
 /*button styles*/
 
 .backBtn {
-    text-align: center;
+  text-align: center;
 }
 
 #myBtnContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .myBtn {
-    border: none;
-    outline: none;
-    padding: 10px 10px;
-    background-color: #2b6777;
-    cursor: pointer;
-    color: #e1eedd;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    border-radius: 5%;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #2b6777;
+  cursor: pointer;
+  color: #e1eedd;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  border-radius: 5%;
 }
 
 .myBtn:hover {
-    background-color: #15b3bb;
+  background-color: #15b3bb;
 }
 
 .mapBtn:hover {
-    background-color: #15b3bb;
+  background-color: #15b3bb;
 }
 
 .myBtn.current {
-    background-color: #1e4853;
+  background-color: #1e4853;
 }
 
 .mapBtn.current {
-    background-color: #1e4853;
+  background-color: #1e4853;
 }
 
 .register-Btn {
-    text-align: center;
+  text-align: center;
 }
 
 .modalBtn {
-    background-color: #e1eedd;
-    border-radius: 5%;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    cursor: pointer;
+  background-color: #e1eedd;
+  border-radius: 5%;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  cursor: pointer;
 }
 
 .modalBtn:hover {
-    background-color: #70776e;
-    color:#e1eedd;
+  background-color: #70776e;
+  color: #e1eedd;
 }
 
 .closeBtn {
-    background-color: #70776e;
-    color:#e1eedd;
-    border-radius: 5%;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    cursor: pointer;
+  background-color: #70776e;
+  color: #e1eedd;
+  border-radius: 5%;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  cursor: pointer;
 }
 
 .closeBtn:hover {
-    background-color: #e1eedd;
+  background-color: #e1eedd;
 }
 
 /*For shadow and opacity on choices*/
 
-#sunCard, #snowCard{
-   -moz-box-shadow: 3px 3px 4px #000; 
-   -webkit-box-shadow: 3px 3px 4px #000; 
-   box-shadow: 3px 3px 4px #000; 
+#sunCard,
+#snowCard {
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
 }
 
-#sunCard:hover, #snowCard:hover{
-   -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 1s ease;
-    cursor: pointer;
+#sunCard:hover,
+#snowCard:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+  cursor: pointer;
 }
 
 /*Legend*/
 
 .legend-cost {
-    color: #2b6777;
+  color: #2b6777;
 }
 
 .cost {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*Cards styling*/
 
 .hover {
-    overflow-x: hidden;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    font-family: "Akaya Telivigala", "sans-serif";
-    margin: 20px 20px 20px 20px;
-    text-decoration: none;
+  overflow-x: hidden;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  font-family: "Akaya Telivigala", "sans-serif";
+  margin: 20px 20px 20px 20px;
+  text-decoration: none;
 }
 
 .hover:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 1s ease;
-    cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+  cursor: pointer;
 }
 
 .card-body {
-    background-color: #2b6777;
-    color: #e1eedd;
-    text-align: center;
+  background-color: #2b6777;
+  color: #e1eedd;
+  text-align: center;
 }
 
 .card-img-top {
-    width: 66vh;
-    height: 33vh;
-    object-fit: cover;
-    border:1px solid #2b6777 ;
-    min-height: 150px;
+  width: 66vh;
+  height: 33vh;
+  object-fit: cover;
+  border: 1px solid #2b6777;
+  min-height: 150px;
 }
 
 #destinations {
-    margin: auto;
-    position: relative;
+  margin: auto;
+  position: relative;
 }
 
 .img-container {
-    padding: 0;
+  padding: 0;
 }
 
 /*Destination page styles*/
 
 .main-destination-image {
-    height: 66vh;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Lobster", "sans-serif";
-    overflow: hidden;
-    opacity: 0.8;
+  height: 66vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Lobster", "sans-serif";
+  overflow: hidden;
+  opacity: 0.8;
 }
 
 #dName {
-    -webkit-text-stroke: 1px #101010;
+  -webkit-text-stroke: 1px #101010;
 }
 
 .city-info {
-    font-family: "Akaya Telivigala","sans-serif";
+  font-family: "Akaya Telivigala", "sans-serif";
 }
 
 .map-right {
-    height: 33vh;
-    overflow: hidden;
+  height: 33vh;
+  overflow: hidden;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*Map Styles*/
 
 .map-buttons {
-    justify-content: center;
-    height: 33vh;
-    min-height: 360px;
+  justify-content: center;
+  height: 33vh;
+  min-height: 360px;
 }
 
 .map-buttons button {
-    display: block;
+  display: block;
 }
 
 .mapBtn {
-    border: none;
-    outline: none;
-    padding: 10px 10px;
-    background-color: #2b6777;
-    cursor: pointer;
-    color: #e1eedd;
-    -moz-box-shadow: 3px 3px 4px #000; 
-    -webkit-box-shadow: 3px 3px 4px #000; 
-    box-shadow: 3px 3px 4px #000; 
-    border-radius: 5%;
-    margin: 30px auto;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #2b6777;
+  cursor: pointer;
+  color: #e1eedd;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  border-radius: 5%;
+  margin: 30px auto;
 }
 
 div#map-canvas {
-    min-height: 360px;
+  min-height: 360px;
 }
 
 /*Contact Page*/
 
 .contact-image {
-    min-height: 66vh;
-    background: url('https://cdn.pixabay.com/photo/2018/02/22/11/18/envelope-3172770_1280.png') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  min-height: 66vh;
+  background: url("https://cdn.pixabay.com/photo/2018/02/22/11/18/envelope-3172770_1280.png")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 /*Modal Styles*/
 
-.modal-content{
-    box-shadow:none;
-    font-size: 20px;
+.modal-content {
+  box-shadow: none;
+  font-size: 20px;
 }
 
 .modal-header {
-    background-color:#2b6777;
-    color:#e1eedd;
+  background-color: #2b6777;
+  color: #e1eedd;
 }
 
 .modal-body {
-    background-color:#e1eedd;
+  background-color: #e1eedd;
 }
 
 .modal-footer {
-    background-color: #2b6777;
-    justify-content: center;
-} 
+  background-color: #2b6777;
+  justify-content: center;
+}
 
 /*Footer*/
 
 .sticky-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #2b6777;
-    color: #e1eedd;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #2b6777;
+  color: #e1eedd;
 }
 
 .social-icons a {
-    color:#e1eedd;
-    font-size:2rem;
+  color: #e1eedd;
+  font-size: 2rem;
 }
 
-.social-icons a, a:hover {
-    text-decoration: none;
+.social-icons a,
+a:hover {
+  text-decoration: none;
 }
 
 hr {
-    width: 66%;
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+  width: 66%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
