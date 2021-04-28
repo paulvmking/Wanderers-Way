@@ -53,7 +53,7 @@
         </div>
     </nav>
 
-<!-- Main Content -->
+    <!-- Main Content -->
 
     <div class="container text-center mt-3">
         <div class="row legend-cost">
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-<!-- Button Filters -->
+    <!-- Button Filters -->
 
     <div id="myBtnContainer">
         <button class="myBtn current" id="showAll" onclick="showBudget('all')"> Show all</button>
@@ -77,14 +77,14 @@
         </div>
     </div>
 
-<!-- Register Button -->
+    <!-- Register Button -->
 
     <div class="register-Btn">
         <button type="submit" class="myBtn btn-lg btn-info my-5" data-toggle="modal"
             data-target="#register-modal">Register Now!</button>
     </div>
 
-<!-- Footer -->
+    <!-- Footer -->
 
     <footer class="sticky-footer text-center">
         <div class="container-fluid social-icons">
@@ -107,7 +107,7 @@
         </div>
     </footer>
 
-<!-- Modal -->
+    <!-- Modal for registration -->
 
     <div class="modal" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-modal"
         aria-hidden="true">
@@ -145,12 +145,34 @@
                                 placeholder="Please re-enter your password..." required>
                         </div>
                     </div>
+                    <span id="message" class="text-center"></span>
                     <div class="modal-footer">
                         <button class="btn closeBtn" data-dismiss="modal">Close</button>
-                        <button type="submit" class="modalBtn btn">Register Now!</button>
+                        <button type="submit" id="register" class="modalBtn btn">Register Now!</button>
                     </div>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <!-- Modal for successful registration -->
+
+    <div class="modal" id="reg-success-modal" tabindex="-1" role="dialog" aria-labelledby="reg-success-modal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="register-success">Registration Successful!</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="form-group">
+                        <h4>Thank you for joining!Please await a response via your email to continue the process.</h4>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="window.location.reload()" class="btn closeBtn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
     <script src="assets/js/data.js"></script>
