@@ -1,19 +1,14 @@
 // To filter destination shown depending on which destination was chosen but only if the name matches the name in the url parameters
 // Mentor assisted with implementation of Url Parameters
-
 const queryParam = window.location.search;
 const destination = new URLSearchParams(queryParam.slice(1)).getAll("destination")[0];
 const selectedLocation = locations.filter((loc) => loc.name === destination)[0];
-
 const destinationDiv = document.getElementById("destination");
-
 const renderDestination = () => {
-  let innerDestination = "";
-
-  // To render the page according to which destination was chosen and extract data from array of objects
-
-  Object.keys(selectedLocation).filter((key) => {
-    return (innerDestination = `
+	let innerDestination = "";
+	// To render the page according to which destination was chosen and extract data from array of objects
+	Object.keys(selectedLocation).filter((key) => {
+		return (innerDestination = `
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 img-container">
@@ -91,15 +86,12 @@ const renderDestination = () => {
             </div>
         </div>
     </br>`);
-  });
-
-  destinationDiv.innerHTML = innerDestination;
+	});
+	destinationDiv.innerHTML = innerDestination;
 };
 renderDestination();
-
 // To go back to relevant page depending on the category of destination, so snow destination will bring back to snow destinations page
-
 function backChosen() {
-  let backChosen = selectedLocation.link;
-  location.href = backChosen;
+	let backChosen = selectedLocation.link;
+	location.href = backChosen;
 }
