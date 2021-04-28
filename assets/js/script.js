@@ -71,14 +71,15 @@ $("#myBtnContainer").on("click", ".myBtn", function () {
   $(this).addClass("current").siblings().removeClass("current");
 });
 
-// To provide user alert when registration form is successfully sent
+// To disable submit button until password fields match 
 
 document.getElementById("register-modal").addEventListener(
-  "submit",
+  "keyup",
   function () {
-    alert(
-      "Thank you for registering!  Please await a reply to continue to your bookings!"
-    );
-  },
+    if ($('#enter-password').val() == $('#re-enter-password').val()) {
+      $('#register').prop('disabled', false);
+    } else 
+      $('#register').prop('disabled', true);
+  ;
   false
-);
+});
