@@ -363,8 +363,9 @@ Testing for performance was done using [WebPageTest](https://www.webpagetest.org
   <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user8.png" alt="User story!" />
 
  7. **As a potential customer I want an easy sign up process.**
-  - The site contains **multiple forms** but none of them have a process more than 4 steps which would be easy for young and old users alike to sign up.
+  - The site contains **multiple forms** but none of them have a process more than 3 steps which would be easy for young and old users alike to sign up.
   - The sign up form is contained in the **modal** and is accessed with the **register now** button.
+  - They also contain user alerts in the form of modals which show the user their message sending or registration was successful.
   <img style="border:0;width:150px;height:100px" src="assets/images/userImages/user6.png" alt="User story!" />
 
  8. **As a potential customer I want reassurance that the service is indeed worth it.**
@@ -431,6 +432,15 @@ Additional comments were that the page highlighted the destinations well and tha
 7.Issue with display of user welcome after email.js added to index page.
  - Problem was that js was in head tags and was loading before the html.
  - Solution was to add "defer" to the script tags to ensure they loaded last after the html.(while this resolved the issue it also made the code browser dependant)
+
+8.Issue with contact form validation and alert.
+- The contact form submit was able to be clicked displaying a user alert with invalid text provided.
+- Fix was to add a pattern to confirm email format before sending and it reuires all fields to be filled out now before showing a modal to the user showing the message was sent successfully.
+
+9.Issue with register form password match and alert.
+- Fix was to write a function that required that both passwords match before the form could be submitted.
+- This was aided by adding a message in the modal showing whether the passwords match and I stopped the submission by disabling the submit button until the requirements are met.
+- I also removed the confirm email address though I could have done the same action it seemed unneeded as most sites from research only require one input of email and the password is always confirmed.
 
 **Most of these previous issues have been made redundant and no longer apply due to reformatting the site(please check commit history if interested)**
 
