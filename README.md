@@ -111,7 +111,7 @@ both images and a site color theme that worked well together I feel I was succes
 ### Common features on all pages 
 
 The site features a responsive navigation bar stuck **on top** for easy navigation to the different pages.The logo on the **top left** will provide a one click link to the **Home** page this is included on every page.The navigation bar is also linked to the other page **Contact Us** to allow easy access to any information the user may require,this is contained within a drop down menu for mobile devices.
-A **Register Now** button is located on the homepage to allow sign up easily and instantly this is done by way of a **modal form**.
+A **Register Now** button is located on the homepage and **Destinations** page to allow sign up easily and instantly this is done by way of a **modal form** with another modal showing up upon completion.This **modal** also has a message guiding the user to have two matching passwords before registration can be submitted.
 Has a footer containing social media links to **Facebook**, **Instagram**, **Twitter**, **Youtube**.
 Has a Covid-19 **alert** on each page to warn users that certain destinations may not be available. The **images**, **fonts** and **colors** were also continued page to page
 to give uniformity to the appearance and provide a consistent experience.**Logo** which allows user to navigate to **home** page from anywhere on the site, located on all pages.Each page also contains a **Favicon** tab **plane** image 
@@ -120,9 +120,9 @@ to help the user navigate multiple tabs and stick with the travel theme.
 ### Home Page
 
 - Has a **"Greeting"** made with JavaScript which welcomes the user depending on the **hour**, and offers them a choice between either **sun** or **snow**.
-- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button.This **modal**
-is connected to emailJs to allow user to register.
-- Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
+- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Password**,**Password Confirm** and a **Register Now!** button.This **modal**
+is connected to emailJs to allow user to register. I chose to not have an email confirm option as after research I realised most sites do not require this and it made the register process one step less and thus easier for a user.
+- Upon successfuly completion of **register form** a **registration successful modal** appears on the page to show the user their form has been successfully sent, and to await a reply 
 to continue.
 - Has an **Sun** clickable image to redirect user to the **sun destinations** page.
 - Has an **Snow** clickable image to redirect user to the **snow destinations** page.
@@ -137,9 +137,9 @@ this immediately give the user a rough idea of the cost of booking for each dest
 - Has a legend explaining the meaning of the **"€€€"** symbols.
 - Has **Button** filters to allow user to see one of 3 categories which are **"All, "Budget"** and **"Luxury"** locations.
 - Each **card** is **interactive** and when **clicked** redirects user to the final **"Destination Page"**.
-- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Confirm Email** and **Password**,**Password Confirm** and a **Register Now!** button. This **modal**
+- Has a **Register now** button located on it, upon clicking it, it opens a modal with a **form** containing  **Email Address**,**Password**,**Password Confirm** and a **Register Now!** button. This **modal**
 is connected to **emailJs** to allow user to register.
-- Upon successfuly completion of **register form** a **user alert** appears at the top of page to show the user their form has been successfully sent, and to await a reply 
+- Upon successfuly completion of **register form** a **registration successful modal** appears on the page to show the user their form has been successfully sent, and to await a reply 
 to continue.
 
 ### Destination Page 
@@ -235,8 +235,18 @@ therefore passing the test.
 - **Result** - When all fields are filled out the submit button works when clicked but when even one isnt the required information prompt displays therfore passing the test.
 - **Aim** - When **registration form** submit is clicked it should only work when required fields have been filled out.
 - **Result** - Button clicked and doesnt submit until required info is enter therefore passing the test.
+- **Aim** - When **registration form** submit is clicked it should only work when required fields and email is in valid format.
+- **Result** - Button clicked and doesnt submit until required info and valid email format is entered therefore passing the test.
+- **Aim** - When **registration form** submit is clicked it should only work when passwords match.
+- **Result** - Button clicked and doesnt submit until passwords match therefore passing the test.
+- **Aim** - When **registration form** is submitted a modal should appear informing the user of the next step.
+- **Result** - Button clicked and modal appears informing user of the next step therfore passing the test.
 - **Aim** - When **contact form** submit is clicked it should only work when required fields have been filled out.
 - **Result** - Button clicked and doesnt submit until required info is enter therefore passing the test.
+- **Aim** - When **contact form** submit is clicked it should only work when required fields have been filled out and email is in valid format.
+- **Result** - Button clicked and doesnt submit until required info is entered and email is in correct format therefore passing the test.
+- **Aim** - When **contact form** is submitted a modal should show up informing the user of the next step.
+- **Result** - Button clicked and modal appears informing user of next step therefore passing the test.
 - **Aim** - When **Budget filter** buttons are clicked it should only show locations belonging to that budget group.
 - **Result** - Button clicked and only showed locations belonging to that budget group therefore passing the test.
 - **Aim** - When **Back to** buttons are clicked it should redirect user back to destinations page relating to that climate.
