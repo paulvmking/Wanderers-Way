@@ -115,7 +115,7 @@
         </div>
     </footer>
 
-<!-- Modal -->
+<!-- Modal for registration -->
 
     <div class="modal" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-modal"
         aria-hidden="true">
@@ -162,6 +162,28 @@
             </form>
         </div>
     </div>
+
+    <!-- Modal for successful registration -->
+
+    <div class="modal" id="reg-success-modal" tabindex="-1" role="dialog" aria-labelledby="reg-success-modal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="register-success">Registration Successful!</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="form-group">
+                        <h4>Thank you for joining!Please await a response via your email to continue the process.</h4>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="window.location.href = 'index.html'" class="btn closeBtn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
