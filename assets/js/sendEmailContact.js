@@ -15,6 +15,7 @@ function sendMail(contactForm) {
 	});
 	return false;
 }
+
 // To provide user feedback upon successful completion of form
 $("#myForm").on("submit", function sendMail(e) {
 	e.preventDefault();
