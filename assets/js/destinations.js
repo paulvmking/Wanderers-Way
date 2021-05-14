@@ -13,6 +13,7 @@ const renderDestinations = () => {
 	destinationsDiv.innerHTML = innerDestination;
 };
 renderDestinations();
+
 // To show only selected budget locations after button click
 function showBudget(category) {
 	if (category === "all") {

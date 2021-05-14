@@ -90,6 +90,7 @@ const renderDestination = () => {
 	destinationDiv.innerHTML = innerDestination;
 };
 renderDestination();
+
 // To go back to relevant page depending on the category of destination, so snow destination will bring back to snow destinations page
 function backChosen() {
 	let backChosen = selectedLocation.link;

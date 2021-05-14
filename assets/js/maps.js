@@ -9,6 +9,7 @@ let foodDrinksLat = parseFloat(selectedLocation.foodDrinksLat);
 let foodDrinksLong = parseFloat(selectedLocation.foodDrinksLong);
 let map;
 let markers = [];
+
 // To initialise map and centre it upon destination that has been chosen
 function initMap() {
 	let hotel = {
@@ -30,7 +31,8 @@ function initMap() {
 			lng: centerCoordLong,
 		},
 	});
-	// To show and hide markers when buttons are clicked for hotels, food and drinks and things to do. Taken and edited to purpose from google maps API documentation.
+
+// To show and hide markers when buttons are clicked for hotels, food and drinks and things to do. Taken and edited to purpose from google maps API documentation.
 	function addMarker(location) {
 		var marker = new google.maps.Marker({
 			position: location,
@@ -66,6 +68,7 @@ function initMap() {
 			markers[i].setMap(map);
 		}
 	}
+	
 	//To add and remove current class to provide visual to user when button has been clicked
 	$("#map-buttons").on("click", ".mapBtn", function() {
 		$(this).addClass("current").siblings().removeClass("current");

@@ -12,15 +12,19 @@ function loadWelcome() {
 	} else {
 		message = "Welcome!";
 	}
+
 	let hello = document.createElement("h1");
-	hello.innerHTML = message + "<br><hr></br>" + "Which way shall you wander?";
 	let greeting = document.getElementById("greeting-question");
+
+	hello.innerHTML = message + "<br><hr></br>" + "Which way shall you wander?";
 	greeting.appendChild(hello);
 }
+
 // To redirect user to appropriate page once choice is clicked
 function sunChosen() {
 	let destinationUrl = "destinations.html?weather=sun";
 	const sunChosen = document.getElementById("sunCard");
+
 	sunChosen.addEventListener("click", function() {
 		if (parent.hostname === "paulvmking.github.io") {
 			parent.location.href = destinationUrl;
@@ -33,6 +37,7 @@ function sunChosen() {
 function snowChosen() {
 	const destinationUrl = "destinations.html?weather=snow";
 	const snowChosen = document.getElementById("snowCard");
+
 	snowChosen.addEventListener("click", function() {
 		if (parent.hostname === "paulvmking.github.io") {
 			parent.location.href = destinationUrl;
@@ -41,23 +46,29 @@ function snowChosen() {
 		}
 	});
 }
+
 // To give user feedback via opacity change with mouseover/mouseout events
 function makeOpacity() {
 	const sunCard = document.getElementById("sunCard");
 	const snowCard = document.getElementById("snowCard");
 	const mouseEvent = (card, action) => (card.style.opacity = action === "mouseover" ? 0.7 : 1.0);
+
 	sunCard.addEventListener("mouseover", () => mouseEvent(sunCard, "mouseover"));
 	sunCard.addEventListener("mouseout", () => mouseEvent(sunCard, "mouseout"));
 	snowCard.addEventListener("mouseover", () => mouseEvent(snowCard, "mouseover"));
 	snowCard.addEventListener("mouseout", () => mouseEvent(snowCard, "mouseout"));
 }
+
 //To add and removed current class styling when buttons are clicked
 $("#myBtnContainer").on("click", ".myBtn", function() {
 	$(this).addClass("current").siblings().removeClass("current");
 });
+
 // To disable submit button until password fields match
 document.getElementById("register-modal").addEventListener("keyup", function() {
 	if ($("#enter-password").val() == $("#re-enter-password").val()) {
 		$("#register").prop("disabled", false);
-	} else $("#register").prop("disabled", true);
+	} else {
+		$("#register").prop("disabled", true);
+	}
 });
