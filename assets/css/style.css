@@ -240,7 +240,7 @@ a.nav-link.current {
 
 #destinations {
   margin: auto;
-  position: relative;
+  justify-content: center;
 }
 
 .img-container {
