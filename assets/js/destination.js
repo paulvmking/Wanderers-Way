@@ -6,7 +6,7 @@ const selectedLocation = locations.filter((loc) => loc.name === destination)[0];
 const destinationDiv = document.getElementById("destination");
 const renderDestination = () => {
 	let innerDestination = "";
-	// To render the page according to which destination was chosen and extract data from array of objects
+// To render the page according to which destination was chosen and extract data from array of objects
 	Object.keys(selectedLocation).filter((key) => {
 		return (innerDestination = `
         <div class="container-fluid">
